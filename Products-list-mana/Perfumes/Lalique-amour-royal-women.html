@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Perfume</title>
+    <style>
+      @import url("/Nav.css");
+      @import url("/SlideShow.css");
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      /* Top Navigation Bar */
+
+      /* Product Page Layout */
+      .product-page {
+        display: flex;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 50px auto;
+        gap: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+      }
+
+      /* Product Image Container */
+      /* Product Image Container */
+      .product-image-container {
+        position: sticky;
+        top: 100px;
+        bottom: 50px;
+        transform: translateX(-100px);
+        transform: translateY(0px);
+        margin-left: 0px;
+        align-items: center;
+        flex: 1.2; /* Take up equal space on the left */
+        max-width: 40%;
+        width: 500px; /* Set fixed width */
+        height: 650px; /* Set fixed height */
+        overflow: hidden;
+        border-radius: 5%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .product-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.1s ease;
+      }
+
+      .product-name {
+        flex: 1;
+        padding: 20px;
+      }
+      .product-name p {
+        font-size: large;
+        color: goldenrod;
+        font-weight: bold;
+      }
+
+      /* Product Details */
+      .product-details {
+        flex: 1; /* Take up equal space on the right */
+        padding: 20px;
+      }
+
+      .product-details h1 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h2 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h3 {
+        font-weight: bold;
+        display: inline;
+      }
+      .product-details p {
+        font-size: 2rem;
+      }
+      .product-details strong {
+        color: #6a0dad;
+      }
+      .product-details li {
+        margin-bottom: 10px;
+        transform: translateX(-20px);
+      }
+      .product-details p {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      .product-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(218, 168, 41);
+        margin-bottom: 20px;
+        margin-left: 10px;
+      }
+
+      /* Product Attributes */
+      .product-attributes {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+
+      .product-attributes li {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .product-attributes span {
+        font-weight: bold;
+        color: #6a0dad;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <img
+          src="https://manashamim.ir/wp-content/uploads/2023/11/Mana-Shamim-Golsa-Logo-smal.png"
+          alt="Manashamim Logo"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="/Mana2.html">Home</a></li>
+        <li><a href="/products.html">Products</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Product Page Content -->
+    <div class="slideshow-container">
+      <img
+        class="slider-image active"
+        src="/Product-Photos/ریسایز معرفی عطر جدید-04.jpg"
+        alt="Business Image 1"
+      />
+    </div>
+    <div class="product-page">
+      <!-- Image with Dynamic Zoom Feature -->
+      <div class="product-image-container" id="product-image-container">
+        <img
+          src="/Product-Photos/ریسایز جدید عطر-18.jpg"
+          alt="Special Perfume Image"
+          id="product-image"
+        />
+      </div>
+      <div class="product-details">
+        <p
+          style="
+            font-size: 36px;
+            font-weight: bold;
+            color: goldenrod;
+            margin-top: 20px;
+          "
+        >
+          Lalique L'Amour Royal Eau de Parfum For Women
+        </p>
+        <ul class="product-attributes">
+          <li style="margin-bottom: 15px"><span>Volume:</span> 8 ml</li>
+          <li style="margin-bottom: 15px"><span>Nature:</span> Moderate</li>
+          <li style="margin-bottom: 15px"><span>Scent:</span> Sweet</li>
+          <li style="margin-bottom: 15px"><span>Longevity:</span> Excellent</li>
+          <li style="margin-bottom: 15px"><span>Diffusion:</span> Excellent</li>
+          <li style="margin-bottom: 10px">
+            <span>Suitable for:</span> Spring and Autumn
+          </li>
+        </ul>
+        <p>
+          **Lalique L'Amour Royal for Women** is an elegant and unique edition
+          of the popular **Lalique L'Amour** collection, introduced in 2024 by
+          the prestigious brand **Lalique**. This perfume, with its sweet,
+          floral, and woody notes, creates a captivating and delightful
+          impression for those seeking a fragrance experience with depth and
+          refinement. **Lalique L'Amour Royal**, as a more luxurious version of
+          **Lalique L'Amour**, conveys a sense of love and delicacy in every
+          moment, making it one of the best choices for women looking for
+          distinctive and unique perfumes.
+        </p>
+        <h1>A breif History</h1>
+        <p>
+          **Lalique** is a luxury brand with a rich history in the world of
+          perfumery, founded in 1888 by René Lalique in France. The brand is
+          renowned for its stunning jewelry and perfume bottles. **Lalique
+          L'Amour** was first launched in 2014, and its success led to the
+          creation of newer and more advanced versions, such as **Lalique
+          L'Amour Royal**.
+        </p>
+        <div class="details-container">
+          <h2>Fragrance Notes</h2>
+          <p>
+            **Lalique L'Amour Royal for Women** features a balanced and
+            delightful fragrance, blending floral, sweet, and woody notes that
+            together evoke delicate emotions and a unique charm. Here are the
+            main notes of this perfume:
+          </p>
+          <ul>
+            <li>
+              <strong>Top Notes:</strong> Bergamot, Orange Blossom, and
+              Grapefruit
+            </li>
+            <li><strong>Middle Notes:</strong> Jasmine, Peony, and Rose</li>
+            <li><strong>Base Notes:</strong> Sandalwood, Musk, and Vanilla</li>
+          </ul>
+        </div>
+
+        <!-- Product Attributes -->
+
+        <div class="product-details">
+          <p>
+            At first, this perfume opens with fresh and energizing notes of
+            bergamot and orange blossom, gifting you a sense of vitality and
+            freshness. In the middle notes, jasmine, rose, and peony flowers add
+            a soft and floral touch, enhancing femininity and elegance. Finally,
+            in the base notes, sandalwood and musk combine with vanilla to
+            create a warm and deep sensation that ensures the long-lasting
+            nature of this perfume.
+          </p>
+        </div>
+        <div class="product-details">
+          <strong style="font-size: xx-large">Season Suitability</strong>
+          <p>
+            **Lalique L’Amour Royal for Women** is suitable for spring and
+            autumn, thanks to its blend of sweet, floral, and woody notes. Its
+            floral and fruity fragrances bring a sense of freshness and energy
+            during spring days, while its warm and woody notes convey a feeling
+            of warmth and depth during autumn nights. This perfume can be an
+            ideal choice for parties, formal meetings, or any special occasion
+            where you are looking for an elegant and luxurious scent.
+          </p>
+        </div>
+        <div class="product-details">
+          <p id="content">
+            To purchase this exceptional perfume, visit the **Royal** online
+            store and buy **Lalique L’Amour Royal for Women** at the best price
+            with fast delivery. This perfume can be a chic and unique companion
+            for you, making you stand out in any situation.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      const imageContainer = document.getElementById("product-image-container");
+      const image = document.getElementById("product-image");
+
+      // Adjust the transform origin dynamically based on the cursor position
+      imageContainer.addEventListener("mousemove", (e) => {
+        const rect = imageContainer.getBoundingClientRect();
+        const xPercent = ((e.clientX - rect.left) / rect.width) * 100;
+        const yPercent = ((e.clientY - rect.top) / rect.height) * 100;
+        image.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+        image.style.transform = "scale(1.5)";
+      });
+
+      // Reset zoom when the mouse leaves the container
+      imageContainer.addEventListener("mouseleave", () => {
+        image.style.transform = "scale(1)";
+        image.style.transformOrigin = "center center";
+      });
+    </script>
+    <script>
+      // Select all elements that might contain bold syntax (**...**)
+      const contentElements = document.querySelectorAll(
+        "#content, .product-details p"
+      );
+
+      contentElements.forEach((element) => {
+        element.innerHTML = element.innerHTML.replace(
+          /\*\*(.*?)\*\*/g, // Match text between double asterisks
+          '<strong style="color: #333;">$1</strong>' // Replace with styled <strong>
+        );
+      });
+    </script>
+    <div id="footer"></div>
+    <script>
+      fetch("/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

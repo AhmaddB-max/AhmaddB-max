@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Perfume</title>
+    <style>
+      @import url("/Nav.css");
+      @import url("/SlideShow.css");
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      /* Top Navigation Bar */
+
+      /* Product Page Layout */
+      .product-page {
+        display: flex;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 50px auto;
+        gap: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+      }
+
+      /* Product Image Container */
+      /* Product Image Container */
+      .product-image-container {
+        position: sticky;
+        top: 100px;
+        bottom: 50px;
+        transform: translateX(-100px);
+        transform: translateY(0px);
+        margin-left: 0px;
+        align-items: center;
+        flex: 1.2; /* Take up equal space on the left */
+        max-width: 40%;
+        width: 500px; /* Set fixed width */
+        height: 650px; /* Set fixed height */
+        overflow: hidden;
+        border-radius: 5%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .product-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.1s ease;
+      }
+
+      .product-name {
+        flex: 1;
+        padding: 20px;
+      }
+      .product-name p {
+        font-size: large;
+        color: goldenrod;
+        font-weight: bold;
+      }
+
+      /* Product Details */
+      .product-details {
+        flex: 1; /* Take up equal space on the right */
+        padding: 20px;
+      }
+
+      .product-details h1 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h2 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h3 {
+        font-weight: bold;
+        display: inline;
+      }
+      .product-details p {
+        font-size: 2rem;
+      }
+      .product-details strong {
+        color: #6a0dad;
+      }
+      .product-details li {
+        margin-bottom: 10px;
+        transform: translateX(-20px);
+      }
+      .product-details p {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      .product-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(218, 168, 41);
+        margin-bottom: 20px;
+        margin-left: 10px;
+      }
+
+      /* Product Attributes */
+      .product-attributes {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+
+      .product-attributes li {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .product-attributes span {
+        font-weight: bold;
+        color: #6a0dad;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <img
+          src="https://manashamim.ir/wp-content/uploads/2023/11/Mana-Shamim-Golsa-Logo-smal.png"
+          alt="Manashamim Logo"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="/Mana2.html">Home</a></li>
+        <li><a href="/products.html">Products</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Product Page Content -->
+    <div class="slideshow-container">
+      <img
+        class="slider-image active"
+        src="/Product-Photos/ریسایز معرفی عطر جدید-05.jpg"
+        alt="Business Image 1"
+      />
+    </div>
+    <div class="product-page">
+      <!-- Image with Dynamic Zoom Feature -->
+      <div class="product-image-container" id="product-image-container">
+        <img
+          src="/Product-Photos/ریسایز جدید عطر-15.jpg"
+          alt="Special Perfume Image"
+          id="product-image"
+        />
+      </div>
+      <div class="product-details">
+        <p
+          style="
+            font-size: 36px;
+            font-weight: bold;
+            color: goldenrod;
+            margin-top: 20px;
+          "
+        >
+          Dior Sauvage Royal perfume for Men
+        </p>
+        <ul class="product-attributes">
+          <li style="margin-bottom: 15px"><span>Volume:</span> 8 ml</li>
+          <li style="margin-bottom: 15px"><span>Nature:</span> Cool</li>
+          <li style="margin-bottom: 15px">
+            <span>Scent:</span> Spicy and Sour
+          </li>
+          <li style="margin-bottom: 15px"><span>Longevity:</span> Excellent</li>
+          <li style="margin-bottom: 15px"><span>Diffusion:</span> Excellent</li>
+          <li style="margin-bottom: 10px">
+            <span>Suitable for:</span> Spring, Summer, and Autumn
+          </li>
+        </ul>
+        <p>
+          **Dior Sauvage Royal for Men** is a special and luxurious version of
+          the famous **Sauvage**, introduced by **Dior** in 2024. This version
+          of **Sauvage** is specifically designed to offer a sense of opulence
+          and sophistication, elevating the experience compared to previous
+          versions. The **Sauvage Royal** fragrance, with its unique blend and
+          captivating notes, provides a distinct and exceptional experience that
+          any confident and discerning man would desire.
+        </p>
+        <h1>A breif History</h1>
+        <p>
+          **Dior**, the renowned French brand known for its influence in the
+          fashion, fragrance, and beauty industries, has always been at the
+          forefront of offering high-quality perfumes. **Sauvage**, introduced
+          by **Dior** in 2015, quickly became one of the most popular men's
+          fragrances worldwide. This fragrance, with its natural, fresh, and
+          spicy notes, beautifully showcased masculinity and strength.
+        </p>
+        <div class="details-container">
+          <h2>Fragrance Notes</h2>
+          <p>
+            **Dior Sauvage Royal for Men** features a complex blend of natural
+            and spicy notes, specifically designed for men with strong and
+            distinguished personalities. The fragrance notes are crafted to
+            enhance a sense of confidence, power, and courage in the wearer:
+          </p>
+          <ul>
+            <li><strong>Top Notes:</strong> Lemon, Bitter Orange, Pepper</li>
+            <li><strong>Middle Notes:</strong> Lavender, Pink Pepper, Mint</li>
+            <li>
+              <strong>Base Notes:</strong> Sandalwood, Amber, Ambergris, Musk
+            </li>
+          </ul>
+        </div>
+
+        <!-- Product Attributes -->
+
+        <div class="product-details">
+          <p>
+            Initially, **Dior Sauvage Royal for Men** opens with a fresh blend
+            of **lemon** and **bitter orange**, instantly providing a sense of
+            refreshment and energy. These citrus notes are spiced up with a hint
+            of **pepper**, which simultaneously enhances the feeling of power
+            and distinction. In the heart notes, aromatic and peppery floral
+            scents like **lavender** and **pink pepper** give the fragrance a
+            softer yet distinct character. Finally,
+            <strong style="color: #333; font-weight: bold"
+              >Dior Sauvage Royal for Men</strong
+            >
+            finishes with a combination of warm and smoky woods, such as
+            **sandalwood**, **amber**, and **musk**, offering a long-lasting
+            fragrance that conveys depth and strength.
+          </p>
+        </div>
+        <div class="product-details">
+          <strong style="font-size: xx-large">Season Suitability</strong>
+          <p>
+            **Dior Sauvage Royal for Men**, with its blend of fresh, spicy, and
+            woody notes, is especially suitable for the seasons of
+            <strong style="color: #333; font-weight: bold"
+              >spring, summer, and fall</strong
+            >. In
+            <strong style="color: #333; font-weight: bold">spring</strong>and
+            <strong style="color: #333; font-weight: bold">summer</strong>, the
+            tangy and spicy notes of this fragrance provide a refreshing and
+            energizing feel, perfect for warm and lively days. In **fall**, its
+            woody and warm notes create a pleasant and comforting depth, making
+            it ideal for cool evenings. This fragrance can be worn at any time
+            of the day and for various occasions, from professional environments
+            to evening meetings.
+          </p>
+        </div>
+        <div class="product-details">
+          <p id="content">
+            For purchasing **Dior Sauvage Royal for Men** at the best price with
+            fast delivery, visit the **Royal** online store and buy this
+            luxurious and stylish fragrance right away. **Sauvage Royal** can
+            accompany you throughout all occasions and seasons, making you stand
+            out at every moment.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      const imageContainer = document.getElementById("product-image-container");
+      const image = document.getElementById("product-image");
+
+      // Adjust the transform origin dynamically based on the cursor position
+      imageContainer.addEventListener("mousemove", (e) => {
+        const rect = imageContainer.getBoundingClientRect();
+        const xPercent = ((e.clientX - rect.left) / rect.width) * 100;
+        const yPercent = ((e.clientY - rect.top) / rect.height) * 100;
+        image.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+        image.style.transform = "scale(1.5)";
+      });
+
+      // Reset zoom when the mouse leaves the container
+      imageContainer.addEventListener("mouseleave", () => {
+        image.style.transform = "scale(1)";
+        image.style.transformOrigin = "center center";
+      });
+    </script>
+    <script>
+      // Select all elements that might contain bold syntax (**...**)
+      const contentElements = document.querySelectorAll(
+        "#content, .product-details p"
+      );
+
+      contentElements.forEach((element) => {
+        element.innerHTML = element.innerHTML.replace(
+          /\*\*(.*?)\*\*/g, // Match text between double asterisks
+          '<strong style="color: #333;">$1</strong>' // Replace with styled <strong>
+        );
+      });
+    </script>
+    <div id="footer"></div>
+    <script>
+      fetch("/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Perfume</title>
+    <style>
+       @import url("/Nav.css");
+      @import url("/SlideShow.css");
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      /* Top Navigation Bar */
+
+      /* Product Page Layout */
+      .product-page {
+        display: flex;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 50px auto;
+        gap: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+      }
+
+      /* Product Image Container */
+      /* Product Image Container */
+      .product-image-container {
+        position: sticky;
+        top: 100px;
+        bottom: 50px;
+        transform: translateX(-100px);
+        transform: translateY(0px);
+        margin-left: 0px;
+        align-items: center;
+        flex: 1.2; /* Take up equal space on the left */
+        max-width: 40%;
+        width: 500px; /* Set fixed width */
+        height: 650px; /* Set fixed height */
+        overflow: hidden;
+        border-radius: 5%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .product-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.1s ease;
+      }
+
+      .product-name {
+        flex: 1;
+        padding: 20px;
+      }
+      .product-name p {
+        font-size: large;
+        color: goldenrod;
+        font-weight: bold;
+      }
+
+      /* Product Details */
+      .product-details {
+        flex: 1; /* Take up equal space on the right */
+        padding: 20px;
+      }
+
+      .product-details h1 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h2 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h3 {
+        font-weight: bold;
+        display: inline;
+      }
+      .product-details p {
+        font-size: 2rem;
+      }
+      .product-details strong {
+        color: #6a0dad;
+      }
+      .product-details li {
+        margin-bottom: 10px;
+        transform: translateX(-20px);
+      }
+      .product-details p {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      .product-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(218, 168, 41);
+        margin-bottom: 20px;
+        margin-left: 10px;
+      }
+
+      /* Product Attributes */
+      .product-attributes {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+
+      .product-attributes li {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .product-attributes span {
+        font-weight: bold;
+        color: #6a0dad;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <img
+          src="https://manashamim.ir/wp-content/uploads/2023/11/Mana-Shamim-Golsa-Logo-smal.png"
+          alt="Manashamim Logo"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="/Mana2.html">Home</a></li>
+        <li><a href="/products.html">Products</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Product Page Content -->
+    <div class="product-page">
+      <!-- Image with Dynamic Zoom Feature -->
+      <div class="product-image-container" id="product-image-container">
+        <img
+          src="https://via.placeholder.com/900x600"
+          alt="Special Perfume Image"
+          id="product-image"
+        />
+      </div>
+      <div class="product-details">
+        <p
+          style="
+            font-size: 36px;
+            font-weight: bold;
+            color: goldenrod;
+            margin-top: 20px;
+          "
+        >
+          Royal Allure Air Freshener
+        </p>
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Volume:</strong
+          >
+          250 ml
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Fragrance Nature:</strong
+          >
+          Cool
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Fragrance Tone:</strong
+          >
+          Sweet
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Longevity:</strong
+          >
+          Excellent
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Sillage:</strong
+          >
+          Excellent
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Suitable for:</strong
+          >
+          Spring and Summer
+        </p>
+
+        <h1>A breif History</h1>
+        <p style="font-size: larger; line-height: 1.7rem">
+          The
+          <strong style="color: rgb(188, 143, 27); font-weight: bold">
+            Royal Air Freshener with Allure Scent
+          </strong>
+          is a perfect choice for those seeking to create a stylish, pleasant,
+          and luxurious atmosphere in various environments. Inspired by the
+          classic and renowned
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Allure fragrance</strong
+          >, this air freshener fills your space with unique floral and fruity
+          notes, bringing a sense of freshness and vitality. It instantly
+          eliminates unpleasant odors, leaving your environment feeling vibrant
+          and welcoming.
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          Produced by the reputable
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Royal</strong
+          >
+          brand, known for its expertise in air freshening products, the Allure
+          scent is presented in a distinctive way to provide your space with a
+          special touch of freshness and delicacy. The spray's packaging
+          features a sleek white design that effortlessly blends with any
+          interior decor, not only freshening your space but also adding a touch
+          of elegance.
+        </p>
+
+        <div class="details-container">
+          <h1 style="margin-bottom: 10px; line-height: 2rem">
+            Fragrance Notes:
+          </h1>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            The
+            <strong style="color: rgb(188, 143, 27); font-weight: bold">
+              Allure Scent
+            </strong>
+            in this spray is a blend of floral, fruity, and woody notes that
+            provide a gentle, long-lasting, and delightful fragrance. It is an
+            ideal choice for those who appreciate classic and floral perfumes.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Top Notes:</strong
+            >
+            Mandarin Orange, Jasmine. These notes create a vibrant and
+            refreshing atmosphere with their sweet and invigorating scent.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Heart Notes:</strong
+            >
+            Rose, Iris, Orange Blossom. These floral notes add softness and
+            delicacy to the fragrance, enhancing its elegant and soothing
+            character.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Base Notes:</strong
+            >
+            Sandalwood, Musk, Vanilla. These notes provide depth and
+            extraordinary longevity to the fragrance, continuously creating a
+            pleasant and luxurious ambiance around you.
+          </p>
+
+          <h1 style="margin-bottom: 10px; line-height: 2rem">
+            Seasonal Suitability:
+          </h1>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            The
+            <strong style="color: rgb(188, 143, 27); font-weight: bold">
+              Royal Air Freshener with Allure Scent
+            </strong>
+            is best suited for
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >spring and summer</strong
+            >
+            due to its floral and fruity compositions. Its sweet and floral
+            aromas create a pleasant and refreshing atmosphere, making it ideal
+            for warm days by spreading freshness and vitality throughout your
+            space.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            This spray also works wonderfully in enclosed areas such as living
+            rooms or bedrooms, ensuring a delightful ambiance year-round,
+            regardless of the season.
+          </p>
+
+          <h1 style="margin-bottom: 10px; line-height: 2rem">
+            Packaging Description:
+          </h1>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            The packaging of the
+            <strong style="color: rgb(188, 143, 27); font-weight: bold">
+              Royal Air Freshener with Allure Scent
+            </strong>
+            features a simple yet elegant and attractive design. The white color
+            conveys a sense of cleanliness, softness, and tranquility, enhancing
+            the ambiance of any space.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            Its compact and ergonomic design ensures ease of use, making it both
+            practical and hassle-free. This modern and sleek white packaging
+            effortlessly fits into any environment, complementing the decor and
+            adding a touch of elegance to your space.
+          </p>
+
+          <h1 style="margin-bottom: 10px; line-height: 2rem">
+            Recommended Usage:
+          </h1>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            The
+            <strong style="color: rgb(188, 143, 27); font-weight: bold">
+              Royal Air Freshener with Allure Scent
+            </strong>
+            offers a gentle and pleasant fragrance that can be used in a variety
+            of spaces. It is particularly suitable for areas that need a
+            refreshing and revitalizing touch:
+          </p>
+
+          <ul
+            style="font-size: larger; line-height: 1.7rem; padding-left: 20px"
+          >
+            <li>
+              <strong style="color: rgb(188, 143, 27); font-weight: bold">
+                Living rooms and reception areas:
+              </strong>
+              To scent the space and create an inviting and elegant environment.
+            </li>
+            <li>
+              <strong style="color: rgb(188, 143, 27); font-weight: bold"
+                >Work offices:</strong
+              >
+              For a calming and refreshing atmosphere in the workplace.
+            </li>
+            <li>
+              <strong style="color: rgb(188, 143, 27); font-weight: bold"
+                >Bedrooms:</strong
+              >
+              To create a soothing and pleasant ambiance before sleep.
+            </li>
+            <li>
+              <strong style="color: rgb(188, 143, 27); font-weight: bold">
+                Waiting areas and hotels:
+              </strong>
+              To freshen up the space and welcome guests.
+            </li>
+            <li>
+              <strong style="color: rgb(188, 143, 27); font-weight: bold"
+                >Cars:</strong
+              >
+              For a fresh and stylish scent in your vehicle.
+            </li>
+          </ul>
+
+          <h1>Purchase Method</h1>
+          <p style="font-size: larger; line-height: 1.7rem">
+            If you are looking for an air freshener with a gentle, elegant, and
+            long-lasting fragrance, the
+            <strong style="color: rgb(188, 143, 27); font-weight: bold">
+              Royal Air Freshener with Allure Scent
+            </strong>
+            is an ideal choice for you. With a fragrance inspired by the iconic
+            Allure perfume, this spray creates a refreshing and delightful
+            atmosphere, adding a sense of freshness and sophistication to your
+            space.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            To purchase the
+            <strong style="color: rgb(188, 143, 27); font-weight: bold">
+              Royal Air Freshener with Allure Scent
+            </strong>
+            at the best price with fast delivery, visit the
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Royal</strong
+            >
+            online store and add this exceptional spray to your shopping cart
+            today.
+          </p>
+        </div>
+
+        <!-- Product Attributes -->
+
+        <div class="product-details"></div>
+        <div class="product-details"></div>
+      </div>
+    </div>
+    <script>
+      const imageContainer = document.getElementById("product-image-container");
+      const image = document.getElementById("product-image");
+
+      // Adjust the transform origin dynamically based on the cursor position
+      imageContainer.addEventListener("mousemove", (e) => {
+        const rect = imageContainer.getBoundingClientRect();
+        const xPercent = ((e.clientX - rect.left) / rect.width) * 100;
+        const yPercent = ((e.clientY - rect.top) / rect.height) * 100;
+        image.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+        image.style.transform = "scale(1.5)";
+      });
+
+      // Reset zoom when the mouse leaves the container
+      imageContainer.addEventListener("mouseleave", () => {
+        image.style.transform = "scale(1)";
+        image.style.transformOrigin = "center center";
+      });
+    </script>
+    <script>
+      // Select all elements that might contain bold syntax (**...**)
+      const contentElements = document.querySelectorAll(
+        "#content, .product-details p"
+      );
+
+      contentElements.forEach((element) => {
+        element.innerHTML = element.innerHTML.replace(
+          /\*\*(.*?)\*\*/g, // Match text between double asterisks
+          '<strong style="color: #333;">$1</strong>' // Replace with styled <strong>
+        );
+      });
+    </script>
+    <div id="footer"></div>
+    <script>
+      fetch("/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

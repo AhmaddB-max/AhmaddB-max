@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Perfume</title>
+    <style>
+      @import url("/Nav.css");
+      @import url("/SlideShow.css");
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      /* Top Navigation Bar */
+
+      /* Product Page Layout */
+      .product-page {
+        display: flex;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 50px auto;
+        gap: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+      }
+
+      /* Product Image Container */
+      /* Product Image Container */
+      .product-image-container {
+        position: sticky;
+        top: 100px;
+        bottom: 50px;
+        transform: translateX(-100px);
+        transform: translateY(0px);
+        margin-left: 0px;
+        align-items: center;
+        flex: 1.2; /* Take up equal space on the left */
+        max-width: 40%;
+        width: 500px; /* Set fixed width */
+        height: 650px; /* Set fixed height */
+        overflow: hidden;
+        border-radius: 5%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .product-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.1s ease;
+      }
+
+      .product-name {
+        flex: 1;
+        padding: 20px;
+      }
+      .product-name p {
+        font-size: large;
+        color: goldenrod;
+        font-weight: bold;
+      }
+
+      /* Product Details */
+      .product-details {
+        flex: 1; /* Take up equal space on the right */
+        padding: 20px;
+      }
+
+      .product-details h1 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h2 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h3 {
+        font-weight: bold;
+        display: inline;
+      }
+      .product-details p {
+        font-size: 2rem;
+      }
+      .product-details strong {
+        color: #6a0dad;
+      }
+      .product-details li {
+        margin-bottom: 10px;
+        transform: translateX(-20px);
+      }
+      .product-details p {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      .product-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(218, 168, 41);
+        margin-bottom: 20px;
+        margin-left: 10px;
+      }
+
+      /* Product Attributes */
+      .product-attributes {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+
+      .product-attributes li {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .product-attributes span {
+        font-weight: bold;
+        color: #6a0dad;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <img
+          src="https://manashamim.ir/wp-content/uploads/2023/11/Mana-Shamim-Golsa-Logo-smal.png"
+          alt="Manashamim Logo"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="/Mana2.html">Home</a></li>
+        <li><a href="/products.html">Products</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Product Page Content -->
+    <div class="slideshow-container">
+      <img
+        class="slider-image active"
+        src="/Product-Photos/ریسایز معرفی عطر جدید-09.jpg"
+        alt="Business Image 1"
+      />
+      <img
+        class="slider-image active"
+        src="/Product-Photos/ریسایز معرفی عطر جدید2-15.jpg"
+        alt="Business Image 2"
+      />
+    </div>
+    <div class="product-page">
+      <!-- Image with Dynamic Zoom Feature -->
+      <div class="product-image-container" id="product-image-container">
+        <img
+          src="/Product-Photos/ریسایز جدید عطر-13.jpg"
+          alt="Special Perfume Image"
+          id="product-image"
+        />
+      </div>
+      <div class="product-details">
+        <p
+          style="
+            font-size: 36px;
+            font-weight: bold;
+            color: goldenrod;
+            margin-top: 20px;
+          "
+        >
+          Royal Blue de Chanel Eau de Parfum For men
+        </p>
+        <ul class="product-attributes">
+          <li style="margin-bottom: 15px"><span>Volume:</span> 8 ml</li>
+          <li style="margin-bottom: 15px"><span>Nature:</span> Cool</li>
+          <li style="margin-bottom: 15px"><span>Scent:</span> Bitter</li>
+          <li style="margin-bottom: 15px"><span>Longevity:</span> Excellent</li>
+          <li style="margin-bottom: 15px"><span>Diffusion:</span> Excellent</li>
+          <li style="margin-bottom: 10px">
+            <span>Suitable for:</span> Spring and Autumn
+          </li>
+        </ul>
+        <p>
+          **Royal Blue de Chanel for Men** is a special and luxurious version of
+          the famous **Blue de Chanel** collection, introduced by the French
+          brand **Chanel** in 2024. With its unique and complex fragrance, it
+          has become one of the top choices for men seeking a perfume with
+          character, sophistication, and longevity. **Blue de Chanel Royal** is
+          an upgraded and more luxurious version of the previous editions of
+          this perfume, drawing the attention of both classic and modern
+          fragrance enthusiasts.
+        </p>
+        <h1>A breif History</h1>
+        <p>
+          **Chanel**, a renowned and established brand, reigns in the world of
+          fashion and perfumery. Founded in 1921 by **Coco Chanel**, it quickly
+          earned a special place in the fashion and fragrance industries. One of
+          Chanel's most successful and widely praised perfumes is
+          <strong style="color: #333; font-weight: bold">Blue de Chanel</strong
+          >, first introduced in 2010. This fragrance, with its classic yet
+          modern scent, became one of the primary choices for men seeking a
+          perfume with a strong and distinctive presence.
+        </p>
+        <div class="details-container">
+          <p>
+            **Blue de Chanel Royal for Men** was introduced as a luxurious and
+            special edition of the original collection. This version offers a
+            sophisticated experience with a more complex blend of notes and a
+            unique design, providing an exceptional and elegant masculine
+            fragrance. The **Blue de Chanel Royal** bottle is meticulously
+            designed with dark tones and golden details, evoking a sense of
+            luxury and authenticity. This design is especially ideal for those
+            seeking a fragrance with both a modern and classic appeal.
+          </p>
+
+          <h2>Fragrance Notes</h2>
+          <p>
+            **Blue de Chanel Royal for Men** with its blend of woody, citrus,
+            and spicy notes, offers a unique and memorable olfactory experience.
+            Here's a look at the key notes that make up this fragrance:
+          </p>
+          <ul>
+            <li><strong>Top Notes:</strong> Lemon, Mint</li>
+            <li><strong>Middle Notes:</strong> Pink Pepper, Ginger</li>
+            <li><strong>Base Notes:</strong> Sandalwood, Amber, Patchouli</li>
+          </ul>
+        </div>
+
+        <!-- Product Attributes -->
+
+        <div class="product-details">
+          <p>
+            Initially, **Blue de Chanel Royal for Men** opens with a fresh and
+            energizing scent of lemon and mint, which imparts a sense of
+            freshness and vitality. This initial combination simultaneously
+            enhances feelings of courage and power. In the middle notes, pink
+            pepper and ginger add a spicy and warm dimension to the fragrance,
+            making it more complex. Finally, the base notes of sandalwood,
+            amber, and patchouli create a woody, smooth, and lasting scent that
+            completes the fragrance.
+          </p>
+        </div>
+        <div class="product-details">
+          <strong style="font-size: xx-large">Season Suitability</strong>
+          <p>
+            **Blue de Chanel Royal for Men** is particularly suitable for the
+            spring and autumn seasons due to its blend of woody, spicy, and
+            citrusy notes. In spring, its fresh and citrusy aromas provide a
+            sense of rejuvenation and vitality, while in autumn, the warm and
+            woody notes create a calm and pleasant atmosphere. This fragrance is
+            versatile enough to be worn during both day and night, making it an
+            excellent choice for various occasions, including work, parties, or
+            formal meetings.
+          </p>
+        </div>
+        <div class="product-details">
+          <p id="content">
+            For purchasing **Blue de Chanel Royal for Men** at the best price
+            with fast delivery, visit the **Royal** online store and buy this
+            luxurious fragrance quickly. **Blue de Chanel Royal** can accompany
+            you in any special occasion, from business meetings to evening
+            parties, making you stand out at every moment.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      const imageContainer = document.getElementById("product-image-container");
+      const image = document.getElementById("product-image");
+
+      // Adjust the transform origin dynamically based on the cursor position
+      imageContainer.addEventListener("mousemove", (e) => {
+        const rect = imageContainer.getBoundingClientRect();
+        const xPercent = ((e.clientX - rect.left) / rect.width) * 100;
+        const yPercent = ((e.clientY - rect.top) / rect.height) * 100;
+        image.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+        image.style.transform = "scale(1.5)";
+      });
+
+      // Reset zoom when the mouse leaves the container
+      imageContainer.addEventListener("mouseleave", () => {
+        image.style.transform = "scale(1)";
+        image.style.transformOrigin = "center center";
+      });
+    </script>
+    <script>
+      // Select all elements that might contain bold syntax (**...**)
+      const contentElements = document.querySelectorAll(
+        "#content, .product-details p"
+      );
+
+      contentElements.forEach((element) => {
+        element.innerHTML = element.innerHTML.replace(
+          /\*\*(.*?)\*\*/g, // Match text between double asterisks
+          '<strong style="color: #333;">$1</strong>' // Replace with styled <strong>
+        );
+      });
+    </script>
+    <div id="footer"></div>
+    <script>
+      fetch("/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+    <script src="/SlideShow.js"></script>
+  </body>
+</html>

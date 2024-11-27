@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Perfume</title>
+    <style>
+      @import url("/Nav.css");
+      @import url("/SlideShow.css");
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      /* Top Navigation Bar */
+
+      /* Product Page Layout */
+      .product-page {
+        display: flex;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 50px auto;
+        gap: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+      }
+
+      /* Product Image Container */
+      /* Product Image Container */
+      .product-image-container {
+        position: sticky;
+        top: 100px;
+        bottom: 50px;
+        transform: translateX(-100px);
+        transform: translateY(0px);
+        margin-left: 0px;
+        align-items: center;
+        flex: 1.2; /* Take up equal space on the left */
+        max-width: 40%;
+        width: 500px; /* Set fixed width */
+        height: 650px; /* Set fixed height */
+        overflow: hidden;
+        border-radius: 5%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .product-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.1s ease;
+      }
+
+      .product-name {
+        flex: 1;
+        padding: 20px;
+      }
+      .product-name p {
+        font-size: large;
+        color: goldenrod;
+        font-weight: bold;
+      }
+
+      /* Product Details */
+      .product-details {
+        flex: 1; /* Take up equal space on the right */
+        padding: 20px;
+      }
+
+      .product-details h1 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h2 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h3 {
+        font-weight: bold;
+        display: inline;
+      }
+      .product-details p {
+        font-size: 2rem;
+      }
+      .product-details strong {
+        color: #6a0dad;
+      }
+      .product-details li {
+        margin-bottom: 10px;
+        transform: translateX(-20px);
+      }
+      .product-details p {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      .product-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(218, 168, 41);
+        margin-bottom: 20px;
+        margin-left: 10px;
+      }
+
+      /* Product Attributes */
+      .product-attributes {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+
+      .product-attributes li {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .product-attributes span {
+        font-weight: bold;
+        color: #6a0dad;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <img
+          src="https://manashamim.ir/wp-content/uploads/2023/11/Mana-Shamim-Golsa-Logo-smal.png"
+          alt="Manashamim Logo"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="/Mana2.html">Home</a></li>
+        <li><a href="/products.html">Products</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Product Page Content -->
+    <div class="product-page">
+      <!-- Image with Dynamic Zoom Feature -->
+      <div class="product-image-container" id="product-image-container">
+        <img
+          src="https://via.placeholder.com/900x600"
+          alt="Special Perfume Image"
+          id="product-image"
+        />
+      </div>
+      <div class="product-details">
+        <p
+          style="
+            font-size: 36px;
+            font-weight: bold;
+            color: goldenrod;
+            margin-top: 20px;
+          "
+        >
+        Royal Parfums de Marly Pegasus Body Spray for Men       </p>
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Volume:</strong
+          >
+          200 ml
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Fragrance Nature:</strong
+          >
+          Warm
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Fragrance Tone:</strong
+          >
+          Sweet
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Longevity:</strong
+          >
+          Excellent
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Sillage:</strong
+          >
+          Excellent
+        </p>
+
+        <h1>A breif History</h1>
+        <p style="font-size: larger; line-height: 1.7rem">
+            The <strong style="color: rgb(188, 143, 27); font-weight: bold">Royal Parfums de Marly Pegasus Men's Body Spray</strong> is a version of the renowned 
+            <strong style="color: rgb(188, 143, 27); font-weight: bold">Pegasus</strong> fragrance by the luxury brand 
+            <strong style="color: rgb(188, 143, 27); font-weight: bold">Parfums de Marly</strong>. Established in 2009, 
+            <strong style="color: rgb(188, 143, 27); font-weight: bold">Parfums de Marly</strong> quickly became one of the most recognized and prestigious luxury perfume brands worldwide. Inspired by the aristocratic history of France and its royal courts, the brand’s fragrances are crafted with a sense of sophistication and complexity.
+          </p>
+          
+          <p style="font-size: larger; line-height: 1.7rem">
+            Introduced in 2011, the <strong style="color: rgb(188, 143, 27); font-weight: bold">Pegasus</strong> perfume was designed for men seeking a multifaceted and refined scent. With its blend of woody, spicy, and floral aromas, it quickly became one of the most popular fragrances in the world of luxury perfumes. The 
+            <strong style="color: rgb(188, 143, 27); font-weight: bold">Royal Parfums de Marly Pegasus Men's Body Spray</strong> is specially crafted for daily use in a lighter form, providing you with a pleasant and long-lasting fragrance while retaining the essence of the original perfume.
+          </p>
+          
+
+        <div class="details-container">
+            <h2 style="margin-bottom: 10px; line-height: 2rem">
+                Fragrance Notes:
+              </h2>
+              
+              <p style="font-size: larger; line-height: 1.7rem">
+                The <strong style="color: rgb(188, 143, 27); font-weight: bold">Royal Parfums de Marly Pegasus Men's Body Spray</strong> combines woody, spicy, and sweet notes to create a sophisticated and long-lasting fragrance. This spray is perfect for men seeking a distinctive and standout scent that boosts confidence and charm.
+              </p>
+              
+              <p style="font-size: larger; line-height: 1.7rem">
+                <strong style="color: rgb(188, 143, 27); font-weight: bold">Top Notes:</strong>
+                Bergamot and thyme. These notes open with a fresh and citrusy aroma, bringing a sense of vitality and freshness.
+              </p>
+              
+              <p style="font-size: larger; line-height: 1.7rem">
+                <strong style="color: rgb(188, 143, 27); font-weight: bold">Heart Notes:</strong>
+                Jasmine and iris. These floral and subtle notes add an elegant and refined character to the spray.
+              </p>
+              
+              <p style="font-size: larger; line-height: 1.7rem">
+                <strong style="color: rgb(188, 143, 27); font-weight: bold">Base Notes:</strong>
+                Sandalwood, vanilla, and amber. These woody and slightly bitter notes provide depth and longevity to the spray, enhancing its warmth and strength.
+              </p>
+              
+          <h2 style="margin-bottom: 10px; line-height: 2rem">How to Use:</h2>
+
+          <p style="font-size: larger; line-height: 1.7rem" id="content">
+            For the best results with the
+            <strong style="color: #333"></strong>
+            <strong style="color: rgb(188, 143, 27)"></strong>
+            Royal Parfums de Marly Pegasus Body Spray for Men              </strong>
+            ,apply it to clean and dry skin, especially on areas more prone to
+            perspiration:
+          </p>
+
+          <ul
+            style="font-size: larger; line-height: 1.7rem; padding-left: 20px"
+          >
+            <li>
+              <strong style="color: rgb(188, 143, 27); font-weight: bold"
+                >Behind the ears</strong
+              >
+            </li>
+            <li>
+              <strong style="color: rgb(188, 143, 27); font-weight: bold"
+                >Wrists</strong
+              >
+            </li>
+            <li>
+              <strong style="color: rgb(188, 143, 27); font-weight: bold"
+                >Underarms</strong
+              >
+            </li>
+            <li>
+              <strong style="color: rgb(188, 143, 27); font-weight: bold"
+                >Back of the neck</strong
+              >
+            </li>
+          </ul>
+          <p style="font-size: larger; line-height: 1.7rem">
+            These areas of the body, due to their higher temperature and natural
+            warmth, are the best spots for better fragrance diffusion. Spraying
+            on these points ensures the scent is evenly and long-lastingly
+            dispersed.
+          </p>
+          <p style="font-size: larger; line-height: 1.7rem">
+            For enhanced fragrance longevity, you can also apply the spray on
+            your clothes or hair a few moments before getting dressed.
+          </p>
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Note:</strong
+            >
+            Spray from a distance of about 15 cm onto your body to ensure the
+            fragrance is evenly distributed and lasts longer.
+          </p>
+
+          <h2 style="margin-bottom: 10px; line-height: 2rem">
+            Packaging:
+          </h2>
+          
+          <p style="font-size: larger; line-height: 1.7rem">
+            The <strong style="color: rgb(188, 143, 27); font-weight: bold">Royal Parfums de Marly Pegasus Men's Body Spray</strong> is presented in elegant and luxurious packaging that perfectly complements the complex and unique character of the original fragrance. The spray bottle is crafted with a simple yet highly refined design.
+          </p>
+          
+          <p style="font-size: larger; line-height: 1.7rem">
+            This sleek and classic design is especially appealing to those who appreciate distinctive and long-lasting fragrances. The compact and ergonomic packaging fits easily into your bag or pocket, making it convenient to carry and use anytime.
+          </p>
+          
+          
+
+          <h2>Purchase Method</h2>
+          
+          <p style="font-size: larger; line-height: 1.7rem">
+            The <strong style="color: rgb(188, 143, 27); font-weight: bold">Royal Parfums de Marly Pegasus Men's Body Spray</strong> combines the freshness of bergamot, the elegance of jasmine, and the richness of sandalwood to create a complex and unique fragrance. This spray enhances your confidence and strength throughout the day while accompanying you with a long-lasting and sophisticated scent.
+          </p>
+          
+          <p style="font-size: larger; line-height: 1.7rem">
+            The luxurious packaging and exclusive design of this spray offer an experience that goes beyond a simple body spray, making it a perfect companion for your daily routine.
+          </p>
+          
+          
+          <p id="content">
+            To purchase
+            <strong style="color: rgb(188, 143, 27)">
+                Royal Parfums de Marly Pegasus Men's Body Spray         </strong>
+                at the best price with fast delivery, visit the **Royal** online
+                store. This product can be your perfect companion for everyday use, parties, and any special occasion where you want to
+                shine and leave a lasting impression.
+              </p>
+        </div>
+
+        <!-- Product Attributes -->
+
+        <div class="product-details"></div>
+        <div class="product-details"></div>
+      </div>
+    </div>
+    <script>
+      const imageContainer = document.getElementById("product-image-container");
+      const image = document.getElementById("product-image");
+
+      // Adjust the transform origin dynamically based on the cursor position
+      imageContainer.addEventListener("mousemove", (e) => {
+        const rect = imageContainer.getBoundingClientRect();
+        const xPercent = ((e.clientX - rect.left) / rect.width) * 100;
+        const yPercent = ((e.clientY - rect.top) / rect.height) * 100;
+        image.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+        image.style.transform = "scale(1.5)";
+      });
+
+      // Reset zoom when the mouse leaves the container
+      imageContainer.addEventListener("mouseleave", () => {
+        image.style.transform = "scale(1)";
+        image.style.transformOrigin = "center center";
+      });
+    </script>
+    <script>
+      // Select all elements that might contain bold syntax (**...**)
+      const contentElements = document.querySelectorAll(
+        "#content, .product-details p"
+      );
+
+      contentElements.forEach((element) => {
+        element.innerHTML = element.innerHTML.replace(
+          /\*\*(.*?)\*\*/g, // Match text between double asterisks
+          '<strong style="color: #333;">$1</strong>' // Replace with styled <strong>
+        );
+      });
+    </script>
+    <div id="footer"></div>
+    <script>
+      fetch("/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

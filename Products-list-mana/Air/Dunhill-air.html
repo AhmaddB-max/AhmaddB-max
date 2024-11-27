@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Perfume</title>
+    <style>
+      @import url("/Nav.css");
+      @import url("/SlideShow.css");
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      /* Top Navigation Bar */
+
+      /* Product Page Layout */
+      .product-page {
+        display: flex;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 50px auto;
+        gap: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+      }
+
+      /* Product Image Container */
+      /* Product Image Container */
+      .product-image-container {
+        position: sticky;
+        top: 100px;
+        bottom: 50px;
+        transform: translateX(-100px);
+        transform: translateY(0px);
+        margin-left: 0px;
+        align-items: center;
+        flex: 1.2; /* Take up equal space on the left */
+        max-width: 40%;
+        width: 500px; /* Set fixed width */
+        height: 650px; /* Set fixed height */
+        overflow: hidden;
+        border-radius: 5%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .product-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.1s ease;
+      }
+
+      .product-name {
+        flex: 1;
+        padding: 20px;
+      }
+      .product-name p {
+        font-size: large;
+        color: goldenrod;
+        font-weight: bold;
+      }
+
+      /* Product Details */
+      .product-details {
+        flex: 1; /* Take up equal space on the right */
+        padding: 20px;
+      }
+
+      .product-details h1 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h2 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h3 {
+        font-weight: bold;
+        display: inline;
+      }
+      .product-details p {
+        font-size: 2rem;
+      }
+      .product-details strong {
+        color: #6a0dad;
+      }
+      .product-details li {
+        margin-bottom: 10px;
+        transform: translateX(-20px);
+      }
+      .product-details p {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      .product-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(218, 168, 41);
+        margin-bottom: 20px;
+        margin-left: 10px;
+      }
+
+      /* Product Attributes */
+      .product-attributes {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+
+      .product-attributes li {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .product-attributes span {
+        font-weight: bold;
+        color: #6a0dad;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <img
+          src="https://manashamim.ir/wp-content/uploads/2023/11/Mana-Shamim-Golsa-Logo-smal.png"
+          alt="Manashamim Logo"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="/Mana2.html">Home</a></li>
+        <li><a href="/products.html">Products</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Product Page Content -->
+    <div class="product-page">
+      <!-- Image with Dynamic Zoom Feature -->
+      <div class="product-image-container" id="product-image-container">
+        <img
+          src="https://via.placeholder.com/900x600"
+          alt="Special Perfume Image"
+          id="product-image"
+        />
+      </div>
+      <div class="product-details">
+        <p
+          style="
+            font-size: 36px;
+            font-weight: bold;
+            color: goldenrod;
+            margin-top: 20px;
+          "
+        >
+          Royal Dunhil Air Freshener
+        </p>
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Volume:</strong
+          >
+          250 ml
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Fragrance Nature:</strong
+          >
+          Warm
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Fragrance Tone:</strong
+          >
+          Sweet and Spicy
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Longevity:</strong
+          >
+          Excellent
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Sillage:</strong
+          >
+          Excellent
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Suitable for:</strong
+          >
+          Autumn and Winter
+        </p>
+
+        <h1>A breif History</h1>
+        <p style="font-size: larger; line-height: 1.7rem">
+          The
+          <strong style="color: rgb(188, 143, 27); font-weight: bold">
+            Royal Air Freshener with Dunhill Scent
+          </strong>
+          is an excellent choice for those seeking a luxurious, masculine, and
+          refreshing fragrance. Inspired by the popular and highly regarded
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Dunhill</strong
+          >
+          scent, known as one of the most classic and high-quality perfumes,
+          this spray fills your space with woody, spicy, and sweet notes. It’s a
+          unique fragrance that brings a sense of sophistication and elegance to
+          your surroundings.
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          Produced by the reputable
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Royal</strong
+          >
+          brand, known for delivering high-quality air freshening products, this
+          spray meets the same exceptional standards. The Dunhill scent, with
+          its unique blend of woody and spicy notes, is a luxurious and
+          distinctive option that creates a calming yet powerful atmosphere in
+          your space.
+        </p>
+
+        <div class="details-container">
+          <h1 style="margin-bottom: 10px; line-height: 2rem">
+            Fragrance Notes:
+          </h1>
+          <p style="font-size: larger; line-height: 1.7rem">
+            The
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Dunhill Scent</strong
+            >
+            in this spray is a blend of woody, spicy, and sweet notes, giving it
+            a masculine and distinctive fragrance. It is recommended for those
+            who appreciate complex and classic aromas.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Top Notes:</strong
+            >
+            Bitter Orange, Lavender. These notes introduce a fresh and subtle
+            aroma, creating a sense of calmness and renewal.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Heart Notes:</strong
+            >
+            Cinnamon, Pepper, Saffron. These spicy and sweet notes bring
+            complexity and charm to your space, adding a captivating atmosphere.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Base Notes:</strong
+            >
+            Sandalwood, Amber, Musk. These notes provide warmth, depth, and
+            exceptional longevity, leaving a lasting and pleasant impression.
+          </p>
+
+          <h1 style="margin-bottom: 10px; line-height: 2rem">
+            Seasonal Suitability:
+          </h1>
+          <p style="font-size: larger; line-height: 1.7rem">
+            The
+            <strong style="color: rgb(188, 143, 27); font-weight: bold">
+              Royal Air Freshener with Dunhill Scent
+            </strong>
+            is best suited for
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >autumn and winter</strong
+            >
+            due to its woody and spicy composition. Its warm and intense aroma
+            creates a cozy and pleasant atmosphere, perfect for the colder days
+            of the year.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            This spray is especially effective in enclosed and chilly spaces,
+            offering a sense of warmth and tranquility. It is particularly
+            recommended for those who appreciate unique and captivating
+            fragrances.
+          </p>
+
+          <h1 style="margin-bottom: 10px; line-height: 2rem">
+            Packaging Description:
+          </h1>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            The packaging of the
+            <strong style="color: rgb(188, 143, 27); font-weight: bold">
+              Royal Air Freshener with Dunhill Scent
+            </strong>
+            is designed in an elegant
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >navy blue</strong
+            >
+            color, symbolizing strength, sophistication, and authenticity. The
+            navy blue shade blends seamlessly with any interior decor, adding a
+            distinctive charm to your space.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            Its minimalist and sleek design makes this spray a stylish and
+            modern choice, perfect for use in any location or setting. The
+            packaging’s simplicity and elegance ensure it complements its
+            surroundings while being easy to use and handle.
+          </p>
+
+          <h1 style="margin-bottom: 10px; line-height: 2rem">
+            Recommended Usage:
+          </h1>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            The
+            <strong style="color: rgb(188, 143, 27); font-weight: bold">
+              Royal Air Freshener with Dunhill Scent
+            </strong>
+            is ideal for spaces that require a sophisticated and exclusive
+            ambiance due to its woody and spicy fragrance blend. Recommended
+            locations include:
+          </p>
+
+          <ul
+            style="font-size: larger; line-height: 1.7rem; padding-left: 20px"
+          >
+            <li>
+              <strong style="color: rgb(188, 143, 27); font-weight: bold">
+                Work offices and meeting rooms:
+              </strong>
+              To create a professional, elegant, and calming environment.
+            </li>
+            <li>
+              <strong style="color: rgb(188, 143, 27); font-weight: bold">
+                Living rooms and reception areas:
+              </strong>
+              To freshen up the space and provide a luxurious, unique
+              atmosphere.
+            </li>
+            <li>
+              <strong style="color: rgb(188, 143, 27); font-weight: bold"
+                >Bedrooms:</strong
+              >
+              To create a warm, pleasant, and cozy ambiance before sleep.
+            </li>
+            <li>
+              <strong style="color: rgb(188, 143, 27); font-weight: bold">
+                Hotels and waiting areas:
+              </strong>
+              To freshen up public spaces and offer guests a distinctive and
+              welcoming experience.
+            </li>
+            <li>
+              <strong style="color: rgb(188, 143, 27); font-weight: bold"
+                >Cars:</strong
+              >
+              To scent the vehicle interior and create a delightful and
+              enjoyable driving experience.
+            </li>
+          </ul>
+
+          <h1>Purchase Method</h1>
+          <p style="font-size: larger; line-height: 1.7rem">
+            If you are looking for an air freshener with a luxurious, masculine,
+            and distinctive fragrance, the
+            <strong style="color: rgb(188, 143, 27); font-weight: bold">
+              Royal Air Freshener with Dunhill Scent
+            </strong>
+            is a perfect choice for you. With its complex and warm aroma, this
+            spray creates a sophisticated, calming, and pleasant atmosphere in
+            your space.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            To purchase the
+            <strong style="color: rgb(188, 143, 27); font-weight: bold">
+              Royal Air Freshener with Dunhill Scent
+            </strong>
+            at the best price with fast delivery, visit the
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Royal</strong
+            >
+            online store and add this exceptional spray to your cart today.
+          </p>
+        </div>
+
+        <!-- Product Attributes -->
+
+        <div class="product-details"></div>
+        <div class="product-details"></div>
+      </div>
+    </div>
+    <script>
+      const imageContainer = document.getElementById("product-image-container");
+      const image = document.getElementById("product-image");
+
+      // Adjust the transform origin dynamically based on the cursor position
+      imageContainer.addEventListener("mousemove", (e) => {
+        const rect = imageContainer.getBoundingClientRect();
+        const xPercent = ((e.clientX - rect.left) / rect.width) * 100;
+        const yPercent = ((e.clientY - rect.top) / rect.height) * 100;
+        image.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+        image.style.transform = "scale(1.5)";
+      });
+
+      // Reset zoom when the mouse leaves the container
+      imageContainer.addEventListener("mouseleave", () => {
+        image.style.transform = "scale(1)";
+        image.style.transformOrigin = "center center";
+      });
+    </script>
+    <script>
+      // Select all elements that might contain bold syntax (**...**)
+      const contentElements = document.querySelectorAll(
+        "#content, .product-details p"
+      );
+
+      contentElements.forEach((element) => {
+        element.innerHTML = element.innerHTML.replace(
+          /\*\*(.*?)\*\*/g, // Match text between double asterisks
+          '<strong style="color: #333;">$1</strong>' // Replace with styled <strong>
+        );
+      });
+    </script>
+    <div id="footer"></div>
+    <script>
+      fetch("/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

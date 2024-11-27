@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Perfume</title>
+    <style>
+      @import url("/Nav.css");
+      @import url("/SlideShow.css");
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      /* Top Navigation Bar */
+
+      /* Product Page Layout */
+      .product-page {
+        display: flex;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 50px auto;
+        gap: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+      }
+
+      /* Product Image Container */
+      /* Product Image Container */
+      .product-image-container {
+        position: sticky;
+        top: 100px;
+        bottom: 50px;
+        transform: translateX(-100px);
+        transform: translateY(0px);
+        margin-left: 0px;
+        align-items: center;
+        flex: 1.2; /* Take up equal space on the left */
+        max-width: 40%;
+        width: 500px; /* Set fixed width */
+        height: 650px; /* Set fixed height */
+        overflow: hidden;
+        border-radius: 5%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .product-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.1s ease;
+      }
+
+      .product-name {
+        flex: 1;
+        padding: 20px;
+      }
+      .product-name p {
+        font-size: large;
+        color: goldenrod;
+        font-weight: bold;
+      }
+
+      /* Product Details */
+      .product-details {
+        flex: 1; /* Take up equal space on the right */
+        padding: 20px;
+      }
+
+      .product-details h1 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h2 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h3 {
+        font-weight: bold;
+        display: inline;
+      }
+      .product-details p {
+        font-size: 2rem;
+      }
+      .product-details strong {
+        color: #6a0dad;
+      }
+      .product-details li {
+        margin-bottom: 10px;
+        transform: translateX(-20px);
+      }
+      .product-details p {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      .product-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(218, 168, 41);
+        margin-bottom: 20px;
+        margin-left: 10px;
+      }
+
+      /* Product Attributes */
+      .product-attributes {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+
+      .product-attributes li {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .product-attributes span {
+        font-weight: bold;
+        color: #6a0dad;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <img
+          src="https://manashamim.ir/wp-content/uploads/2023/11/Mana-Shamim-Golsa-Logo-smal.png"
+          alt="Manashamim Logo"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="/Mana2.html">Home</a></li>
+        <li><a href="/products.html">Products</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Product Page Content -->
+    <div class="product-page">
+      <!-- Image with Dynamic Zoom Feature -->
+      <div class="product-image-container" id="product-image-container">
+        <img
+          src="https://via.placeholder.com/900x600"
+          alt="Special Perfume Image"
+          id="product-image"
+        />
+      </div>
+      <div class="product-details">
+        <p
+          style="
+            font-size: 36px;
+            font-weight: bold;
+            color: goldenrod;
+            margin-top: 20px;
+          "
+        >
+          Zara Oriental Sport
+        </p>
+        <ul class="product-attributes">
+          <li style="margin-bottom: 15px"><span>Volume:</span> 100 ml</li>
+          <li style="margin-bottom: 15px"><span>Nature:</span>Warm</li>
+          <li style="margin-bottom: 15px"><span>Scent:</span>Spicy</li>
+          <li style="margin-bottom: 15px"><span>Longevity:</span> Excellent</li>
+          <li style="margin-bottom: 15px"><span>Diffusion:</span> Excellent</li>
+          <li style="margin-bottom: 10px">
+            <span>Suitable for:</span> Autumn and Winter
+          </li>
+        </ul>
+        <p>
+          <strong style="color: #333">Zara Oriental Sport</strong> from the
+          famous brand <strong style="color: #333">Zara</strong> is one of the
+          unique and special fragrances of this brand, designed for those who
+          are looking for a scent that is chic, sophisticated, and sporty at the
+          same time. The composition of this fragrance, with its warm and
+          enticing notes of spices and woods, transfers a sense of power and
+          confidence to the wearer.
+        </p>
+
+        <div class="details-container">
+          <h2>Fragrance Notes</h2>
+          <p>
+            <strong style="color: #333">Oriental Sport Royal</strong> creates a
+            lasting and captivating fragrance with a unique combination of warm
+            and spicy notes. The blend of spicy, woody, and floral notes makes
+            this perfume a powerful experience, providing an immediate sense of
+            confidence and strength upon use.
+          </p>
+
+          <ul style="font-size: larger; line-height: 1.7rem">
+            <li>
+              <strong style="font-weight: bold; font-size: larger"
+                >Top Notes:</strong
+              >
+              Black pepper and saffron.
+            </li>
+            <li>
+              <strong style="font-weight: bold; font-size: larger"
+                >Middle Notes:</strong
+              >
+              Rose, jasmine, and sandalwood.
+            </li>
+            <li>
+              <strong style="font-weight: bold; font-size: larger"
+                >Base Notes:</strong
+              >
+              Musk, vanilla, and guaiac wood.
+            </li>
+          </ul>
+
+          <p>
+            This intricate blend of spices and flowers transforms
+            <strong style="color: #333">Oriental Sport Royal</strong> into one
+            of the most appealing and modern fragrances, suitable for those with
+            refined tastes and perfect for everyday wear in various situations.
+          </p>
+        </div>
+
+        <div class="product-details">
+          <strong style="font-size: xx-large">Best times of consumption</strong>
+          <ul style="font-size: larger; line-height: 2rem">
+            <li>
+              <strong style="font-weight: bold; font-size: larger"
+                >Autumn and Winter:</strong
+              >
+              <strong style="color: #333">Oriental Sport Royal</strong> is
+              especially suitable for the colder seasons, particularly autumn
+              and winter. The warm and spicy scent with its woody and spicy
+              notes provides comfort and warmth to the wearer in cold weather.
+            </li>
+            <li>
+              <strong style="font-weight: bold; font-size: larger"
+                >Perfect for Special Occasions:</strong
+              >
+              Due to its long-lasting nature, this fragrance is also an
+              excellent choice for evenings and special occasions. It will keep
+              you feeling fresh and confident throughout the day and night.
+            </li>
+            <li>
+              <strong style="font-weight: bold; font-size: larger"
+                >Ideal for the Cold Seasons:</strong
+              >
+              If you're looking for a unique and distinctive fragrance for the
+              colder seasons that sets you apart,
+              <strong style="color: #333">Oriental Sport Royal</strong> is the
+              best choice. With its impeccable blend of spicy and woody notes,
+              this perfume will gift you a sense of power, style, and
+              confidence.
+            </li>
+          </ul>
+        </div>
+
+        <div class="product-details">
+          <h1>Packaging</h1>
+          <p>
+            The packaging of this sporty fragrance with its cubic and simple
+            design represents a combination of simplicity and luxury. The box,
+            which is both sturdy and chic, conveys a sense of aesthetics and
+            distinct attraction. Its cubic design presents a modern and
+            minimalist look suitable for all tastes. The neutral and delicate
+            color scheme, combined with golden lettering, adds a touch of
+            elegance and class, making it appealing to both men and women. This
+            packaging, with its simplicity and prominence, is suitable for all
+            ages and evokes a sense of confidence and chicness in the viewer.
+          </p>
+          <p>
+            This fragrance is perfect for those looking for a perfume with high
+            longevity and a complex, captivating scent. Especially if you're in
+            search of a fragrance for chilly autumn and winter nights, or even
+            for special gatherings,
+            <strong style="color: #333">Royal's Zara Oriental Sport</strong> can
+            be the best companion for you.
+          </p>
+
+          <h1 id="content">Purchase Method</h1>
+          <p>
+            To purchase this chic and unique fragrance, visit the online store
+            <strong style="color: #333">Royal</strong> and buy
+            <strong style="color: #333">Oriental Sport Royal</strong> at an
+            affordable price with fast shipping. By choosing this fragrance,
+            experience a sense of exclusivity and stylishness.
+          </p>
+
+          <p style="color: #333; font-weight: bold; font-size: 1.4rem">
+            We recommend trying this perfume and enjoying its unique and
+            impactful fragrance.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      const imageContainer = document.getElementById("product-image-container");
+      const image = document.getElementById("product-image");
+
+      // Adjust the transform origin dynamically based on the cursor position
+      imageContainer.addEventListener("mousemove", (e) => {
+        const rect = imageContainer.getBoundingClientRect();
+        const xPercent = ((e.clientX - rect.left) / rect.width) * 100;
+        const yPercent = ((e.clientY - rect.top) / rect.height) * 100;
+        image.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+        image.style.transform = "scale(1.5)";
+      });
+
+      // Reset zoom when the mouse leaves the container
+      imageContainer.addEventListener("mouseleave", () => {
+        image.style.transform = "scale(1)";
+        image.style.transformOrigin = "center center";
+      });
+    </script>
+    <script>
+      // Select all elements that might contain bold syntax (**...**)
+      const contentElements = document.querySelectorAll(
+        "#content, .product-details li, .product-details p"
+      );
+
+      contentElements.forEach((element) => {
+        element.innerHTML = element.innerHTML.replace(
+          /\*\*(.*?)\*\*/g, // Match text between double asterisks
+          '<strong style="color: #333;">$1</strong>' // Replace with styled <strong>
+        );
+      });
+    </script>
+    <div id="footer"></div>
+    <script>
+      fetch("/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

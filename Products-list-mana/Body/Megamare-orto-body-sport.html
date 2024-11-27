@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Perfume</title>
+    <style>
+      @import url("/Nav.css");
+      @import url("/SlideShow.css");
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      /* Top Navigation Bar */
+
+      /* Product Page Layout */
+      .product-page {
+        display: flex;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 50px auto;
+        gap: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+      }
+
+      /* Product Image Container */
+      /* Product Image Container */
+      .product-image-container {
+        position: sticky;
+        top: 100px;
+        bottom: 50px;
+        transform: translateX(-100px);
+        transform: translateY(0px);
+        margin-left: 0px;
+        align-items: center;
+        flex: 1.2; /* Take up equal space on the left */
+        max-width: 40%;
+        width: 500px; /* Set fixed width */
+        height: 650px; /* Set fixed height */
+        overflow: hidden;
+        border-radius: 5%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .product-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.1s ease;
+      }
+
+      .product-name {
+        flex: 1;
+        padding: 20px;
+      }
+      .product-name p {
+        font-size: large;
+        color: goldenrod;
+        font-weight: bold;
+      }
+
+      /* Product Details */
+      .product-details {
+        flex: 1; /* Take up equal space on the right */
+        padding: 20px;
+      }
+
+      .product-details h1 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h2 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h3 {
+        font-weight: bold;
+        display: inline;
+      }
+      .product-details p {
+        font-size: 2rem;
+      }
+      .product-details strong {
+        color: #6a0dad;
+      }
+      .product-details li {
+        margin-bottom: 10px;
+        transform: translateX(-20px);
+      }
+      .product-details p {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      .product-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(218, 168, 41);
+        margin-bottom: 20px;
+        margin-left: 10px;
+      }
+
+      /* Product Attributes */
+      .product-attributes {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+
+      .product-attributes li {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .product-attributes span {
+        font-weight: bold;
+        color: #6a0dad;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <img
+          src="https://manashamim.ir/wp-content/uploads/2023/11/Mana-Shamim-Golsa-Logo-smal.png"
+          alt="Manashamim Logo"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="/Mana2.html">Home</a></li>
+        <li><a href="/products.html">Products</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Product Page Content -->
+    <div class="product-page">
+      <!-- Image with Dynamic Zoom Feature -->
+      <div class="product-image-container" id="product-image-container">
+        <img
+          src="https://via.placeholder.com/900x600"
+          alt="Special Perfume Image"
+          id="product-image"
+        />
+      </div>
+      <div class="product-details">
+        <p
+          style="
+            font-size: 36px;
+            font-weight: bold;
+            color: goldenrod;
+            margin-top: 20px;
+          "
+        >
+          Royal Megamare Orto Parisi Sport Body Spray
+        </p>
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Volume:</strong
+          >
+          200 ml
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Fragrance Nature:</strong
+          >
+          Cool
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Fragrance Tone:</strong
+          >
+          Sweet
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Longevity:</strong
+          >
+          Excellent
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Sillage:</strong
+          >
+          Excellent
+        </p>
+
+        <h1>A breif History</h1>
+        <p style="font-size: larger; line-height: 1.7rem">
+          The
+          <strong style="color: rgb(188, 143, 27); font-weight: bold">
+            Royal Megamare Orto Paris Sport Body Spray
+          </strong>
+          is a product from the renowned brand
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Megamare</strong
+          >, well-known in the world of fragrances for offering unique and
+          high-quality scents. The
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Megamare Orto Paris</strong
+          >
+          brand has been producing luxurious perfumes for many years and has now
+          expanded its portfolio to include body sprays. Its Sport edition has
+          successfully captured the attention of young and energetic customers.
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          This body spray is designed for both men and women who seek a
+          refreshing, invigorating, and energetic fragrance.
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Megamare Orto Paris Sport</strong
+          >
+          offers a balanced and sporty aroma, making it ideal for daily use and
+          high-intensity activities. The goal of this spray is to provide an
+          unmatched experience of freshness and vitality for both men and women.
+        </p>
+
+        <div class="details-container">
+          <h2 style="margin-bottom: 10px; line-height: 2rem">
+            Fragrance Notes:
+          </h2>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            The
+            <strong style="color: rgb(188, 143, 27); font-weight: bold">
+              Royal Megamare Orto Paris Sport Body Spray
+            </strong>
+            features a green and citrusy scent that perfectly conveys a sense of
+            freshness and vitality. The notes of this spray are designed to
+            create positive energy and a lasting feeling of freshness throughout
+            the day.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Top Notes:</strong
+            >
+            Lemon, bergamot, and bitter orange. These notes, with their vibrancy
+            and freshness, immediately energize the body. The citrusy burst
+            creates a refreshing and lively opening for the spray.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Heart Notes:</strong
+            >
+            Mint and lavender. These notes add a cool and floral aspect to the
+            fragrance, extending the sensation of freshness. Mint introduces a
+            distinctive freshness, while lavender adds a subtle and gentle
+            balance to the scent.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Base Notes:</strong
+            >
+            Cedarwood and musk. These notes create a woody and slightly smoky
+            foundation, providing long-lasting endurance to the fragrance and
+            ensuring the refreshing scent lingers on the body for hours.
+          </p>
+
+          <h2 style="margin-bottom: 10px; line-height: 2rem">How to Use:</h2>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            To use the
+            <strong style="color: rgb(188, 143, 27); font-weight: bold">
+              Royal Megamare Orto Paris Sport Body Spray </strong
+            >, simply spray it on clean and dry skin. The best pulse points for
+            applying fragrance are:
+          </p>
+
+          <ul
+            style="font-size: larger; line-height: 1.7rem; padding-left: 20px"
+          >
+            <li>
+              <strong style="color: rgb(188, 143, 27); font-weight: bold"
+                >Behind the ears</strong
+              >
+            </li>
+            <li>
+              <strong style="color: rgb(188, 143, 27); font-weight: bold"
+                >Wrists</strong
+              >
+            </li>
+            <li>
+              <strong style="color: rgb(188, 143, 27); font-weight: bold"
+                >Underarms</strong
+              >
+            </li>
+            <li>
+              <strong style="color: rgb(188, 143, 27); font-weight: bold"
+                >Back of the neck</strong
+              >
+            </li>
+          </ul>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            These areas are ideal for fragrance diffusion due to the natural
+            warmth of the body. Spraying on these points ensures an even and
+            long-lasting scent throughout the day.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Note:</strong
+            >
+            Spray from a distance of about 10 to 15 centimeters onto your skin
+            or clothing for an even and lasting fragrance.
+          </p>
+          <h2 style="margin-bottom: 10px; line-height: 2rem">Packaging:</h2>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            The
+            <strong style="color: rgb(188, 143, 27); font-weight: bold">
+              Royal Megamare Orto Paris Sport Body Spray
+            </strong>
+            is designed with simple yet elegant packaging. The spray bottle is
+            made of durable metal with a modern and sporty design, making it
+            appealing to young and active consumers.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            This spray is crafted in a lightweight and portable size, allowing
+            you to easily carry it in your bag or backpack for convenient use
+            throughout the day.
+          </p>
+
+          <h2>Purchase Method</h2>
+          <p style="font-size: larger; line-height: 1.7rem">
+            The
+            <strong style="color: rgb(188, 143, 27); font-weight: bold">
+              Royal Megamare Orto Paris Sport Body Spray
+            </strong>
+            combines notes of lemon, mint, lavender, and cedarwood to deliver a
+            cool and refreshing fragrance. This spray, with its invigorating
+            opening and long-lasting performance, accompanies you throughout the
+            day, enhancing your sense of freshness and energy.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            Its modern design and stylish packaging make it an excellent choice
+            for men with an active and sporty personality.
+          </p>
+
+          <p id="content">
+            To purchase
+            <strong style="color: rgb(188, 143, 27)">
+              Royal Splendor Black Men's Body Spray
+            </strong>
+            at the best price with fast delivery, visit the **Royal** online
+            store. This product can be your perfect companion for everyday use,
+            parties, and any special occasion where you want to shine and leave
+            a lasting impression.
+          </p>
+        </div>
+
+        <!-- Product Attributes -->
+
+        <div class="product-details"></div>
+        <div class="product-details"></div>
+      </div>
+    </div>
+    <script>
+      const imageContainer = document.getElementById("product-image-container");
+      const image = document.getElementById("product-image");
+
+      // Adjust the transform origin dynamically based on the cursor position
+      imageContainer.addEventListener("mousemove", (e) => {
+        const rect = imageContainer.getBoundingClientRect();
+        const xPercent = ((e.clientX - rect.left) / rect.width) * 100;
+        const yPercent = ((e.clientY - rect.top) / rect.height) * 100;
+        image.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+        image.style.transform = "scale(1.5)";
+      });
+
+      // Reset zoom when the mouse leaves the container
+      imageContainer.addEventListener("mouseleave", () => {
+        image.style.transform = "scale(1)";
+        image.style.transformOrigin = "center center";
+      });
+    </script>
+    <script>
+      // Select all elements that might contain bold syntax (**...**)
+      const contentElements = document.querySelectorAll(
+        "#content, .product-details p"
+      );
+
+      contentElements.forEach((element) => {
+        element.innerHTML = element.innerHTML.replace(
+          /\*\*(.*?)\*\*/g, // Match text between double asterisks
+          '<strong style="color: #333;">$1</strong>' // Replace with styled <strong>
+        );
+      });
+    </script>
+    <div id="footer"></div>
+    <script>
+      fetch("/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

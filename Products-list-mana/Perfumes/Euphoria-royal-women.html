@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Perfume</title>
+    <style>
+      @import url("/Nav.css");
+      @import url("/SlideShow.css");
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      /* Top Navigation Bar */
+
+      /* Product Page Layout */
+      .product-page {
+        display: flex;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 50px auto;
+        gap: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+      }
+
+      /* Product Image Container */
+      /* Product Image Container */
+      .product-image-container {
+        position: sticky;
+        top: 100px;
+        bottom: 50px;
+        transform: translateX(-100px);
+        transform: translateY(0px);
+        margin-left: 0px;
+        align-items: center;
+        flex: 1.2; /* Take up equal space on the left */
+        max-width: 40%;
+        width: 500px; /* Set fixed width */
+        height: 650px; /* Set fixed height */
+        overflow: hidden;
+        border-radius: 5%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .product-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.1s ease;
+      }
+
+      .product-name {
+        flex: 1;
+        padding: 20px;
+      }
+      .product-name p {
+        font-size: large;
+        color: goldenrod;
+        font-weight: bold;
+      }
+
+      /* Product Details */
+      .product-details {
+        flex: 1; /* Take up equal space on the right */
+        padding: 20px;
+      }
+
+      .product-details h1 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h2 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h3 {
+        font-weight: bold;
+        display: inline;
+      }
+      .product-details p {
+        font-size: 2rem;
+      }
+      .product-details strong {
+        color: #6a0dad;
+      }
+      .product-details li {
+        margin-bottom: 10px;
+        transform: translateX(-20px);
+      }
+      .product-details p {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      .product-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(218, 168, 41);
+        margin-bottom: 20px;
+        margin-left: 10px;
+      }
+
+      /* Product Attributes */
+      .product-attributes {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+
+      .product-attributes li {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .product-attributes span {
+        font-weight: bold;
+        color: #6a0dad;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <img
+          src="https://manashamim.ir/wp-content/uploads/2023/11/Mana-Shamim-Golsa-Logo-smal.png"
+          alt="Manashamim Logo"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="/Mana2.html">Home</a></li>
+        <li><a href="/products.html">Products</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Product Page Content -->
+    <div class="slideshow-container">
+      <img
+        class="slider-image active"
+        src="/Product-Photos/ریسایز معرفی عطر جدید2-18.jpg"
+        alt="Business Image 1"
+      />
+    </div>
+    <div class="product-page">
+      <!-- Image with Dynamic Zoom Feature -->
+      <div class="product-image-container" id="product-image-container">
+        <img
+          src="/Product-Photos/ریسایز جدید عطر-04.jpg"
+          alt="Special Perfume Image"
+          id="product-image"
+        />
+      </div>
+      <div class="product-details">
+        <p
+          style="
+            font-size: 36px;
+            font-weight: bold;
+            color: goldenrod;
+            margin-top: 20px;
+          "
+        >
+          Euphoria Royal Eau de Parfum For Women
+        </p>
+        <ul class="product-attributes">
+          <li style="margin-bottom: 15px"><span>Volume:</span> 8 ml</li>
+          <li style="margin-bottom: 15px">
+            <span>Nature:</span> Warm and Moderate
+          </li>
+          <li style="margin-bottom: 15px"><span>Scent:</span> Sweet</li>
+          <li style="margin-bottom: 15px"><span>Longevity:</span> Excellent</li>
+          <li style="margin-bottom: 15px"><span>Diffusion:</span> Excellent</li>
+          <li style="margin-bottom: 10px">
+            <span>Suitable for:</span> Spring and Summer
+          </li>
+        </ul>
+        <p>
+          **Euphoria Royal for Women** is a new and luxurious edition of the
+          famous **Euphoria** collection introduced by **Calvin Klein** in 2024.
+          This perfume, with its unique and sophisticated composition, is an
+          upgraded and modernized version of the **Classic Euphoria**, designed
+          to provide an unparalleled and distinct experience for women seeking a
+          refined and elegant fragrance. **Euphoria Royal for Women**, with its
+          oriental, floral, and fruity notes, enhances your charm and allure. At
+          the same time, its softness and transparency evoke a uniquely
+          delightful and enchanting emotional response.
+        </p>
+        <h1>A breif History</h1>
+        <p>
+          **Euphoria**, as one of the most famous and well-known perfumes by
+          **Calvin Klein**, was first introduced in 2005 and has since become
+          one of the most popular women's fragrances. Over the years, various
+          versions of this perfume have been released, each with its own unique
+          characteristics. **Euphoria Royal for Women** is a newer edition of
+          this collection, offering more luxurious and sophisticated scents.
+        </p>
+        <div class="details-container">
+          <h2>Fragrance Notes</h2>
+          <p>
+            **Euphoria Royal for Women** offers a unique olfactory experience
+            with its complex yet soft and alluring scent. The blend of fruity,
+            floral, and woody notes makes this perfume a popular choice for
+            women seeking a distinctive and special fragrance. The notes of this
+            perfume are composed as follows:
+          </p>
+          <ul>
+            <li>
+              <strong>Top Notes:</strong> Pomegranate, Orange, and Gardenia
+            </li>
+            <li><strong>Middle Notes:</strong> Jasmine, Orchid, and Peony</li>
+            <li>
+              <strong>Base Notes:</strong> Musk, Amber, Sandalwood, and Vanilla
+            </li>
+          </ul>
+        </div>
+
+        <!-- Product Attributes -->
+
+        <div class="product-details">
+          <p>
+            At first, **Euphoria Royal for Women** greets you with a fruity and
+            refreshing aroma of pomegranate and orange, delivering a sense of
+            freshness and positive energy. This blend then transitions into
+            floral notes like jasmine and orchid, which, combined with peony,
+            create a sense of complexity and delicacy. Finally, the base notes
+            of musk, amber, sandalwood, and vanilla give the perfume depth,
+            warmth, and long-lasting power, leaving behind a chic and delightful
+            scent.
+          </p>
+        </div>
+        <div class="product-details">
+          <strong style="font-size: xx-large">Season Suitability</strong>
+          <p>
+            **Euphoria Royal for Women**, with its blend of fruity and floral
+            notes, is particularly suitable for spring and autumn. Its fresh and
+            vibrant scent perfectly conveys a sense of vitality during spring
+            days, while its warm and woody notes provide a pleasant and
+            long-lasting effect in autumn and on cooler evenings. Therefore,
+            this perfume can be an excellent choice for both seasons, especially
+            for formal gatherings or evening meetings where a long-lasting and
+            impactful fragrance is desired.
+          </p>
+        </div>
+        <div class="product-details">
+          <p id="content">
+            To purchase the luxurious and unique perfume **Euphoria Royal for
+            Women** at the best price and with fast delivery, you can visit the
+            **Royal** online store. This perfume can be a stylish and
+            distinctive companion for you in all occasions, from parties to
+            special meetings.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      const imageContainer = document.getElementById("product-image-container");
+      const image = document.getElementById("product-image");
+
+      // Adjust the transform origin dynamically based on the cursor position
+      imageContainer.addEventListener("mousemove", (e) => {
+        const rect = imageContainer.getBoundingClientRect();
+        const xPercent = ((e.clientX - rect.left) / rect.width) * 100;
+        const yPercent = ((e.clientY - rect.top) / rect.height) * 100;
+        image.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+        image.style.transform = "scale(1.5)";
+      });
+
+      // Reset zoom when the mouse leaves the container
+      imageContainer.addEventListener("mouseleave", () => {
+        image.style.transform = "scale(1)";
+        image.style.transformOrigin = "center center";
+      });
+    </script>
+    <script>
+      // Select all elements that might contain bold syntax (**...**)
+      const contentElements = document.querySelectorAll(
+        "#content, .product-details p"
+      );
+
+      contentElements.forEach((element) => {
+        element.innerHTML = element.innerHTML.replace(
+          /\*\*(.*?)\*\*/g, // Match text between double asterisks
+          '<strong style="color: #333;">$1</strong>' // Replace with styled <strong>
+        );
+      });
+    </script>
+    <div id="footer"></div>
+    <script>
+      fetch("/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+    <script src="/SlideShow.js"></script>
+  </body>
+</html>

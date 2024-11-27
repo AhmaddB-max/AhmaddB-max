@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Perfume</title>
+    <style>
+      @import url("/Nav.css");
+      @import url("/SlideShow.css");
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      /* Top Navigation Bar */
+
+      /* Product Page Layout */
+      .product-page {
+        display: flex;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 50px auto;
+        gap: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+      }
+
+      /* Product Image Container */
+      /* Product Image Container */
+      .product-image-container {
+        position: sticky;
+        top: 100px;
+        bottom: 50px;
+        transform: translateX(-100px);
+        transform: translateY(0px);
+        margin-left: 0px;
+        align-items: center;
+        flex: 1.2; /* Take up equal space on the left */
+        max-width: 40%;
+        width: 500px; /* Set fixed width */
+        height: 650px; /* Set fixed height */
+        overflow: hidden;
+        border-radius: 5%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .product-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.1s ease;
+      }
+
+      .product-name {
+        flex: 1;
+        padding: 20px;
+      }
+      .product-name p {
+        font-size: large;
+        color: goldenrod;
+        font-weight: bold;
+      }
+
+      /* Product Details */
+      .product-details {
+        flex: 1; /* Take up equal space on the right */
+        padding: 20px;
+      }
+
+      .product-details h1 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h2 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h3 {
+        font-weight: bold;
+        display: inline;
+      }
+      .product-details p {
+        font-size: 2rem;
+      }
+      .product-details strong {
+        color: #6a0dad;
+      }
+      .product-details li {
+        margin-bottom: 10px;
+        transform: translateX(-20px);
+      }
+      .product-details p {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      .product-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(218, 168, 41);
+        margin-bottom: 20px;
+        margin-left: 10px;
+      }
+
+      /* Product Attributes */
+      .product-attributes {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+
+      .product-attributes li {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .product-attributes span {
+        font-weight: bold;
+        color: #6a0dad;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <img
+          src="https://manashamim.ir/wp-content/uploads/2023/11/Mana-Shamim-Golsa-Logo-smal.png"
+          alt="Manashamim Logo"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="/Mana2.html">Home</a></li>
+        <li><a href="/products.html">Products</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Product Page Content -->
+    <div class="product-page">
+      <!-- Image with Dynamic Zoom Feature -->
+      <div class="product-image-container" id="product-image-container">
+        <img
+          src="https://via.placeholder.com/900x600"
+          alt="Special Perfume Image"
+          id="product-image"
+        />
+      </div>
+      <div class="product-details">
+        <p
+          style="
+            font-size: 36px;
+            font-weight: bold;
+            color: goldenrod;
+            margin-top: 20px;
+          "
+        >
+          Zara Amber Fusion for Women
+        </p>
+        <ul class="product-attributes">
+          <li style="margin-bottom: 15px"><span>Volume:</span> 100 ml</li>
+          <li style="margin-bottom: 15px"><span>Nature:</span> Warm</li>
+          <li style="margin-bottom: 15px"><span>Scent:</span> Sweet</li>
+          <li style="margin-bottom: 15px"><span>Longevity:</span> Excellent</li>
+          <li style="margin-bottom: 15px"><span>Diffusion:</span> Excellent</li>
+          <li style="margin-bottom: 10px">
+            <span>Suitable for:</span> Autumn and Winter
+          </li>
+        </ul>
+        <p id="content">
+          <strong style="color: #333"
+            >Royal's Zara Amber Fusion for Women</strong
+          >
+          is one of the popular and unique perfumes from the **Zara** brand,
+          offering a delightful and complex fragrance for women with its blend
+          of warm, sweet, and woody notes. This perfume falls under the
+          <strong style="color: #333">oriental floral</strong> category and
+          creates a balance between sweet and warm notes, conveying a luxurious
+          and captivating sensation. If you're looking for a fragrance that is
+          long-lasting and impactful throughout the year,
+          <strong style="color: #333">Zara Amber Fusion</strong> is an
+          exceptional choice.
+        </p>
+        <p>
+          <strong style="color: #333">Zara Amber Fusion </strong> has managed to
+          create perfumes with high longevity, a complex fragrance, and
+          versatility for various occasions with its unique combinations.
+        </p>
+
+        <div class="details-container">
+          <h2>Fragrance Notes</h2>
+          <p>
+            The fragrance of
+            <strong style="color: #333">Zara Amber Fusion for Women</strong> is
+            an amazing combination of warm and sweet notes with hints of floral
+            and woody touches. This captivating perfume consists of various
+            layers that convey a sense of luxury and allure throughout the day.
+          </p>
+          <ul style="font-size: larger; line-height: 1.7rem">
+            <li>
+              <strong style="font-weight: bold">Top Notes:</strong> Initially,
+              the scents of
+              <strong style="color: #333">mandarin orange</strong>,
+              <strong style="color: #333">bergamot</strong>, and
+              <strong style="color: #333">marine notes</strong> are detected,
+              giving the fragrance a special freshness and vitality. This
+              citrusy and floral combination creates a bright and refreshing
+              start to the perfume.
+            </li>
+            <li>
+              <strong style="font-weight: bold">Middle Notes:</strong> In the
+              middle, the notes of
+              <strong style="color: #333">red fruits</strong> and
+              <strong style="color: #333">iris</strong> emerge, adding a
+              beautiful and delicate femininity to the fragrance. These floral
+              notes, along with hints of
+              <strong style="color: #333">orange blossom</strong>, bring a
+              complex and refined scent that suits any occasion.
+            </li>
+            <li>
+              <strong style="font-weight: bold">Base Notes:</strong> Finally,
+              <strong style="color: #333">amber</strong> and
+              <strong style="color: #333">woody notes</strong> in the base
+              provide depth and lasting power. These warm and woody notes make
+              <strong style="color: #333">Zara Amber Fusion</strong> a unique
+              and long-lasting fragrance that lingers throughout the day,
+              transferring a sense of luxury to you.
+            </li>
+          </ul>
+          <p>
+            This amazing combination of floral, woody, and warm notes makes
+            <strong style="color: #333">Zara Amber Fusion</strong> a unique
+            fragrance, perfect for women with complex and sophisticated tastes.
+          </p>
+        </div>
+
+        <div class="product-details">
+          <strong style="font-size: xx-large">Best times of consumption</strong>
+          <ul style="font-size: larger; line-height: 1.7rem">
+            <li>
+              <strong style="font-weight: bold">Autumn and Winter:</strong>
+              During these cold seasons, the
+              <strong style="color: #333">amber</strong> and
+              <strong style="color: #333">sandalwood</strong> notes perform
+              best, creating a luxurious and warming sensation in the cold air.
+              This perfume is ideal for cold nights and formal events, and due
+              to its long-lasting nature, it stays throughout the night.
+            </li>
+            <li>
+              <strong style="font-weight: bold">Spring and Summer:</strong>
+              Although this perfume is designed specifically for the colder
+              seasons, it can also be a good choice on mild spring days. In
+              summer, and on very hot days, the sweet and warm notes of this
+              fragrance might feel slightly heavy, so it might be better to use
+              lighter perfumes during extremely hot weather.
+            </li>
+          </ul>
+        </div>
+        <div class="product-details">
+          <strong style="font-size: xx-large">Reasons to buy</strong>
+          <h2 style="color: rgb(188, 143, 27); margin-bottom: 0.5rem">
+            A Complex and Luxurious Scent:
+          </h2>
+          <p style="font-size: larger; line-height: 1.7rem">
+            The warm and sweet blends with floral and woody notes in this
+            perfume provide a luxurious and sophisticated feeling. If you're
+            looking for a fragrance with lasting impact, this perfume is an
+            excellent choice.
+          </p>
+
+          <h2 style="color: rgb(188, 143, 27); margin-bottom: 0.5rem">
+            Long-Lasting Performance:
+          </h2>
+          <p style="font-size: larger; line-height: 1.7rem">
+            One of the standout features of this perfume is its high longevity.
+            The <strong style="color: #333">amber</strong> and
+            <strong style="color: #333">sandalwood</strong> notes ensure the
+            fragrance lasts throughout the day, and even after a few hours, its
+            scent is still noticeable.
+          </p>
+
+          <h2 style="color: rgb(188, 143, 27); margin-bottom: 0.5rem">
+            Perfect for Special Occasions:
+          </h2>
+          <p style="font-size: larger; line-height: 1.7rem">
+            With its luxurious and complex fragrance,
+            <strong style="color: #333">Zara Amber Fusion </strong> is perfect
+            for evening parties, formal events, night gatherings, and special
+            occasions.
+          </p>
+
+          <h2 style="color: rgb(188, 143, 27); margin-bottom: 0.5rem">
+            Affordable Price:
+          </h2>
+          <p style="font-size: larger; line-height: 1.7rem">
+            Unlike other luxury perfumes with similar scents,
+            <strong style="color: #333">Zara Amber Fusion </strong> is available
+            at a more affordable price, so you can enjoy a chic and complex
+            fragrance without having to pay exorbitant prices.
+          </p>
+        </div>
+        <div class="product-details">
+          <h1>Packaging</h1>
+          <p>
+            The packaging of this women's perfume, with its rectangular design,
+            combines modernity with a unique charm of simplicity and elegance.
+            Its precise geometric shape gives it a minimalist yet luxurious
+            appearance, making it suitable for women of various tastes and ages.
+            The simple and unembellished design, accompanied by golden
+            lettering, conveys a sense of grandeur and authenticity. The
+            combination of soft and balanced colors evokes a feeling of
+            tranquility and beauty. Every detail of this packaging has been
+            carefully and elegantly selected to simultaneously create a feeling
+            of sophistication and allure. This packaging not only serves as a
+            delightful gift but also as a decorative element that draws
+            attention in any setting, making it an ideal choice for women who
+            seek beauty and simplicity alongside functionality.
+          </p>
+
+          <h1 id="content">Purchase Method</h1>
+          <p>
+            If you're looking for a fragrance with a warm, complex, and
+            luxurious scent,
+            <strong style="color: #333">Zara Amber Fusion for Women</strong> is
+            an excellent choice for you. To purchase this perfume at an
+            affordable price and with original quality, you can visit the
+            <strong style="color: #333">Royal website</strong>. The Royal
+            website offers authentic products and fast delivery, ensuring a
+            reliable and convenient shopping experience for you.
+          </p>
+
+          <p style="color: #333; font-weight: bold; font-size: 1.4rem">
+            We recommend trying this perfume and enjoying its unique and
+            impactful fragrance.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      const imageContainer = document.getElementById("product-image-container");
+      const image = document.getElementById("product-image");
+
+      // Adjust the transform origin dynamically based on the cursor position
+      imageContainer.addEventListener("mousemove", (e) => {
+        const rect = imageContainer.getBoundingClientRect();
+        const xPercent = ((e.clientX - rect.left) / rect.width) * 100;
+        const yPercent = ((e.clientY - rect.top) / rect.height) * 100;
+        image.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+        image.style.transform = "scale(1.5)";
+      });
+
+      // Reset zoom when the mouse leaves the container
+      imageContainer.addEventListener("mouseleave", () => {
+        image.style.transform = "scale(1)";
+        image.style.transformOrigin = "center center";
+      });
+    </script>
+    <script>
+      // Select all elements that might contain bold syntax (**...**)
+      const contentElements = document.querySelectorAll(
+        "#content, .product-details li, .product-details p"
+      );
+
+      contentElements.forEach((element) => {
+        element.innerHTML = element.innerHTML.replace(
+          /\*\*(.*?)\*\*/g, // Match text between double asterisks
+          '<strong style="color: #333;">$1</strong>' // Replace with styled <strong>
+        );
+      });
+    </script>
+    <div id="footer"></div>
+    <script>
+      fetch("/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

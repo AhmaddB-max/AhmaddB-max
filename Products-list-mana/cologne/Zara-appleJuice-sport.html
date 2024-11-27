@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Perfume</title>
+    <style>
+      @import url("/Nav.css");
+      @import url("/SlideShow.css");
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      /* Top Navigation Bar */
+
+      /* Product Page Layout */
+      .product-page {
+        display: flex;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 50px auto;
+        gap: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+      }
+
+      /* Product Image Container */
+      /* Product Image Container */
+      .product-image-container {
+        position: sticky;
+        top: 100px;
+        bottom: 50px;
+        transform: translateX(-100px);
+        transform: translateY(0px);
+        margin-left: 0px;
+        align-items: center;
+        flex: 1.2; /* Take up equal space on the left */
+        max-width: 40%;
+        width: 500px; /* Set fixed width */
+        height: 650px; /* Set fixed height */
+        overflow: hidden;
+        border-radius: 5%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .product-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.1s ease;
+      }
+
+      .product-name {
+        flex: 1;
+        padding: 20px;
+      }
+      .product-name p {
+        font-size: large;
+        color: goldenrod;
+        font-weight: bold;
+      }
+
+      /* Product Details */
+      .product-details {
+        flex: 1; /* Take up equal space on the right */
+        padding: 20px;
+      }
+
+      .product-details h1 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h2 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h3 {
+        font-weight: bold;
+        display: inline;
+      }
+      .product-details p {
+        font-size: 2rem;
+      }
+      .product-details strong {
+        color: #6a0dad;
+      }
+      .product-details li {
+        margin-bottom: 10px;
+        transform: translateX(-20px);
+      }
+      .product-details p {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      .product-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(218, 168, 41);
+        margin-bottom: 20px;
+        margin-left: 10px;
+      }
+
+      /* Product Attributes */
+      .product-attributes {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+
+      .product-attributes li {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .product-attributes span {
+        font-weight: bold;
+        color: #6a0dad;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <img
+          src="https://manashamim.ir/wp-content/uploads/2023/11/Mana-Shamim-Golsa-Logo-smal.png"
+          alt="Manashamim Logo"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="/Mana2.html">Home</a></li>
+        <li><a href="/products.html">Products</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Product Page Content -->
+    <div class="product-page">
+      <!-- Image with Dynamic Zoom Feature -->
+      <div class="product-image-container" id="product-image-container">
+        <img
+          src="https://via.placeholder.com/900x600"
+          alt="Special Perfume Image"
+          id="product-image"
+        />
+      </div>
+      <div class="product-details">
+        <p
+          style="
+            font-size: 36px;
+            font-weight: bold;
+            color: goldenrod;
+            margin-top: 20px;
+          "
+        >
+          Zara Apple Juice Sport
+        </p>
+        <ul class="product-attributes">
+          <li style="margin-bottom: 15px"><span>Volume:</span> 100 ml</li>
+          <li style="margin-bottom: 15px"><span>Nature:</span>Cool</li>
+          <li style="margin-bottom: 15px">
+            <span>Scent:</span>Spicy and Sweet
+          </li>
+          <li style="margin-bottom: 15px"><span>Longevity:</span> Excellent</li>
+          <li style="margin-bottom: 15px"><span>Diffusion:</span> Excellent</li>
+          <li style="margin-bottom: 10px">
+            <span>Suitable for:</span> Spring and Summer
+          </li>
+        </ul>
+        <p>
+          <strong style="color: #333">Zara Apple Juice Sport </strong> is one of
+          the exciting products from the brand
+          <strong style="color: #333">Zara</strong>, designed for active,
+          energetic men and women who love a sporty lifestyle. This fragrance,
+          with its fresh, vibrant, and fruity scent, is an excellent choice for
+          the warmer months and active days. With a blend of citrus and fruity
+          notes,
+          <strong style="color: #333">Zara Apple Juice Sport</strong> gifts
+          vitality and energy, making it a perfect option for those seeking a
+          green, fresh, and natural fragrance.
+        </p>
+        <p>
+          This fragrance is perfectly suited for active, young personalities, as
+          it gives a sense of freshness and vitality with its fruity and citrus
+          notes. As the name suggests,
+          <strong style="color: #333">Apple Juice Sport</strong> is specifically
+          designed for sports activities and sunny days, making it an ideal
+          choice for athletic men or anyone who enjoys outdoor activities.
+        </p>
+
+        <div class="details-container">
+          <h2>Fragrance Notes</h2>
+          <p>
+            <strong style="color: #333">Zara Apple Juice Sport</strong> with its
+            fruity and citrus notes gives a sense of freshness and vitality to
+            the wearer. This fragrance is designed for warm and active days,
+            with a blend of cool and spicy notes. The fresh top notes, calming
+            middle notes, and smooth, lasting base notes make this fragrance an
+            ideal choice.
+          </p>
+          <ul style="font-size: larger; line-height: 1.7rem">
+            <li>
+              <strong style="font-weight: bold; font-size: larger"
+                >Top Notes:</strong
+              >
+              Green apple, lemon, and bitter orange
+            </li>
+            <li>
+              <strong style="font-weight: bold; font-size: larger"
+                >Middle Notes:</strong
+              >
+              Aquatic flowers, lavender, and mint
+            </li>
+            <li>
+              <strong style="font-weight: bold; font-size: larger"
+                >Base Notes:</strong
+              >
+              White wood and musk
+            </li>
+          </ul>
+          <p>
+            The combination of these notes creates an initially sweet, fruity,
+            and spicy fragrance. As time passes, the fragrance evolves with
+            cooling and herbal notes that give a feeling of freshness and
+            vitality. Finally, the fragrance settles into a smooth woody base,
+            leaving a sense of softness and tranquility.
+          </p>
+        </div>
+
+        <div class="product-details">
+          <strong style="font-size: xx-large">Best times of consumption</strong>
+          <ul style="font-size: larger; line-height: 1.7rem">
+            <li>
+              <strong style="font-weight: bold; font-size: larger"
+                >Spring and Summer:</strong
+              >
+              <strong style="color: #333">Zara Apple Juice Sport</strong> is
+              especially suitable for the warm seasons, such as **spring** and
+              **summer**. The citrus and fruity notes in this fragrance provide
+              a refreshing and energetic feeling, perfect for sunny days and
+              active moments.
+            </li>
+            <li>
+              <strong style="font-weight: bold; font-size: larger"
+                >Outdoor Activities and Fitness:</strong
+              >
+              Due to its light and fresh scent, this fragrance is ideal for
+              outdoor activities, gym sessions, and casual outings. It will keep
+              you feeling fresh and invigorated during physical activities and
+              outdoor adventures.
+            </li>
+            <li>
+              <strong style="font-weight: bold; font-size: larger"
+                >Perfect for Active Days:</strong
+              >
+              <strong style="color: #333">Zara Apple Juice Sport </strong> is
+              the best choice for those looking for a fresh, fruity, and light
+              fragrance for their active and energetic warm days. Its
+              invigorating scent will keep you refreshed and lively throughout
+              the day.
+            </li>
+          </ul>
+        </div>
+
+        <div class="product-details">
+          <h1>Packaging</h1>
+          <p>
+            The packaging of this sporty fragrance features a cubic and simple
+            design, showcasing a combination of simplicity and luxury. The box,
+            in its sturdiness and elegance, conveys a sense of aesthetic beauty
+            and unique appeal. Its cubic design presents a modern and minimalist
+            look, suitable for all tastes. The neutral and subtle color scheme,
+            along with golden lettering, adds a touch of grandeur and class,
+            making it appealing to both men and women. With its simplicity yet
+            distinguished presence, this packaging is perfect for all age groups
+            and evokes a sense of confidence and sophistication in the audience.
+          </p>
+
+          <p>
+            This fragrance is designed for both men and women who are looking
+            for a light and energizing scent for daily use.
+            <strong style="color: #333">Royal's Zara Apple Juice Sport</strong>
+            is an excellent choice for those who enjoy outdoor activities and
+            seek a fragrance that will stay with them throughout the day,
+            leaving a delightful scent behind.
+          </p>
+
+          <h1 id="content">Purchase Method</h1>
+          <p>
+            For online purchase of this fragrance at the best price and a
+            seamless, reliable shopping experience, visit the
+            <strong style="color: #333">Royal</strong> website. On the Royal
+            site, in addition to fast shipping, you can receive this fragrance
+            with a guarantee of authenticity and special discounts.
+          </p>
+          <p>
+            <strong style="color: #333">Royal's Zara Apple Juice Sport</strong>
+            is an excellent choice for men who are looking for a fresh, light
+            fragrance suitable for daily activities and outdoor sports. This
+            fragrance will accompany you throughout the day with a pleasant and
+            energizing scent.
+          </p>
+
+          <p style="color: #333; font-weight: bold; font-size: 1.4rem">
+            We recommend trying this perfume and enjoying its unique and
+            impactful fragrance.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      const imageContainer = document.getElementById("product-image-container");
+      const image = document.getElementById("product-image");
+
+      // Adjust the transform origin dynamically based on the cursor position
+      imageContainer.addEventListener("mousemove", (e) => {
+        const rect = imageContainer.getBoundingClientRect();
+        const xPercent = ((e.clientX - rect.left) / rect.width) * 100;
+        const yPercent = ((e.clientY - rect.top) / rect.height) * 100;
+        image.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+        image.style.transform = "scale(1.5)";
+      });
+
+      // Reset zoom when the mouse leaves the container
+      imageContainer.addEventListener("mouseleave", () => {
+        image.style.transform = "scale(1)";
+        image.style.transformOrigin = "center center";
+      });
+    </script>
+    <script>
+      // Select all elements that might contain bold syntax (**...**)
+      const contentElements = document.querySelectorAll(
+        "#content, .product-details li, .product-details p"
+      );
+
+      contentElements.forEach((element) => {
+        element.innerHTML = element.innerHTML.replace(
+          /\*\*(.*?)\*\*/g, // Match text between double asterisks
+          '<strong style="color: #333;">$1</strong>' // Replace with styled <strong>
+        );
+      });
+    </script>
+    <div id="footer"></div>
+    <script>
+      fetch("/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

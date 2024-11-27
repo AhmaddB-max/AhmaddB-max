@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Perfume</title>
+    <style>
+      @import url("/Nav.css");
+      @import url("/SlideShow.css");
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      /* Top Navigation Bar */
+
+      /* Product Page Layout */
+      .product-page {
+        display: flex;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 50px auto;
+        gap: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+      }
+
+      /* Product Image Container */
+      /* Product Image Container */
+      .product-image-container {
+        position: sticky;
+        top: 100px;
+        bottom: 50px;
+        transform: translateX(-100px);
+        transform: translateY(0px);
+        margin-left: 0px;
+        align-items: center;
+        flex: 1.2; /* Take up equal space on the left */
+        max-width: 40%;
+        width: 500px; /* Set fixed width */
+        height: 650px; /* Set fixed height */
+        overflow: hidden;
+        border-radius: 5%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .product-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.1s ease;
+      }
+
+      .product-name {
+        flex: 1;
+        padding: 20px;
+      }
+      .product-name p {
+        font-size: large;
+        color: goldenrod;
+        font-weight: bold;
+      }
+
+      /* Product Details */
+      .product-details {
+        flex: 1; /* Take up equal space on the right */
+        padding: 20px;
+      }
+
+      .product-details h1 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h2 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h3 {
+        font-weight: bold;
+        display: inline;
+      }
+      .product-details p {
+        font-size: 2rem;
+      }
+      .product-details strong {
+        color: #6a0dad;
+      }
+      .product-details li {
+        margin-bottom: 10px;
+        transform: translateX(-20px);
+      }
+      .product-details p {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      .product-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(218, 168, 41);
+        margin-bottom: 20px;
+        margin-left: 10px;
+      }
+
+      /* Product Attributes */
+      .product-attributes {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+
+      .product-attributes li {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .product-attributes span {
+        font-weight: bold;
+        color: #6a0dad;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <img
+          src="https://manashamim.ir/wp-content/uploads/2023/11/Mana-Shamim-Golsa-Logo-smal.png"
+          alt="Manashamim Logo"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="/Mana2.html">Home</a></li>
+        <li><a href="/products.html">Products</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Product Page Content -->
+    <div class="product-page">
+      <!-- Image with Dynamic Zoom Feature -->
+      <div class="product-image-container" id="product-image-container">
+        <img
+          src="https://via.placeholder.com/900x600"
+          alt="Special Perfume Image"
+          id="product-image"
+        />
+      </div>
+      <div class="product-details">
+        <p
+          style="
+            font-size: 36px;
+            font-weight: bold;
+            color: goldenrod;
+            margin-top: 20px;
+          "
+        >
+          Zara ROSE TEMERAIRE for Women
+        </p>
+        <ul class="product-attributes">
+          <li style="margin-bottom: 15px"><span>Volume:</span> 100 ml</li>
+          <li style="margin-bottom: 15px"><span>Nature:</span> Warm</li>
+          <li style="margin-bottom: 15px"><span>Scent:</span> Sweet</li>
+          <li style="margin-bottom: 15px"><span>Longevity:</span> Excellent</li>
+          <li style="margin-bottom: 15px"><span>Diffusion:</span> Excellent</li>
+          <li style="margin-bottom: 10px">
+            <span>Suitable for:</span> All Seasons
+          </li>
+        </ul>
+        <p>
+          <strong style="color: #333">Royal's Zara ROSE TEMERAIRE</strong> is
+          one of the most popular and unique perfumes from the Zara brand,
+          offering a luxurious and delightful experience with its floral and
+          captivating scent. This perfume, with its unique blend of rose, fruit,
+          and woody notes, embodies freshness, delicacy, and complexity. For
+          those looking for a feminine yet modern and chic fragrance,
+          <strong style="color: #333">Royal's Zara ROSE TEMERAIRE</strong> is an
+          excellent choice.
+        </p>
+        <div class="details-container">
+          <h2>Fragrance Notes</h2>
+          <p>
+            <strong style="color: #333">Royal's Zara ROSE TEMERAIRE</strong> has
+            a floral, sweet, and refreshing scent that makes it perfect for the
+            spring and summer seasons. With the use of rose and fruit notes, it
+            brings a sense of delicacy and freshness, while the woody base notes
+            add depth and longevity to the fragrance.
+          </p>
+
+          <ul style="font-size: larger; line-height: 1.7rem">
+            <li>
+              <strong style="font-weight: bold">Top Notes:</strong> This
+              fragrance starts with a blend of
+              <strong style="color: #333">sandalwood</strong>,
+              <strong style="color: #333">tobacco</strong>,
+              <strong style="color: #333">coffee</strong>, and
+              <strong style="color: #333">patchouli</strong>, bringing a burst
+              of freshness and positive energy. These notes convey a sense of
+              freshness and make the perfume perfect for the warm days of the
+              year.
+            </li>
+            <li>
+              <strong style="font-weight: bold">Middle Notes:</strong> In this
+              stage, the scents of
+              <strong style="color: #333">lily of the valley</strong>,
+              <strong style="color: #333">white jasmine</strong>, and
+              <strong style="color: #333">iris root</strong> come to the
+              forefront, providing a sweet and pleasant fragrance. This floral
+              combination turns the perfume into a soft and feminine sensory
+              experience.
+            </li>
+            <li>
+              <strong style="font-weight: bold">Base Notes:</strong> In the
+              base, a combination of
+              <strong style="color: #333">tonka bean</strong>,
+              <strong style="color: #333">cocoa pod peel</strong>,
+              <strong style="color: #333">vanilla</strong>, and
+              <strong style="color: #333">sandalwood</strong> gives depth and
+              longevity to this perfume. These notes create a sense of warmth
+              and tranquility, ensuring that the fragrance lingers longer on the
+              skin.
+            </li>
+          </ul>
+        </div>
+
+        <div class="product-details">
+          <strong style="font-size: xx-large">Best times of consumption</strong>
+          <ul style="font-size: larger; line-height: 1.7rem">
+            <li>
+              <strong style="font-weight: bold">Spring and Summer:</strong> The
+              fruity and floral notes of this perfume make it an ideal choice
+              for spring and summer days. The freshness and vitality of citrus
+              and rose notes provide energy and refreshment on warm and sunny
+              days.
+            </li>
+            <li>
+              <strong style="font-weight: bold">Autumn and Winter:</strong> With
+              the woody notes in the base, this fragrance can also be suitable
+              for the colder seasons. The sandalwood and musk notes add depth
+              and warmth, making it a great choice for cool and cold days.
+            </li>
+          </ul>
+        </div>
+
+        <div class="product-details">
+          <h1>Packaging</h1>
+          <p>
+            The packaging of this women's perfume, with its rectangular design,
+            combines modernity with a unique charm of simplicity and elegance.
+            Its precise geometric shape gives it a minimalist yet luxurious
+            appearance, making it suitable for women of various tastes and ages.
+            The simple and unembellished design, accompanied by golden
+            lettering, conveys a sense of grandeur and authenticity. The
+            combination of soft and balanced colors evokes a feeling of
+            tranquility and beauty. Every detail of this packaging has been
+            carefully and elegantly selected to simultaneously create a feeling
+            of sophistication and allure. This packaging not only serves as a
+            delightful gift but also as a decorative element that draws
+            attention in any setting, making it an ideal choice for women who
+            seek beauty and simplicity alongside functionality.
+          </p>
+
+          <h1 id="content">Purchase Method</h1>
+          <p>
+            If you are looking for a fragrance with a chic, luxurious, and
+            long-lasting scent,
+            <strong style="color: #333"
+              >Royal's Zara ROSE TEMERAIRE for Women</strong
+            >
+            is an excellent choice for you. To purchase this perfume with
+            original quality and at an affordable price, you can visit
+            <strong style="color: #333">Royal's website</strong>. Royal's
+            website offers authentic products and fast delivery, providing you
+            with a smooth and reliable shopping experience.
+          </p>
+
+          <p style="color: #333; font-weight: bold; font-size: 1.4rem">
+            We recommend trying this perfume and enjoying its unique and
+            impactful fragrance.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      const imageContainer = document.getElementById("product-image-container");
+      const image = document.getElementById("product-image");
+
+      // Adjust the transform origin dynamically based on the cursor position
+      imageContainer.addEventListener("mousemove", (e) => {
+        const rect = imageContainer.getBoundingClientRect();
+        const xPercent = ((e.clientX - rect.left) / rect.width) * 100;
+        const yPercent = ((e.clientY - rect.top) / rect.height) * 100;
+        image.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+        image.style.transform = "scale(1.5)";
+      });
+
+      // Reset zoom when the mouse leaves the container
+      imageContainer.addEventListener("mouseleave", () => {
+        image.style.transform = "scale(1)";
+        image.style.transformOrigin = "center center";
+      });
+    </script>
+    <script>
+      // Select all elements that might contain bold syntax (**...**)
+      const contentElements = document.querySelectorAll(
+        "#content, .product-details li, .product-details p"
+      );
+
+      contentElements.forEach((element) => {
+        element.innerHTML = element.innerHTML.replace(
+          /\*\*(.*?)\*\*/g, // Match text between double asterisks
+          '<strong style="color: #333;">$1</strong>' // Replace with styled <strong>
+        );
+      });
+    </script>
+    <div id="footer"></div>
+    <script>
+      fetch("/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

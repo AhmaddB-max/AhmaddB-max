@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Perfume</title>
+    <style>
+      @import url("/Nav.css");
+      @import url("/SlideShow.css");
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      /* Top Navigation Bar */
+
+      /* Product Page Layout */
+      .product-page {
+        display: flex;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 50px auto;
+        gap: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+      }
+
+      /* Product Image Container */
+      /* Product Image Container */
+      .product-image-container {
+        position: sticky;
+        top: 100px;
+        bottom: 50px;
+        transform: translateX(-100px);
+        transform: translateY(0px);
+        margin-left: 0px;
+        align-items: center;
+        flex: 1.2; /* Take up equal space on the left */
+        max-width: 40%;
+        width: 500px; /* Set fixed width */
+        height: 650px; /* Set fixed height */
+        overflow: hidden;
+        border-radius: 5%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .product-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.1s ease;
+      }
+
+      .product-name {
+        flex: 1;
+        padding: 20px;
+      }
+      .product-name p {
+        font-size: large;
+        color: goldenrod;
+        font-weight: bold;
+      }
+
+      /* Product Details */
+      .product-details {
+        flex: 1; /* Take up equal space on the right */
+        padding: 20px;
+      }
+
+      .product-details h1 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h2 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h3 {
+        font-weight: bold;
+        display: inline;
+      }
+      .product-details p {
+        font-size: 2rem;
+      }
+      .product-details strong {
+        color: #6a0dad;
+      }
+      .product-details li {
+        margin-bottom: 10px;
+        transform: translateX(-20px);
+      }
+      .product-details p {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      .product-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(218, 168, 41);
+        margin-bottom: 20px;
+        margin-left: 10px;
+      }
+
+      /* Product Attributes */
+      .product-attributes {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+
+      .product-attributes li {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .product-attributes span {
+        font-weight: bold;
+        color: #6a0dad;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <img
+          src="https://manashamim.ir/wp-content/uploads/2023/11/Mana-Shamim-Golsa-Logo-smal.png"
+          alt="Manashamim Logo"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="/Mana2.html">Home</a></li>
+        <li><a href="/products.html">Products</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Product Page Content -->
+    <div class="product-page">
+      <!-- Image with Dynamic Zoom Feature -->
+      <div class="product-image-container" id="product-image-container">
+        <img
+          src="https://via.placeholder.com/900x600"
+          alt="Special Perfume Image"
+          id="product-image"
+        />
+      </div>
+      <div class="product-details">
+        <p
+          style="
+            font-size: 36px;
+            font-weight: bold;
+            color: goldenrod;
+            margin-top: 20px;
+          "
+        >
+          Zara Memoire Intense for Women
+        </p>
+        <ul class="product-attributes">
+          <li style="margin-bottom: 15px"><span>Volume:</span> 100 ml</li>
+          <li style="margin-bottom: 15px"><span>Nature:</span> Moderate</li>
+          <li style="margin-bottom: 15px"><span>Scent:</span> Sweet</li>
+          <li style="margin-bottom: 15px"><span>Longevity:</span> Excellent</li>
+          <li style="margin-bottom: 15px"><span>Diffusion:</span> Excellent</li>
+          <li style="margin-bottom: 10px">
+            <span>Suitable for:</span> Autumn and Winter
+          </li>
+        </ul>
+        <p>
+          **Royal's Zara Memoire Intense for Women** is one of the captivating
+          and long-lasting perfumes from the Zara brand, offering a rich and
+          complex fragrance with its warm, woody, and floral notes. This perfume
+          falls under the **woody floral** category and, with its deep and rich
+          notes, is an excellent choice for women seeking a sophisticated and
+          characterful scent.
+        </p>
+
+        <p>
+          **Zara Memoire Intense for Women**, with its luxurious box and elegant
+          bottle design, conveys a sense of grandeur and sophistication from the
+          very first moment. The fragrance represents power, allure, and
+          complexity in a woman's character. Its woody and floral combinations
+          provide a sense of comfort, confidence, and tranquility while leaving
+          a lasting impression.
+        </p>
+        <div class="details-container">
+          <h2>Fragrance Notes</h2>
+          <p>
+            The fragrance of **Royal's Zara Memoire Intense for Women** is a
+            remarkable and powerful blend of woody, floral, and oriental notes
+            that together create a deeply layered and long-lasting perfume. This
+            combination makes it an exceptional choice for bold and confident
+            women.
+          </p>
+          <ul>
+            <li style="line-height: 1.6rem">
+              <strong>Top Notes:</strong> Initially, scents of
+              <strong style="color: #333">pomegranate</strong>,
+              <strong style="color: #333">persimmon</strong>,
+              <strong style="color: #333">green notes</strong>,
+              <strong style="color: #333">peach</strong>,
+              <strong style="color: #333">raspberry</strong>, and
+              <strong style="color: #333">passion fruit</strong> emerge,
+              creating a unique freshness and vitality. These fruity and tangy
+              notes are energizing and captivating, providing an exciting start
+              to the fragrance.
+            </li>
+            <li style="line-height: 1.6rem">
+              <strong>Middle Notes:</strong> After some time, the aromas of
+              <strong style="color: #333">orchid</strong>,
+              <strong style="color: #333">lotus</strong>, and
+              <strong style="color: #333">champaca flower</strong> emerge,
+              giving the perfume a floral, delicate, yet powerful scent. This
+              floral blend, combined with the tanginess and bitterness of the
+              top notes, adds depth and a unique complexity to the fragrance.
+            </li>
+            <li style="line-height: 1.6rem">
+              <strong>Base Notes:</strong> Finally,
+              <strong style="color: #333">amber</strong>,
+              <strong style="color: #333">vanilla</strong>,
+              <strong style="color: #333">violet</strong>,
+              <strong style="color: #333">patchouli</strong>, and
+              <strong style="color: #333">mahogany wood</strong> in the base
+              give the perfume even more depth, evoking warmth, grandeur, and
+              luxury. These woody and oriental notes ensure that
+              <strong style="color: #333"
+                >Royal's Zara Memoire Intense for Women</strong
+              >
+              is a long-lasting and distinctive fragrance that is pleasantly
+              noticeable throughout the day and night.
+            </li>
+          </ul>
+        </div>
+
+        <div class="product-details">
+          <strong style="font-size: xx-large">Best times of consumption</strong>
+          <p>
+            The warm and woody fragrance of
+            <strong style="color: #333">Zara Memoire Intense</strong> makes it
+            perform best during the
+            <strong style="color: #333">autumn</strong> and
+            <strong style="color: #333">winter</strong> seasons. In these colder
+            months, the woody and musk notes, combined with the floral accords,
+            provide a sense of warmth and comfort.
+          </p>
+
+          <ul style="font-size: larger; line-height: 1.7rem">
+            <li>
+              <strong style="font-size: larger">Autumn and Winter:</strong> This
+              perfume, with its woody and oriental blends, is highly suitable
+              for cold days and long nights. During these seasons, its warm and
+              spicy aromas beautifully fill the surroundings, and its
+              long-lasting scent provides a delightful feeling throughout the
+              day.
+            </li>
+            <li>
+              <strong style="font-size: larger">Spring and Summer:</strong>
+              While this perfume performs best during the colder seasons, it can
+              also be suitable for cooler spring nights or days with mild
+              weather. However, in summer, when the temperatures are higher, it
+              might feel a bit heavy. Therefore, its use in hot or humid weather
+              is not highly recommended.
+            </li>
+          </ul>
+        </div>
+        <div class="product-details">
+          <strong style="font-size: xx-large">Reasons to buy</strong>
+          <h2 style="color: rgb(188, 143, 27)">
+            1. A Complex and Luxurious Scent:
+          </h2>
+          <p style="font-size: larger; line-height: 1.7rem">
+            The blend of floral, woody, and oriental notes in this perfume
+            creates a unique and impactful sensory experience. A fragrance that
+            is hard to overlook and inspires
+            <strong style="color: #333">confidence</strong> and
+            <strong style="color: #333">strength</strong> in you.
+          </p>
+
+          <h2 style="color: rgb(188, 143, 27)">2. Long-Lasting Performance:</h2>
+          <p style="font-size: larger; line-height: 1.7rem">
+            One of the standout features of this perfume is its exceptional
+            longevity. The <strong style="color: #333">woody</strong> and
+            <strong style="color: #333">musk</strong> combinations ensure the
+            scent lasts throughout the day and night, providing a lasting
+            feeling of <strong style="color: #333">freshness</strong> and
+            <strong style="color: #333">allure</strong>.
+          </p>
+
+          <h2 style="color: rgb(188, 143, 27)">
+            3. Perfect for Special Occasions:
+          </h2>
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: #333">Zara Memoire Intense for Women</strong>
+            is an excellent choice for evenings, parties, formal events, and
+            special occasions. With its complex and captivating aroma, it helps
+            you leave an
+            <strong style="color: #333">impression</strong> wherever you go.
+          </p>
+
+          <h2 style="color: rgb(188, 143, 27)">
+            4. Affordable Price for High Quality:
+          </h2>
+          <p style="font-size: larger; line-height: 1.7rem">
+            Unlike many similar luxury perfumes,
+            <strong style="color: #333">Zara Memoire Intense for Women</strong>
+            is available at a more affordable price, allowing you to enjoy a
+            <strong style="color: #333">unique</strong> and
+            <strong style="color: #333">high-quality</strong> scent without the
+            need to spend excessively.
+          </p>
+        </div>
+        <div class="product-details">
+          <h1>Packaging</h1>
+          <p>
+            The packaging of this women's perfume, with its rectangular design,
+            showcases a unique blend of modernity, simplicity, and elegance. Its
+            precise geometric shape offers a minimalist yet luxurious
+            appearance, making it suitable for women of all tastes and ages. The
+            simple and unadorned design, accompanied by golden lettering,
+            conveys a sense of grandeur and authenticity. The combination of
+            soft and balanced colors brings a feeling of tranquility and beauty.
+            Every detail of this packaging has been carefully chosen with
+            precision and refinement to simultaneously evoke a sense of
+            sophistication and allure. This packaging not only serves as a
+            delightful gift but also as a decorative element in any setting,
+            making it an ideal choice for women seeking beauty and simplicity
+            alongside practicality.
+          </p>
+
+          <h1 id="content">Purchase Method</h1>
+          <p>
+            If you are looking for a unique, long-lasting, and luxurious
+            fragrance, **Royal's Zara Memoire Intense for Women** will be an
+            excellent choice for you. To purchase this perfume at an affordable
+            price and with original quality, you can visit the
+            <strong style="color: #333">Royal website</strong>. Royal offers
+            authentic products and fast delivery, ensuring a convenient and
+            reliable shopping experience for you.
+          </p>
+          <p style="color: #333; font-weight: bold; font-size: 1.4rem">
+            We recommend trying this perfume and enjoying its unique and
+            impactful fragrance.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      const imageContainer = document.getElementById("product-image-container");
+      const image = document.getElementById("product-image");
+
+      // Adjust the transform origin dynamically based on the cursor position
+      imageContainer.addEventListener("mousemove", (e) => {
+        const rect = imageContainer.getBoundingClientRect();
+        const xPercent = ((e.clientX - rect.left) / rect.width) * 100;
+        const yPercent = ((e.clientY - rect.top) / rect.height) * 100;
+        image.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+        image.style.transform = "scale(1.5)";
+      });
+
+      // Reset zoom when the mouse leaves the container
+      imageContainer.addEventListener("mouseleave", () => {
+        image.style.transform = "scale(1)";
+        image.style.transformOrigin = "center center";
+      });
+    </script>
+    <script>
+      // Select all elements that might contain bold syntax (**...**)
+      const contentElements = document.querySelectorAll(
+        "#content, .product-details li, .product-details p"
+      );
+
+      contentElements.forEach((element) => {
+        element.innerHTML = element.innerHTML.replace(
+          /\*\*(.*?)\*\*/g, // Match text between double asterisks
+          '<strong style="color: #333;">$1</strong>' // Replace with styled <strong>
+        );
+      });
+    </script>
+    <div id="footer"></div>
+    <script>
+      fetch("/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

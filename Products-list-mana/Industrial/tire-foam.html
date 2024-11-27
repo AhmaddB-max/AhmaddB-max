@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Perfume</title>
+    <style>
+      @import url("/Nav.css");
+      @import url("/SlideShow.css");
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      /* Top Navigation Bar */
+
+      /* Product Page Layout */
+      .product-page {
+        display: flex;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 50px auto;
+        gap: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+      }
+
+      /* Product Image Container */
+      /* Product Image Container */
+      .product-image-container {
+        position: sticky;
+        top: 100px;
+        bottom: 50px;
+        transform: translateX(-100px);
+        transform: translateY(0px);
+        margin-left: 0px;
+        align-items: center;
+        flex: 1.2; /* Take up equal space on the left */
+        max-width: 40%;
+        width: 500px; /* Set fixed width */
+        height: 650px; /* Set fixed height */
+        overflow: hidden;
+        border-radius: 5%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .product-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.1s ease;
+      }
+
+      .product-name {
+        flex: 1;
+        padding: 20px;
+      }
+      .product-name p {
+        font-size: large;
+        color: goldenrod;
+        font-weight: bold;
+      }
+
+      /* Product Details */
+      .product-details {
+        flex: 1; /* Take up equal space on the right */
+        padding: 20px;
+      }
+
+      .product-details h1 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h2 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h3 {
+        font-weight: bold;
+        display: inline;
+      }
+      .product-details p {
+        font-size: 2rem;
+      }
+      .product-details strong {
+        color: #6a0dad;
+      }
+      .product-details li {
+        margin-bottom: 10px;
+        transform: translateX(-20px);
+      }
+      .product-details p {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      .product-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(218, 168, 41);
+        margin-bottom: 20px;
+        margin-left: 10px;
+      }
+
+      /* Product Attributes */
+      .product-attributes {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+
+      .product-attributes li {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .product-attributes span {
+        font-weight: bold;
+        color: #6a0dad;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <img
+          src="https://manashamim.ir/wp-content/uploads/2023/11/Mana-Shamim-Golsa-Logo-smal.png"
+          alt="Manashamim Logo"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="/Mana2.html">Home</a></li>
+        <li><a href="/products.html">Products</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Product Page Content -->
+    <div class="product-page">
+      <!-- Image with Dynamic Zoom Feature -->
+      <div class="product-image-container" id="product-image-container">
+        <img
+          src="https://via.placeholder.com/900x600"
+          alt="Special Perfume Image"
+          id="product-image"
+        />
+      </div>
+      <div class="product-details">
+        <p
+          style="
+            font-size: 36px;
+            font-weight: bold;
+            color: goldenrod;
+            margin-top: 20px;
+          "
+        >
+          Royal Tire Foam Spray: The Ideal Solution for Car Tire Maintenance and
+          Shine
+        </p>
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: #333">Royal Tire Foam Spray</strong>
+          is a professional product designed for the
+          <strong style="color: #333"
+            >maintenance, cleaning, and preservation </strong
+          >of your car's tires. This high-quality foam helps you keep your tires
+          in **excellent condition**, giving them a
+          <strong style="color: #333">clean and shiny appearance </strong>.
+          Using this spray not only enhances the **aesthetic appeal** of your
+          tires but also extends their lifespan by protecting them from
+          **cracking**, **damage caused by sunlight**, and harsh weather
+          conditions.
+        </p>
+
+        <h2 style="margin-bottom: 10px; line-height: 2rem">
+          Complete Specifications of Royal Tire Foam Spray:
+        </h2>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Volume:</strong
+          >
+          650 ml
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Type of Spray:</strong
+          >
+          Thick and light foam that spreads easily on the tire surface
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Composition:</strong
+          >
+          A special blend of silicone and protective materials that shields
+          tires from environmental damage
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Shine Property:</strong
+          >
+          Creates a glossy protective layer, enhancing the shine and beauty of
+          the tires
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Weather Resistance:</strong
+          >
+          Protects tires against UV rays, dust, rain, and temperature changes
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Tire Longevity:</strong
+          >
+          Prevents cracking and drying of tire rubber, contributing to an
+          extended tire lifespan
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Ease of Use:</strong
+          >
+          Simple and convenient spray design that requires no special skills and
+          spreads effortlessly over the tire surface
+        </p>
+
+        <h2 style="margin-bottom: 10px; line-height: 2rem">
+          Key Features of Royal Tire Foam Spray:
+        </h2>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Long-lasting Shine:</strong
+          >
+          After applying Royal Tire Foam Spray, your tires immediately gain a
+          clean and shiny appearance that lasts for an extended period.
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Suitable for All Types of Tires:</strong
+          >
+          This foam is ideal for all types of tires, including passenger cars,
+          SUVs, off-road vehicles, and even motorcycles.
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Preserves Tire Color and Quality:</strong
+          >
+          Prevents dryness, cracking, and fading of tires while maintaining
+          their original color.
+        </p>
+
+        <div class="details-container">
+          <h2 style="margin-bottom: 10px; line-height: 2rem">
+            Uses of Royal Tire Foam Spray:
+          </h2>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Cleaning Tires:</strong
+            >
+            With Royal Tire Foam Spray, you can quickly clean your tires from
+            dust, mud, and stains.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Shining Tires:</strong
+            >
+            The Royal Foam Spray adds a shiny finish to your car's tires,
+            enhancing their appearance.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Protecting Tires:</strong
+            >
+            Creates a protective layer that safeguards tires from various
+            weather conditions, sunlight, moisture, and temperature changes.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Extending Tire Life:</strong
+            >
+            Prevents cracking and drying of the rubber, increasing the tire's
+            lifespan.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Easy Maintenance:</strong
+            >
+            Keeps your car's tires in a consistently clean and shiny condition
+            with minimal effort.
+          </p>
+        </div>
+
+        <!-- Product Attributes -->
+
+        <div class="details-container">
+          <h2 style="margin-bottom: 10px; line-height: 2rem">
+            Why Choose Royal Tire Foam Spray?
+          </h2>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Superior Quality:</strong
+            >
+            Royal Tire Foam Spray is made using high-quality materials and
+            advanced technology.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Long-lasting Protection:</strong
+            >
+            This spray ensures that your tires are protected under various
+            conditions, including sunlight, rain, and extreme temperatures.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Ease of Use:</strong
+            >
+            Designed for effortless application, Royal Tire Foam Spray can be
+            sprayed onto the tire surface without requiring any special tools.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Cost-effective:</strong
+            >
+            With its excellent performance and reasonable price, Royal Tire Foam
+            Spray is an economical choice for maintaining your car's tires.
+          </p>
+
+          <h2>Purchase Method</h2>
+          <p style="font-size: larger; line-height: 1.7rem">
+            If you want to keep your car tires always clean, shiny, and
+            protected,
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Royal Tire Foam Spray</strong
+            >
+            is the right choice for you. With this product, you can easily
+            maintain your car tires in the best condition and enjoy their
+            appearance.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      const imageContainer = document.getElementById("product-image-container");
+      const image = document.getElementById("product-image");
+
+      // Adjust the transform origin dynamically based on the cursor position
+      imageContainer.addEventListener("mousemove", (e) => {
+        const rect = imageContainer.getBoundingClientRect();
+        const xPercent = ((e.clientX - rect.left) / rect.width) * 100;
+        const yPercent = ((e.clientY - rect.top) / rect.height) * 100;
+        image.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+        image.style.transform = "scale(1.5)";
+      });
+
+      // Reset zoom when the mouse leaves the container
+      imageContainer.addEventListener("mouseleave", () => {
+        image.style.transform = "scale(1)";
+        image.style.transformOrigin = "center center";
+      });
+    </script>
+    <script>
+      // Select all elements that might contain bold syntax (**...**)
+      const contentElements = document.querySelectorAll(
+        "#content, .product-details p"
+      );
+
+      contentElements.forEach((element) => {
+        element.innerHTML = element.innerHTML.replace(
+          /\*\*(.*?)\*\*/g, // Match text between double asterisks
+          '<strong style="color: #333;">$1</strong>' // Replace with styled <strong>
+        );
+      });
+    </script>
+    <div id="footer"></div>
+    <script>
+      fetch("/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

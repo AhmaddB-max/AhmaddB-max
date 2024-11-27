@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Perfume</title>
+    <style>
+      @import url("/Nav.css");
+      @import url("/SlideShow.css");
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      /* Top Navigation Bar */
+
+      /* Product Page Layout */
+      .product-page {
+        display: flex;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 50px auto;
+        gap: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+      }
+
+      /* Product Image Container */
+      /* Product Image Container */
+      .product-image-container {
+        position: sticky;
+        top: 100px;
+        bottom: 50px;
+        transform: translateX(-100px);
+        transform: translateY(0px);
+        margin-left: 0px;
+        align-items: center;
+        flex: 1.2; /* Take up equal space on the left */
+        max-width: 40%;
+        width: 500px; /* Set fixed width */
+        height: 650px; /* Set fixed height */
+        overflow: hidden;
+        border-radius: 5%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .product-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.1s ease;
+      }
+
+      .product-name {
+        flex: 1;
+        padding: 20px;
+      }
+      .product-name p {
+        font-size: large;
+        color: goldenrod;
+        font-weight: bold;
+      }
+
+      /* Product Details */
+      .product-details {
+        flex: 1; /* Take up equal space on the right */
+        padding: 20px;
+      }
+
+      .product-details h1 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h2 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h3 {
+        font-weight: bold;
+        display: inline;
+      }
+      .product-details p {
+        font-size: 2rem;
+      }
+      .product-details strong {
+        color: #6a0dad;
+      }
+      .product-details li {
+        margin-bottom: 10px;
+        transform: translateX(-20px);
+      }
+      .product-details p {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      .product-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(218, 168, 41);
+        margin-bottom: 20px;
+        margin-left: 10px;
+      }
+
+      /* Product Attributes */
+      .product-attributes {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+
+      .product-attributes li {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .product-attributes span {
+        font-weight: bold;
+        color: #6a0dad;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <img
+          src="https://manashamim.ir/wp-content/uploads/2023/11/Mana-Shamim-Golsa-Logo-smal.png"
+          alt="Manashamim Logo"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="/Mana2.html">Home</a></li>
+        <li><a href="/products.html">Products</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Product Page Content -->
+    <div class="product-page">
+      <!-- Image with Dynamic Zoom Feature -->
+      <div class="product-image-container" id="product-image-container">
+        <img
+          src="https://via.placeholder.com/900x600"
+          alt="Special Perfume Image"
+          id="product-image"
+        />
+      </div>
+      <div class="product-details">
+        <p
+          style="
+            font-size: 36px;
+            font-weight: bold;
+            color: goldenrod;
+            margin-top: 20px;
+          "
+        >
+          Royal Chanel Chance Air Freshener
+        </p>
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Volume:</strong
+          >
+          250 ml
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Fragrance Nature:</strong
+          >
+          Warm
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Fragrance Tone:</strong
+          >
+          Citrusy
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Longevity:</strong
+          >
+          Excellent
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Sillage:</strong
+          >
+          Excellent
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Suitable for:</strong
+          >
+          Spring and Summer
+        </p>
+
+        <h1>A breif History</h1>
+        <p style="font-size: larger; line-height: 1.7rem">
+          The
+          <strong style="color: rgb(188, 143, 27); font-weight: bold">
+            Royal Air Freshener with Chanel Chance Scent
+          </strong>
+          is an excellent choice for those seeking a delightful, elegant, and
+          unique ambiance. Inspired by the classic and popular
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Chanel Chance</strong
+          >, this spray embodies a luxurious and modern feminine fragrance with
+          a complex and captivating aroma. It creates a sweet, gentle, yet
+          invigorating environment that fills any space with freshness and
+          vitality.
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          The
+          <strong style="color: rgb(188, 143, 27); font-weight: bold">
+            Royal Air Freshener with Chanel Chance Scent
+          </strong>
+          is part of the high-quality product line from
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Royal</strong
+          >, inspired by the globally renowned and beloved fragrance
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Chanel Chance</strong
+          >. As one of the most popular and iconic feminine perfumes, Chanel
+          Chance delights with its sophisticated and diverse scent. This air
+          freshener, capturing the remarkable qualities of Chanel Chance,
+          creates a luxurious, vibrant, and pleasant atmosphere in your
+          surroundings.
+        </p>
+
+        <div class="details-container">
+          <h1 style="margin-bottom: 10px; line-height: 2rem">
+            Fragrance Notes:
+          </h1>
+          <p style="font-size: larger; line-height: 1.7rem">
+            The
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Chanel Chance's</strong
+            >
+            scent in this spray features a harmonious blend of floral and citrus
+            notes, creating a unique and captivating aroma.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Top Notes:</strong
+            >
+            Lemon, Orange. These notes bring a burst of freshness and energy,
+            creating a lively and vibrant atmosphere.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Heart Notes:</strong
+            >
+            Jasmine, Peony, Iris. These floral notes add a soft and feminine
+            charm, filling the space with a gentle and alluring fragrance.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Base Notes:</strong
+            >
+            Sandalwood, Musk, Vanilla. These warm and enduring notes provide
+            depth and complexity, leaving a lasting and sophisticated
+            impression.
+          </p>
+
+          <h1 style="margin-bottom: 10px; line-height: 2rem">
+            Seasonal Suitability:
+          </h1>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            The
+            <strong style="color: rgb(188, 143, 27); font-weight: bold">
+              Royal Air Freshener with Chanel Chance Scent
+            </strong>
+            is best suited for
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >spring and summer</strong
+            >
+            due to its citrusy and floral composition. This fragrance, with its
+            vibrant and refreshing aroma, fills the space with a sense of
+            vitality and energy, making it an ideal choice for warm days.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            Particularly effective in enclosed spaces and on bright sunny days,
+            this spray creates a delightful atmosphere infused with positive
+            energy and freshness, ensuring a pleasant and invigorating
+            experience.
+          </p>
+
+          <h1 style="margin-bottom: 10px; line-height: 2rem">
+            Packaging Description:
+          </h1>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            The packaging of the
+            <strong style="color: rgb(188, 143, 27); font-weight: bold">
+              Royal Air Freshener with Chanel Chance Scent
+            </strong>
+            is designed in a
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >pink hue</strong
+            >, symbolizing softness, beauty, and femininity. This attractive and
+            delightful color harmonizes seamlessly with various decor styles and
+            is easy to use in any setting.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            The minimalistic and elegant design of this spray makes it a stylish
+            and modern choice, adding a touch of sophistication and charm to
+            your space.
+          </p>
+
+          <h1 style="margin-bottom: 10px; line-height: 2rem">
+            Recommended Usage:
+          </h1>
+
+          <h2 style="margin-bottom: 10px; line-height: 2rem">
+            Recommended Usage:
+          </h2>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            The
+            <strong style="color: rgb(188, 143, 27); font-weight: bold">
+              Royal Air Freshener with Chanel Chance Scent
+            </strong>
+            is ideal for spaces that need a refreshing, delightful, and feminine
+            ambiance. Its floral and citrusy blend makes it suitable for:
+          </p>
+
+          <ul
+            style="
+              font-size: larger;
+              line-height: 1.7rem;
+              padding-left: 20px;
+              list-style: disc;
+            "
+          >
+            <li>
+              <strong style="color: rgb(188, 143, 27); font-weight: bold">
+                Living rooms and reception areas:
+              </strong>
+              To freshen up the space and create a lively and welcoming
+              atmosphere for guests.
+            </li>
+            <li>
+              <strong style="color: rgb(188, 143, 27); font-weight: bold"
+                >Bedrooms:</strong
+              >
+              To create a soothing and pleasant environment that promotes
+              restful sleep and relaxation.
+            </li>
+            <li>
+              <strong style="color: rgb(188, 143, 27); font-weight: bold"
+                >Work offices:</strong
+              >
+              To bring a sense of freshness and energy, fostering a positive and
+              vibrant workplace atmosphere.
+            </li>
+            <li>
+              <strong style="color: rgb(188, 143, 27); font-weight: bold">
+                Waiting areas and hotels:
+              </strong>
+              To scent public spaces and provide a unique and delightful
+              experience for guests.
+            </li>
+            <li>
+              <strong style="color: rgb(188, 143, 27); font-weight: bold"
+                >Cars:</strong
+              >
+              To refresh the car’s interior and create an enjoyable and
+              invigorating driving experience.
+            </li>
+          </ul>
+
+          <h1>Purchase Method</h1>
+          <p style="font-size: larger; line-height: 1.7rem">
+            If you are looking for an air freshener with an elegant, gentle, and
+            delightful fragrance, the
+            <strong style="color: rgb(188, 143, 27); font-weight: bold">
+              Royal Air Freshener with Chanel Chance Scent
+            </strong>
+            is an excellent choice for you. With its floral and citrusy aroma,
+            this spray creates a unique, fragrant, and pleasant atmosphere in
+            your space.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            To purchase the
+            <strong style="color: rgb(188, 143, 27); font-weight: bold">
+              Royal Air Freshener with Chanel Chance Scent
+            </strong>
+            at the best price with fast delivery, visit the
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Royal</strong
+            >
+            online store and add this exceptional spray to your cart today.
+          </p>
+        </div>
+
+        <!-- Product Attributes -->
+
+        <div class="product-details"></div>
+        <div class="product-details"></div>
+      </div>
+    </div>
+    <script>
+      const imageContainer = document.getElementById("product-image-container");
+      const image = document.getElementById("product-image");
+
+      // Adjust the transform origin dynamically based on the cursor position
+      imageContainer.addEventListener("mousemove", (e) => {
+        const rect = imageContainer.getBoundingClientRect();
+        const xPercent = ((e.clientX - rect.left) / rect.width) * 100;
+        const yPercent = ((e.clientY - rect.top) / rect.height) * 100;
+        image.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+        image.style.transform = "scale(1.5)";
+      });
+
+      // Reset zoom when the mouse leaves the container
+      imageContainer.addEventListener("mouseleave", () => {
+        image.style.transform = "scale(1)";
+        image.style.transformOrigin = "center center";
+      });
+    </script>
+    <script>
+      // Select all elements that might contain bold syntax (**...**)
+      const contentElements = document.querySelectorAll(
+        "#content, .product-details p"
+      );
+
+      contentElements.forEach((element) => {
+        element.innerHTML = element.innerHTML.replace(
+          /\*\*(.*?)\*\*/g, // Match text between double asterisks
+          '<strong style="color: #333;">$1</strong>' // Replace with styled <strong>
+        );
+      });
+    </script>
+    <div id="footer"></div>
+    <script>
+      fetch("/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

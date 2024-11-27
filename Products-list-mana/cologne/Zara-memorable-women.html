@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Perfume</title>
+    <style>
+      @import url("/Nav.css");
+      @import url("/SlideShow.css");
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      /* Top Navigation Bar */
+
+      /* Product Page Layout */
+      .product-page {
+        display: flex;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 50px auto;
+        gap: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+      }
+
+      /* Product Image Container */
+      /* Product Image Container */
+      .product-image-container {
+        position: sticky;
+        top: 100px;
+        bottom: 50px;
+        transform: translateX(-100px);
+        transform: translateY(0px);
+        margin-left: 0px;
+        align-items: center;
+        flex: 1.2; /* Take up equal space on the left */
+        max-width: 40%;
+        width: 500px; /* Set fixed width */
+        height: 650px; /* Set fixed height */
+        overflow: hidden;
+        border-radius: 5%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .product-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.1s ease;
+      }
+
+      .product-name {
+        flex: 1;
+        padding: 20px;
+      }
+      .product-name p {
+        font-size: large;
+        color: goldenrod;
+        font-weight: bold;
+      }
+
+      /* Product Details */
+      .product-details {
+        flex: 1; /* Take up equal space on the right */
+        padding: 20px;
+      }
+
+      .product-details h1 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h2 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h3 {
+        font-weight: bold;
+        display: inline;
+      }
+      .product-details p {
+        font-size: 2rem;
+      }
+      .product-details strong {
+        color: #6a0dad;
+      }
+      .product-details li {
+        margin-bottom: 10px;
+        transform: translateX(-20px);
+      }
+      .product-details p {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      .product-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(218, 168, 41);
+        margin-bottom: 20px;
+        margin-left: 10px;
+      }
+
+      /* Product Attributes */
+      .product-attributes {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+
+      .product-attributes li {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .product-attributes span {
+        font-weight: bold;
+        color: #6a0dad;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <img
+          src="https://manashamim.ir/wp-content/uploads/2023/11/Mana-Shamim-Golsa-Logo-smal.png"
+          alt="Manashamim Logo"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="/Mana2.html">Home</a></li>
+        <li><a href="/products.html">Products</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Product Page Content -->
+    <div class="product-page">
+      <!-- Image with Dynamic Zoom Feature -->
+      <div class="product-image-container" id="product-image-container">
+        <img
+          src="https://via.placeholder.com/900x600"
+          alt="Special Perfume Image"
+          id="product-image"
+        />
+      </div>
+      <div class="product-details">
+        <p
+          style="
+            font-size: 36px;
+            font-weight: bold;
+            color: goldenrod;
+            margin-top: 20px;
+          "
+        >
+          Zara Memorable Aura for Women
+        </p>
+        <ul class="product-attributes">
+          <li style="margin-bottom: 15px"><span>Volume:</span> 100 ml</li>
+          <li style="margin-bottom: 15px"><span>Nature:</span> Cool</li>
+          <li style="margin-bottom: 15px"><span>Scent:</span> Sweet</li>
+          <li style="margin-bottom: 15px"><span>Longevity:</span> Excellent</li>
+          <li style="margin-bottom: 15px"><span>Diffusion:</span> Excellent</li>
+          <li style="margin-bottom: 10px">
+            <span>Suitable for:</span> Spring and Summer
+          </li>
+        </ul>
+        <p>
+          <strong style="color: #333; font-weight: bold"
+            >Royal's Zara Memorable Aura for Women</strong
+          >
+          is one of the unique and captivating perfumes from the Zara brand,
+          quickly gaining popularity for its mild, fresh, yet complex scent.
+          With its exceptional blend of floral and fruity notes, it is an ideal
+          choice for women seeking a fragrance that is gentle yet long-lasting.
+          <strong style="color: #333; font-weight: bold"
+            >Royal's Zara Memorable Aura for Women</strong
+          >
+          falls under the <em>floral-fruity</em> category and offers a lively
+          and refreshing aroma, making it a versatile companion for any occasion
+          and season.
+        </p>
+
+        <p>
+          **Zara Red Temptation Woman**, with its elegant and stylish bottle
+          design, captures attention effortlessly. The scent blends sweet and
+          subtle notes of white flowers, fruits, and woods, resulting in a warm
+          and delightful fragrance. This perfume, exuding a sense of warmth and
+          allure, can easily become one of your top choices for special days.
+        </p>
+        <div class="details-container">
+          <h2>Fragrance Notes</h2>
+          <p>
+            The fragrance of
+            <strong style="color: #333; font-weight: bold"
+              >Zara Memorable Aura for Women Royal</strong
+            >
+            is a blend of floral and fruity notes that convey a sense of
+            freshness and vitality. This perfume, with its gentle and feminine
+            combinations, creates a long-lasting and pleasant aroma that can
+            effortlessly accompany you throughout the day.
+          </p>
+          <ul>
+            <li>
+              <strong style="font-weight: bold">Top Notes:</strong> Initially,
+              the scents of <strong style="color: #333">bergamot</strong> and
+              <strong style="color: #333">grapefruit</strong> emerge, offering a
+              unique freshness and vitality. These fruity notes are particularly
+              refreshing and energizing, creating a bright and pleasant start to
+              the fragrance.
+            </li>
+            <li>
+              <strong style="font-weight: bold">Middle Notes:</strong> After a
+              while, the aromas of <strong style="color: #333">jasmine</strong>,
+              <strong style="color: #333">rose</strong>, and
+              <strong style="color: #333">hyacinth</strong> take center stage,
+              adding a floral and delicate quality to the perfume. This floral
+              blend, combined with the fruity top notes, creates a complex and
+              feminine composition that balances freshness with a unique
+              elegance.
+            </li>
+            <li>
+              <strong style="font-weight: bold">Base Notes:</strong> Finally,
+              <strong style="color: #333">sandalwood</strong> and
+              <strong style="color: #333">musk</strong> in the base provide the
+              perfume with depth and lasting power. These woody and earthy notes
+              add richness and complexity to the fragrance, ensuring it remains
+              throughout the day.
+            </li>
+          </ul>
+        </div>
+
+        <div class="product-details">
+          <strong style="font-size: xx-large">Best times of consumption</strong>
+          <p>
+            <strong style="color: #333">Zara Memorable Aura for Women</strong>,
+            with its mild, floral, and fruity scent, is suitable for use in all
+            seasons. The fresh and vibrant combinations of this perfume make it
+            ideal for spring and summer days. At the same time, its delicate
+            floral notes ensure it is also a great choice for autumn and winter.
+          </p>
+
+          <ul>
+            <li style="font-size: larger; line-height: 1.7rem">
+              <strong style="font-size: larger">Spring and Summer:</strong> During these seasons, the fruity and floral notes especially convey a sense of freshness and vitality in warm weather. This perfume is particularly suitable for daily use on cooler spring and summer days.
+            </p>
+            </li>
+            <li style="font-size: larger; line-height: 1.7rem">
+              <strong style="font-size: larger">Autumn and Winter:</strong>
+              This perfume is also perfect for cooler and milder days in autumn and winter. The woody and musk base notes add depth and longevity, making it an ideal choice for cold evenings.
+            </li>
+            
+          </ul>
+        </div>
+        <div class="product-details">
+          <strong style="font-size: xx-large">Reasons to buy</strong>
+          <h2 style="color: rgb(188, 143, 27);">1. A Fresh and Gentle Fragrance:</h2>
+          <p>
+              This perfume, with its blend of fruity and floral notes, conveys a sense of freshness, vitality, and delicacy. A fragrance that is ideal for daily use and various occasions.
+          </p>
+          
+          <h2 style="color: rgb(188, 143, 27);">2. Long-Lasting Performance:</h2>
+          <p>
+              One of the standout features of this perfume is its long-lasting nature. The woody and musk notes ensure that the fragrance lingers throughout the day, and even after hours, its aroma remains noticeable.
+          </p>
+          
+          </p>
+          <h2 style="color: rgb(188, 143, 27);">3. Suitable for All Seasons:</h2>
+<p>
+    With its fresh and floral blends, this perfume can be used in all seasons. Whether during the warm summer days or the cold autumn and winter months, 
+    <strong style="color: #333;">Zara Memorable Aura for Women</strong> is an excellent choice.
+</p>
+
+<h2 style="color: rgb(188, 143, 27);">4. Affordable Price:</h2>
+<p>
+    Unlike many similar floral and fruity perfumes on the market, 
+    <strong style="color: #333;">Zara Memorable Aura for Women</strong> is available at a more affordable price, allowing you to enjoy a unique and high-quality fragrance.
+</p>
+
+        </div>
+        <div class="product-details">
+          <h1>Packaging</h1>
+          <p>
+            The packaging of this women's perfume, with its rectangular design, showcases a unique charm of simplicity and elegance while maintaining a modern touch. Its precise geometric form creates a minimalist yet luxurious appearance, suitable for women of all tastes and ages. The simple and unembellished design, accompanied by golden lettering, conveys a sense of grandeur and authenticity.
+          </p>
+          <p>
+            The combination of soft and balanced colors evokes a feeling of tranquility and beauty. Every detail of this packaging has been carefully and thoughtfully chosen to simultaneously reflect sophistication and allure. This packaging not only serves as a delightful gift but also stands out as a decorative element in any setting, making it an ideal choice for women who value beauty, simplicity, and practicality.
+          </p>
+          <h1 id="content">Purchase Method</h1>
+          <p>
+            If you're looking for a perfume with a fresh, gentle, and long-lasting scent, **Royla's Zara Memorable Aura for Women** will be an excellent choice for you. To purchase this perfume at an affordable price and with original quality, you can visit the **Royal website**. Royal offers authentic products and fast delivery, ensuring a convenient and reliable shopping experience for you.
+          </p>
+          <p style="color: #333; font-weight: bold; font-size: 1.4rem">
+            We recommend trying this perfume and enjoying its unique and
+            impactful fragrance.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      const imageContainer = document.getElementById("product-image-container");
+      const image = document.getElementById("product-image");
+
+      // Adjust the transform origin dynamically based on the cursor position
+      imageContainer.addEventListener("mousemove", (e) => {
+        const rect = imageContainer.getBoundingClientRect();
+        const xPercent = ((e.clientX - rect.left) / rect.width) * 100;
+        const yPercent = ((e.clientY - rect.top) / rect.height) * 100;
+        image.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+        image.style.transform = "scale(1.5)";
+      });
+
+      // Reset zoom when the mouse leaves the container
+      imageContainer.addEventListener("mouseleave", () => {
+        image.style.transform = "scale(1)";
+        image.style.transformOrigin = "center center";
+      });
+    </script>
+    <script>
+      // Select all elements that might contain bold syntax (**...**)
+      const contentElements = document.querySelectorAll(
+        "#content, .product-details li, .product-details p"
+      );
+
+      contentElements.forEach((element) => {
+        element.innerHTML = element.innerHTML.replace(
+          /\*\*(.*?)\*\*/g, // Match text between double asterisks
+          '<strong style="color: #333;">$1</strong>' // Replace with styled <strong>
+        );
+      });
+    </script>
+    <div id="footer"></div>
+    <script>
+      fetch("/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Perfume</title>
+    <style>
+      @import url("/Nav.css");
+      @import url("/SlideShow.css");
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      /* Top Navigation Bar */
+
+      /* Product Page Layout */
+      .product-page {
+        display: flex;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 50px auto;
+        gap: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+      }
+
+      /* Product Image Container */
+      /* Product Image Container */
+      .product-image-container {
+        position: sticky;
+        top: 100px;
+        bottom: 50px;
+        transform: translateX(-100px);
+        transform: translateY(0px);
+        margin-left: 0px;
+        align-items: center;
+        flex: 1.2; /* Take up equal space on the left */
+        max-width: 40%;
+        width: 500px; /* Set fixed width */
+        height: 650px; /* Set fixed height */
+        overflow: hidden;
+        border-radius: 5%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .product-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.1s ease;
+      }
+
+      .product-name {
+        flex: 1;
+        padding: 20px;
+      }
+      .product-name p {
+        font-size: large;
+        color: goldenrod;
+        font-weight: bold;
+      }
+
+      /* Product Details */
+      .product-details {
+        flex: 1; /* Take up equal space on the right */
+        padding: 20px;
+      }
+
+      .product-details h1 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h2 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h3 {
+        font-weight: bold;
+        display: inline;
+      }
+      .product-details p {
+        font-size: 2rem;
+      }
+      .product-details strong {
+        color: #6a0dad;
+      }
+      .product-details li {
+        margin-bottom: 10px;
+        transform: translateX(-20px);
+      }
+      .product-details p {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      .product-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(218, 168, 41);
+        margin-bottom: 20px;
+        margin-left: 10px;
+      }
+
+      /* Product Attributes */
+      .product-attributes {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+
+      .product-attributes li {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .product-attributes span {
+        font-weight: bold;
+        color: #6a0dad;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <img
+          src="https://manashamim.ir/wp-content/uploads/2023/11/Mana-Shamim-Golsa-Logo-smal.png"
+          alt="Manashamim Logo"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="/Mana2.html">Home</a></li>
+        <li><a href="/products.html">Products</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Product Page Content -->
+    <div class="product-page">
+      <!-- Image with Dynamic Zoom Feature -->
+      <div class="product-image-container" id="product-image-container">
+        <img
+          src="https://via.placeholder.com/900x600"
+          alt="Special Perfume Image"
+          id="product-image"
+        />
+      </div>
+      <div class="product-details">
+        <p
+          style="
+            font-size: 36px;
+            font-weight: bold;
+            color: goldenrod;
+            margin-top: 20px;
+          "
+        >
+          Royal Lighter Gas Spray
+        </p>
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: #333">Royal Lighter Gas Spray</strong>
+          is an ideal choice for those looking for high-quality and efficient
+          gas for their lighters. This product is specially designed for
+          individuals who need a quick and easy replacement of their lighter
+          gas, providing excellent performance in igniting lighters and other
+          similar tools.
+        </p>
+
+        <h2 style="margin-bottom: 10px; line-height: 2rem">
+          Complete Specifications of Royal Camping Gas Spray:
+        </h2>
+        <p></p>
+        <p style="font-size: larger; line-height: 1rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Gas Type:</strong
+          >
+          Pure butane gas
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Volume:</strong
+          >
+          300 ml
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Suitable For:</strong
+          >
+          Regular lighters, torch lighters, stand lighters, and other similar
+          equipment
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >How to use:</strong
+          >
+          Easily rechargeable for lighters and gas-powered devices. Simply
+          connect the spray nozzle to the lighter's valve and fill it with gas
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >High Safety:</strong
+          >
+          he gas used in Royal Lighter Gas Spray is a high-quality blend that
+          burns completely inside the lighter, preventing potential risks of
+          combustion
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >continuous Performance:</strong
+          >
+          Royal Lighter Gas ensures the lighter operates without any
+          interruptions, providing consistent performance
+        </p>
+
+        <h2>Key Features of Royal Lighter Gas Spray:</h2>
+
+        <p style="font-size: larger; line-height: 2rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >High Quality and Efficiency:</strong
+          >
+          This gas is highly compatible with various lighters and similar
+          devices, ensuring quick and trouble-free ignition.
+        </p>
+
+        <p style="font-size: larger; line-height: 2rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Compact and Convenient Design:</strong
+          >
+          The packaging of Royal Lighter Gas Spray is specifically designed for
+          easy transport and quick usage.
+        </p>
+
+        <p style="font-size: larger; line-height: 2rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Pure and Contaminant-Free Gas:</strong
+          >
+          The Royal Lighter Gas Spray is made from pure butane gas without any
+          impurities, which helps extend the lifespan of your lighter.
+        </p>
+
+        <p style="font-size: larger; line-height: 2rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Performance in Various Conditions:</strong
+          >
+          The butane gas in Royal Lighter Gas Spray performs well in different
+          temperatures, especially in cold conditions.
+        </p>
+
+        <div class="details-container">
+          <h2>Applications of Royal Lighter Gas Spray</h2>
+
+          <p style="font-size: larger; line-height: 2rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Charging Handheld Lighters:</strong
+            >
+            If your lighter has run out of gas, you can easily recharge it using
+            Royal Lighter Gas and start using it again.
+          </p>
+
+          <p style="font-size: larger; line-height: 2rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Gas for Torch Lighters:</strong
+            >
+            This gas is also suitable for lighters that produce a long flame,
+            providing a steady and reliable performance.
+          </p>
+
+          <p style="font-size: larger; line-height: 2rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Ideal for Travel:</strong
+            >
+            Due to its convenient size, this product is a great choice for
+            traveling, hiking, and other outdoor activities.
+          </p>
+
+          <p style="font-size: larger; line-height: 2rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Use in Gas Lighters:</strong
+            >
+            Perfect for use in butane-powered lighters, including those used in
+            cooking, fireworks, and other similar tasks.
+          </p>
+        </div>
+
+        <!-- Product Attributes -->
+
+        <div class="details-container">
+          <h2 style="margin-top: 50px; font-weight: bold">
+            Why Choose Royal Lighter Gas Spray?
+          </h2>
+          <p style="font-size: larger; line-height: 2rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Quick and Efficient Performance:</strong
+            >
+            Royal Lighter Gas Spray is designed to easily enter the lighter and
+            provide fast, flawless performance.
+          </p>
+
+          <p style="font-size: larger; line-height: 2rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >High Safety:</strong
+            >
+            With a precise and clean formulation, this gas ensures safety and
+            long-lasting efficiency for your lighter.
+          </p>
+
+          <p style="font-size: larger; line-height: 2rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Affordable Price:</strong
+            >
+            Considering its high quality, this gas comes at a very reasonable
+            price, making it an ideal choice for those in need of reliable gas
+            for their lighters.
+          </p>
+          <h2>Purchase Method</h2>
+          <p>
+            If you are also looking for **high-quality** and
+            <strong style="color: #333">excellent performance</strong> lighter
+            gas,<strong style="color: #333">Royal Lighter Gas Spray</strong> is
+            a reliable choice. With this gas, your lighter will always be
+            **ready to use**, and you won't have to worry about
+            <strong style="color: #333">running out of gas</strong>.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      const imageContainer = document.getElementById("product-image-container");
+      const image = document.getElementById("product-image");
+
+      // Adjust the transform origin dynamically based on the cursor position
+      imageContainer.addEventListener("mousemove", (e) => {
+        const rect = imageContainer.getBoundingClientRect();
+        const xPercent = ((e.clientX - rect.left) / rect.width) * 100;
+        const yPercent = ((e.clientY - rect.top) / rect.height) * 100;
+        image.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+        image.style.transform = "scale(1.5)";
+      });
+
+      // Reset zoom when the mouse leaves the container
+      imageContainer.addEventListener("mouseleave", () => {
+        image.style.transform = "scale(1)";
+        image.style.transformOrigin = "center center";
+      });
+    </script>
+    <script>
+      // Select all elements that might contain bold syntax (**...**)
+      const contentElements = document.querySelectorAll(
+        "#content, .product-details p"
+      );
+
+      contentElements.forEach((element) => {
+        element.innerHTML = element.innerHTML.replace(
+          /\*\*(.*?)\*\*/g, // Match text between double asterisks
+          '<strong style="color: #333;">$1</strong>' // Replace with styled <strong>
+        );
+      });
+    </script>
+    <div id="footer"></div>
+    <script>
+      fetch("/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

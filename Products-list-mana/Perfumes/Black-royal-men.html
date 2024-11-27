@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Perfume</title>
+    <style>
+      @import url("/Nav.css");
+      @import url("/SlideShow.css");
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      /* Top Navigation Bar */
+
+      /* Product Page Layout */
+      .product-page {
+        display: flex;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 50px auto;
+        gap: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+      }
+
+      /* Product Image Container */
+      /* Product Image Container */
+      .product-image-container {
+        position: sticky;
+        top: 100px;
+        bottom: 50px;
+        transform: translateX(-100px);
+        transform: translateY(0px);
+        margin-left: 0px;
+        align-items: center;
+        flex: 1.2; /* Take up equal space on the left */
+        max-width: 40%;
+        width: 500px; /* Set fixed width */
+        height: 650px; /* Set fixed height */
+        overflow: hidden;
+        border-radius: 5%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .product-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.1s ease;
+      }
+
+      .product-name {
+        flex: 1;
+        padding: 20px;
+      }
+      .product-name p {
+        font-size: large;
+        color: goldenrod;
+        font-weight: bold;
+      }
+
+      /* Product Details */
+      .product-details {
+        flex: 1; /* Take up equal space on the right */
+        padding: 20px;
+      }
+
+      .product-details h1 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h2 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h3 {
+        font-weight: bold;
+        display: inline;
+      }
+      .product-details p {
+        font-size: 2rem;
+      }
+      .product-details strong {
+        color: #6a0dad;
+      }
+      .product-details li {
+        margin-bottom: 10px;
+        transform: translateX(-20px);
+      }
+      .product-details p {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      .product-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(218, 168, 41);
+        margin-bottom: 20px;
+        margin-left: 10px;
+      }
+
+      /* Product Attributes */
+      .product-attributes {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+
+      .product-attributes li {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .product-attributes span {
+        font-weight: bold;
+        color: #6a0dad;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <img
+          src="https://manashamim.ir/wp-content/uploads/2023/11/Mana-Shamim-Golsa-Logo-smal.png"
+          alt="Manashamim Logo"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="/Mana2.html">Home</a></li>
+        <li><a href="/products.html">Products</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Product Page Content -->
+    <div class="slideshow-container">
+      <img
+        class="slider-image active"
+        src="/Product-Photos/ریسایز معرفی عطر جدید2-16.jpg"
+        alt="Business Image 1"
+      />
+    </div>
+    <div class="product-page">
+      <!-- Image with Dynamic Zoom Feature -->
+      <div class="product-image-container" id="product-image-container">
+        <img
+          src="/Product-Photos/ریسایز جدید عطر-01.jpg"
+          alt="Special Perfume Image"
+          id="product-image"
+        />
+      </div>
+      <div class="product-details">
+        <p
+          style="
+            font-size: 36px;
+            font-weight: bold;
+            color: goldenrod;
+            margin-top: 20px;
+          "
+        >
+          Royal Splendor Black for Men
+        </p>
+        <ul class="product-attributes">
+          <li style="margin-bottom: 15px"><span>Volume:</span> 8 ml</li>
+          <li style="margin-bottom: 15px"><span>Nature:</span> Warm</li>
+          <li style="margin-bottom: 15px"><span>Scent:</span> Spicy</li>
+          <li style="margin-bottom: 15px"><span>Longevity:</span> Excellent</li>
+          <li style="margin-bottom: 15px"><span>Diffusion:</span> Excellent</li>
+          <li style="margin-bottom: 10px">
+            <span>Suitable for:</span> Autumn and Winter
+          </li>
+        </ul>
+        <p>
+          **Royal Splendor Black for Men** is a luxurious and captivating
+          fragrance that belongs to the oriental woody category. This perfume,
+          with its unique and complex aroma, targets men with a strong and
+          remarkable personality who seek a distinctive fragrance for special
+          occasions. **Splendor Black**, with its blend of woody, spicy, and
+          sweet notes, exudes a royal feel, sophistication, and a unique allure,
+          making it a perfect choice for men looking to experience something new
+          and different from classic perfumes.
+        </p>
+        <h1>A breif History</h1>
+        <p>
+          **Splendor Black** is one of the well-crafted and popular fragrances
+          in the world of men's perfumes that has gained significant popularity
+          in recent years. This perfume, from a renowned brand in the perfume
+          industry, is designed to create a long-lasting, complex, and luxurious
+          scent for men who value the quality and character of the fragrance
+          they wear. The bottle design is simple yet highly elegant and modern,
+          perfectly reflecting the concept of "royal" or the regal essence of
+          this perfume.
+        </p>
+        <div class="details-container">
+          <p>
+            Every detail of this perfume reflects luxury and high quality, which
+            is why it has become one of the best-selling fragrances in the
+            category of luxurious and high-end perfumes.
+          </p>
+
+          <h2>Fragrance Notes</h2>
+          <p>
+            Every detail of this perfume reflects luxury and high quality, which
+            is why it has become one of the best-selling fragrances in the
+            category of luxurious and high-end perfumes:
+          </p>
+          <ul>
+            <li><strong>Top Notes:</strong> Orange, Lemon, Cardamom</li>
+            <li>
+              <strong>Middle Notes:</strong> Jasmine, Black Pepper, Lavender
+            </li>
+            <li>
+              <strong>Base Notes:</strong> Leather, Oud, Sandalwood, Patchouli,
+              Amber
+            </li>
+          </ul>
+        </div>
+
+        <!-- Product Attributes -->
+
+        <div class="product-details">
+          <p>
+            At the beginning, the combination of **orange** and **lemon** with
+            **cardamom** creates a fresh and sharp scent that conveys a sense of
+            vitality and energy. These top notes quickly blend with the warmth
+            of **jasmine** and **black pepper**, adding depth to the fragrance.
+            Finally, the base notes of **leather** and **oud**, complemented by
+            **sandalwood** and **patchouli**, transform the perfume into a deep
+            and enduring experience. This blend of notes produces a classic,
+            oriental, and highly complex aroma that is simultaneously exciting
+            and attention-grabbing.
+          </p>
+        </div>
+        <div class="product-details">
+          <strong style="font-size: xx-large">Season Suitability</strong>
+          <p>
+            **Royal Splendor Black for Men**, with its warm, woody, and spicy
+            notes, is best suited for **autumn and winter**. This fragrance,
+            with its rich and heavy aroma, brings a sense of warmth and comfort
+            to cold autumn and winter nights. In these seasons, warm and deep
+            scents like **Black Royal** perform exceptionally well. Given its
+            excellent longevity, it can last throughout the long nights of the
+            colder seasons.
+          </p>
+        </div>
+        <div class="product-details">
+          <p id="content">
+            To purchase **Royal Splendor Black for Men** at the best price with
+            fast delivery, visit the **Royal** online store and buy this
+            luxurious and high-quality fragrance under the best conditions.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      const imageContainer = document.getElementById("product-image-container");
+      const image = document.getElementById("product-image");
+
+      // Adjust the transform origin dynamically based on the cursor position
+      imageContainer.addEventListener("mousemove", (e) => {
+        const rect = imageContainer.getBoundingClientRect();
+        const xPercent = ((e.clientX - rect.left) / rect.width) * 100;
+        const yPercent = ((e.clientY - rect.top) / rect.height) * 100;
+        image.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+        image.style.transform = "scale(1.5)";
+      });
+
+      // Reset zoom when the mouse leaves the container
+      imageContainer.addEventListener("mouseleave", () => {
+        image.style.transform = "scale(1)";
+        image.style.transformOrigin = "center center";
+      });
+    </script>
+    <script>
+      // Select all elements that might contain bold syntax (**...**)
+      const contentElements = document.querySelectorAll(
+        "#content, .product-details p"
+      );
+
+      contentElements.forEach((element) => {
+        element.innerHTML = element.innerHTML.replace(
+          /\*\*(.*?)\*\*/g, // Match text between double asterisks
+          '<strong style="color: #333;">$1</strong>' // Replace with styled <strong>
+        );
+      });
+    </script>
+    <div id="footer"></div>
+    <script>
+      fetch("/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+    <script src="/SlideShow.js"></script>
+  </body>
+</html>

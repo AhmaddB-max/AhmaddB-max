@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Perfume</title>
+    <style>
+      @import url("/Nav.css");
+      @import url("/SlideShow.css");
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      /* Top Navigation Bar */
+
+      /* Product Page Layout */
+      .product-page {
+        display: flex;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 50px auto;
+        gap: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+      }
+
+      /* Product Image Container */
+      /* Product Image Container */
+      .product-image-container {
+        position: sticky;
+        top: 100px;
+        bottom: 50px;
+        transform: translateX(-100px);
+        transform: translateY(0px);
+        margin-left: 0px;
+        align-items: center;
+        flex: 1.2; /* Take up equal space on the left */
+        max-width: 40%;
+        width: 500px; /* Set fixed width */
+        height: 650px; /* Set fixed height */
+        overflow: hidden;
+        border-radius: 5%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .product-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.1s ease;
+      }
+
+      .product-name {
+        flex: 1;
+        padding: 20px;
+      }
+      .product-name p {
+        font-size: large;
+        color: goldenrod;
+        font-weight: bold;
+      }
+
+      /* Product Details */
+      .product-details {
+        flex: 1; /* Take up equal space on the right */
+        padding: 20px;
+      }
+
+      .product-details h1 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h2 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h3 {
+        font-weight: bold;
+        display: inline;
+      }
+      .product-details p {
+        font-size: 2rem;
+      }
+      .product-details strong {
+        color: #6a0dad;
+      }
+      .product-details li {
+        margin-bottom: 10px;
+        transform: translateX(-20px);
+      }
+      .product-details p {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      .product-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(218, 168, 41);
+        margin-bottom: 20px;
+        margin-left: 10px;
+      }
+
+      /* Product Attributes */
+      .product-attributes {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+
+      .product-attributes li {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .product-attributes span {
+        font-weight: bold;
+        color: #6a0dad;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <img
+          src="https://manashamim.ir/wp-content/uploads/2023/11/Mana-Shamim-Golsa-Logo-smal.png"
+          alt="Manashamim Logo"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="/Mana2.html">Home</a></li>
+        <li><a href="/products.html">Products</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Product Page Content -->
+    <div class="slideshow-container">
+      <img
+        class="slider-image active"
+        src="/Product-Photos/ریسایز معرفی عطر جدید2-14.jpg"
+        alt="Business Image 1"
+      />
+    </div>
+    <div class="product-page">
+      <!-- Image with Dynamic Zoom Feature -->
+      <div class="product-image-container" id="product-image-container">
+        <img
+          src="/Product-Photos/ریسایز جدید عطر-17.jpg"
+          alt="Special Perfume Image"
+          id="product-image"
+        />
+      </div>
+      <div class="product-details">
+        <p
+          style="
+            font-size: 36px;
+            font-weight: bold;
+            color: goldenrod;
+            margin-top: 20px;
+          "
+        >
+          Terre d'Hermès Royal Eau de Parfum For men
+        </p>
+        <ul class="product-attributes">
+          <li style="margin-bottom: 15px"><span>Volume:</span> 8 ml</li>
+          <li style="margin-bottom: 15px"><span>Nature:</span>Warm</li>
+          <li style="margin-bottom: 15px"><span>Scent:</span> Bitter</li>
+          <li style="margin-bottom: 15px"><span>Longevity:</span> Excellent</li>
+          <li style="margin-bottom: 15px"><span>Diffusion:</span> Excellent</li>
+          <li style="margin-bottom: 10px">
+            <span>Suitable for:</span> Autumn and Winter
+          </li>
+        </ul>
+        <p>
+          **Terre d'Hermès Royal by Hermès** is a special and luxurious version
+          of the iconic **Terre d'Hermès** fragrance, introduced by the
+          **Hermès** brand in 2024. This version focuses on exceptional quality
+          and a complex fragrance profile, offering a unique experience with
+          woody, earthy, and citrusy notes. **Terre d'Hermès Royal** is
+          recommended for men who seek a fragrance with character and
+          long-lasting power, making it an ideal choice for those who desire a
+          refined and distinctive scent.
+        </p>
+        <h1>A breif History</h1>
+        <p>
+          **Hermès** is a renowned and prestigious French brand that operates in
+          various fields, including fashion, handbags, watches, and perfumery.
+          The brand is particularly famous for its fragrances, which are known
+          for their rich, complex, and luxurious blends. Hermès perfumes have
+          earned a significant reputation for their high-quality compositions
+          and elegant scents, making them highly sought after by fragrance
+          enthusiasts.
+        </p>
+        <div class="details-container">
+          <p>
+            **Terre d'Hermès** was first introduced to the market in 2006 and
+            quickly became one of the best-selling men's fragrances. Inspired by
+            nature, earth, and the elements of the land, this fragrance not only
+            has an attractive and long-lasting scent but also evokes a sense of
+            connection with nature. **Terre d'Hermès Royal** was introduced as a
+            more luxurious version of the original collection, offering a more
+            complex composition and higher quality, providing a unique
+            experience for the fragrance's enthusiasts.
+          </p>
+
+          <h2>Fragrance Notes</h2>
+          <p>
+            **Terre d'Hermès Royal for Men** combines woody, earthy, and citrus
+            notes, conveying a sense of power, authenticity, and naturalness to
+            its wearer. Like its original version, this fragrance features
+            unique notes that create pleasant contrasts, delivering a complex
+            and one-of-a-kind olfactory experience:
+          </p>
+          <ul>
+            <li><strong>Top Notes:</strong> Orange, Lemon</li>
+            <li><strong>Middle Notes:</strong> Pepper, Geranium, Rose</li>
+            <li>
+              <strong>Base Notes:</strong> Sandalwood, Patchouli, Earth, Amber
+            </li>
+          </ul>
+        </div>
+
+        <!-- Product Attributes -->
+
+        <div class="product-details">
+          <p>
+            Initially, **Terre d'Hermès Royal for Men** opens with a fresh,
+            citrusy blend of orange and lemon that gives you a sense of
+            freshness and energy. This smooth and sweet combination also
+            enhances your power and courage. In the middle notes, pepper,
+            geranium, and rose are particularly present, adding complexity and a
+            refreshing touch to the fragrance. Finally, the base notes, which
+            include sandalwood, patchouli, earth, and amber, provide a deep,
+            earthy, and woody aroma, making the fragrance long-lasting.
+          </p>
+        </div>
+        <div class="product-details">
+          <strong style="font-size: xx-large">Season Suitability</strong>
+          <p>
+            **Terre d'Hermès Royal for Men** with its complex composition and
+            woody, earthy notes, is more suitable for the fall and winter
+            seasons. During the colder months, its warm and natural aromas make
+            you stand out in various environments. However, due to its unique
+            character and long-lasting effect, it can also be used during the
+            spring and summer for special occasions and evening events,
+            especially on cool nights.
+          </p>
+        </div>
+        <div class="product-details">
+          <p id="content">
+            To purchase **Terre d'Hermès Royal for Men** at the best price with
+            fast delivery, visit the **Royal** online store and buy this
+            fragrance quickly. **Terre d'Hermès Royal** can accompany you during
+            cool fall nights, special gatherings, or your workdays, making you
+            stand out at every moment.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      const imageContainer = document.getElementById("product-image-container");
+      const image = document.getElementById("product-image");
+
+      // Adjust the transform origin dynamically based on the cursor position
+      imageContainer.addEventListener("mousemove", (e) => {
+        const rect = imageContainer.getBoundingClientRect();
+        const xPercent = ((e.clientX - rect.left) / rect.width) * 100;
+        const yPercent = ((e.clientY - rect.top) / rect.height) * 100;
+        image.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+        image.style.transform = "scale(1.5)";
+      });
+
+      // Reset zoom when the mouse leaves the container
+      imageContainer.addEventListener("mouseleave", () => {
+        image.style.transform = "scale(1)";
+        image.style.transformOrigin = "center center";
+      });
+    </script>
+    <script>
+      // Select all elements that might contain bold syntax (**...**)
+      const contentElements = document.querySelectorAll(
+        "#content, .product-details p"
+      );
+
+      contentElements.forEach((element) => {
+        element.innerHTML = element.innerHTML.replace(
+          /\*\*(.*?)\*\*/g, // Match text between double asterisks
+          '<strong style="color: #333;">$1</strong>' // Replace with styled <strong>
+        );
+      });
+    </script>
+    <div id="footer"></div>
+    <script>
+      fetch("/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+    <script src="/SlideShow.js"></script>
+  </body>
+</html>

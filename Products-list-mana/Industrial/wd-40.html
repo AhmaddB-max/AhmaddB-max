@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Perfume</title>
+    <style>
+      @import url("/Nav.css");
+      @import url("/SlideShow.css");
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      /* Top Navigation Bar */
+
+      /* Product Page Layout */
+      .product-page {
+        display: flex;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 50px auto;
+        gap: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+      }
+
+      /* Product Image Container */
+      /* Product Image Container */
+      .product-image-container {
+        position: sticky;
+        top: 100px;
+        bottom: 50px;
+        transform: translateX(-100px);
+        transform: translateY(0px);
+        margin-left: 0px;
+        align-items: center;
+        flex: 1.2; /* Take up equal space on the left */
+        max-width: 40%;
+        width: 500px; /* Set fixed width */
+        height: 650px; /* Set fixed height */
+        overflow: hidden;
+        border-radius: 5%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .product-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.1s ease;
+      }
+
+      .product-name {
+        flex: 1;
+        padding: 20px;
+      }
+      .product-name p {
+        font-size: large;
+        color: goldenrod;
+        font-weight: bold;
+      }
+
+      /* Product Details */
+      .product-details {
+        flex: 1; /* Take up equal space on the right */
+        padding: 20px;
+      }
+
+      .product-details h1 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h2 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h3 {
+        font-weight: bold;
+        display: inline;
+      }
+      .product-details p {
+        font-size: 2rem;
+      }
+      .product-details strong {
+        color: #6a0dad;
+      }
+      .product-details li {
+        margin-bottom: 10px;
+        transform: translateX(-20px);
+      }
+      .product-details p {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      .product-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(218, 168, 41);
+        margin-bottom: 20px;
+        margin-left: 10px;
+      }
+
+      /* Product Attributes */
+      .product-attributes {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+
+      .product-attributes li {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .product-attributes span {
+        font-weight: bold;
+        color: #6a0dad;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <img
+          src="https://manashamim.ir/wp-content/uploads/2023/11/Mana-Shamim-Golsa-Logo-smal.png"
+          alt="Manashamim Logo"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="/Mana2.html">Home</a></li>
+        <li><a href="/products.html">Products</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Product Page Content -->
+    <div class="product-page">
+      <!-- Image with Dynamic Zoom Feature -->
+      <div class="product-image-container" id="product-image-container">
+        <img
+          src="https://via.placeholder.com/900x600"
+          alt="Special Perfume Image"
+          id="product-image"
+        />
+      </div>
+      <div class="product-details">
+        <p
+          style="
+            font-size: 36px;
+            font-weight: bold;
+            color: goldenrod;
+            margin-top: 20px;
+          "
+        >
+          Royal WD-40 Spray: A Comprehensive Solution for Hardware and
+          Mechanical Issues
+        </p>
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: #333; font-weight: bold"
+            >Royal WD-40 Spray</strong
+          >
+          is a versatile and highly effective product widely used in various
+          industries and household applications to address mechanical and
+          hardware issues. With its special formulation, it can solve multiple
+          problems, including lubricating parts, preventing rust, and cleaning
+          different surfaces. Due to its wide range of applications and
+          immediate effectiveness,
+          <strong style="color: #333; font-weight: bold"
+            >Royal WD-40 Spray</strong
+          >
+          has become one of the most widely used and popular products in the
+          world.
+        </p>
+
+        <h2 style="margin-bottom: 10px; line-height: 2rem">
+          Complete Specifications of Royal WD-40 Spray:
+        </h2>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Volume:</strong
+          >
+          450 ml
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Composition:</strong
+          >
+          A blend of lubricant, anti-rust, and cleaning agents with an advanced
+          formulation
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Suitable For:</strong
+          >
+          Various mechanical parts, household appliances, tools, cars, bicycles,
+          motorcycles, and industrial equipment
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Features:</strong
+          >
+          Anti-rust, moisture-resistant, lubricant, cleaner, stain remover, and
+          surface protector for metal surfaces
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Resistance to Harsh Conditions:</strong
+          >
+          Suitable for use in various temperatures and humid environments
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Quick and Easy Application:</strong
+          >
+          Can be easily applied to various surfaces without requiring special
+          expertise
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Non-flammable:</strong
+          >
+          Designed with a standard formulation, it is safe for indirect use
+          without flammability
+        </p>
+
+        <h2 style="margin-bottom: 10px; line-height: 2rem">
+          Key Features of Royal WD-40 Spray:
+        </h2>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Excellent Lubricant:</strong
+          >
+          Royal WD-40 acts as a superb lubricant and anti-friction agent,
+          reducing wear and increasing the efficiency of mechanical parts. It is
+          especially useful for devices requiring smooth movement, such as
+          locks, chains, hinges, and screws.
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Rust Prevention:</strong
+          >
+          This spray forms a protective layer on metal surfaces, preventing rust
+          and corrosion. It offers excellent protection for metal equipment in
+          humid or moisture-prone environments.
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Powerful Cleaner:</strong
+          >
+          WD-40 can act as a strong cleaner, removing stains, grease, resins,
+          and various contaminants from different surfaces.
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Protection Against Moisture Damage:</strong
+          >
+          Particularly useful in rainy seasons or humid environments, this spray
+          prevents moisture-related damage and oxidation on parts.
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Multi-purpose:</strong
+          >
+          This spray can be used across a wide range of applications, including
+          household, industrial, automotive, and cycling. It is an essential
+          tool for every home, workshop, and garage.
+        </p>
+
+        <div class="details-container">
+          <h2 style="margin-bottom: 10px; line-height: 2rem">
+            Uses of Royal WD-40 Spray:
+          </h2>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Lubricating Moving Parts:</strong
+            >
+            Ideal for lubricating hinges, gears, chains, fans, and other
+            mechanical components that require smooth movement.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Surface Cleaning:</strong
+            >
+            Effective for cleaning stains, grease, and dirt from metal, glass,
+            plastic, and other surfaces.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Rust Prevention:</strong
+            >
+            Protects metal parts of cars, bicycles, motorcycles, and tools from
+            moisture and rust.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Fixing Lock Mechanisms:</strong
+            >
+            Solves issues with locks, car locks, doors, cabinets, and other
+            mechanical parts that may jam due to moisture or rust.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Cleaning Household Appliances:</strong
+            >
+            Suitable for cleaning household devices such as meat grinders,
+            electrical appliances, and more.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Car Protection:</strong
+            >
+            Used to protect various car components, including the engine,
+            battery, cylinders, and even metal parts inside the car cabin.
+          </p>
+        </div>
+
+        <!-- Product Attributes -->
+
+        <div class="details-container">
+          <h2 style="margin-bottom: 10px; line-height: 2rem">
+            Why Choose Royal WD-40 Spray?
+          </h2>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Multi-purpose Product:</strong
+            >
+            WD-40 is suitable for a wide range of mechanical, household, and
+            industrial problems, allowing you to address many needs with a
+            single product.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Ease of Use:</strong
+            >
+            Its spray design enables easy and precise application on various
+            surfaces without requiring additional tools.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Reduces Maintenance Costs:</strong
+            >
+            Using WD-40 spray helps extend the lifespan of devices and
+            components, minimizing the need for expensive repairs.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Quality and Performance:</strong
+            >
+            Thanks to its standard formulation and high-quality ingredients,
+            this spray performs efficiently in all conditions, ensuring optimal
+            equipment performance.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Backed by the Royal Brand:</strong
+            >
+            Royal WD-40 Spray, with guaranteed quality and performance, lets you
+            use this product confidently for various needs without worrying
+            about negative effects.
+          </p>
+          <h2>Purchase Method</h2>
+          <p style="font-size: larger; line-height: 1.7rem">
+            If you want to benefit from the cleaning, lubricating, and
+            protective power of
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >WD-40 Spray</strong
+            >, purchase this product today. With this spray, your equipment will
+            always remain in top condition, preventing mechanical issues and
+            breakdowns.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      const imageContainer = document.getElementById("product-image-container");
+      const image = document.getElementById("product-image");
+
+      // Adjust the transform origin dynamically based on the cursor position
+      imageContainer.addEventListener("mousemove", (e) => {
+        const rect = imageContainer.getBoundingClientRect();
+        const xPercent = ((e.clientX - rect.left) / rect.width) * 100;
+        const yPercent = ((e.clientY - rect.top) / rect.height) * 100;
+        image.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+        image.style.transform = "scale(1.5)";
+      });
+
+      // Reset zoom when the mouse leaves the container
+      imageContainer.addEventListener("mouseleave", () => {
+        image.style.transform = "scale(1)";
+        image.style.transformOrigin = "center center";
+      });
+    </script>
+    <script>
+      // Select all elements that might contain bold syntax (**...**)
+      const contentElements = document.querySelectorAll(
+        "#content, .product-details p"
+      );
+
+      contentElements.forEach((element) => {
+        element.innerHTML = element.innerHTML.replace(
+          /\*\*(.*?)\*\*/g, // Match text between double asterisks
+          '<strong style="color: #333;">$1</strong>' // Replace with styled <strong>
+        );
+      });
+    </script>
+    <div id="footer"></div>
+    <script>
+      fetch("/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

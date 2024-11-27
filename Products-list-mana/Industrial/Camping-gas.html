@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Perfume</title>
+    <style>
+      @import url("/Nav.css");
+      @import url("/SlideShow.css");
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      /* Top Navigation Bar */
+
+      /* Product Page Layout */
+      .product-page {
+        display: flex;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 50px auto;
+        gap: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+      }
+
+      /* Product Image Container */
+      /* Product Image Container */
+      .product-image-container {
+        position: sticky;
+        top: 100px;
+        bottom: 50px;
+        transform: translateX(-100px);
+        transform: translateY(0px);
+        margin-left: 0px;
+        align-items: center;
+        flex: 1.2; /* Take up equal space on the left */
+        max-width: 40%;
+        width: 500px; /* Set fixed width */
+        height: 650px; /* Set fixed height */
+        overflow: hidden;
+        border-radius: 5%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .product-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.1s ease;
+      }
+
+      .product-name {
+        flex: 1;
+        padding: 20px;
+      }
+      .product-name p {
+        font-size: large;
+        color: goldenrod;
+        font-weight: bold;
+      }
+
+      /* Product Details */
+      .product-details {
+        flex: 1; /* Take up equal space on the right */
+        padding: 20px;
+      }
+
+      .product-details h1 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h2 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h3 {
+        font-weight: bold;
+        display: inline;
+      }
+      .product-details p {
+        font-size: 2rem;
+      }
+      .product-details strong {
+        color: #6a0dad;
+      }
+      .product-details li {
+        margin-bottom: 10px;
+        transform: translateX(-20px);
+      }
+      .product-details p {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      .product-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(218, 168, 41);
+        margin-bottom: 20px;
+        margin-left: 10px;
+      }
+
+      /* Product Attributes */
+      .product-attributes {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+
+      .product-attributes li {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .product-attributes span {
+        font-weight: bold;
+        color: #6a0dad;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <img
+          src="https://manashamim.ir/wp-content/uploads/2023/11/Mana-Shamim-Golsa-Logo-smal.png"
+          alt="Manashamim Logo"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="/Mana2.html">Home</a></li>
+        <li><a href="/products.html">Products</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Product Page Content -->
+    <div class="product-page">
+      <!-- Image with Dynamic Zoom Feature -->
+      <div class="product-image-container" id="product-image-container">
+        <img
+          src="https://via.placeholder.com/900x600"
+          alt="Special Perfume Image"
+          id="product-image"
+        />
+      </div>
+      <div class="product-details">
+        <p
+          style="
+            font-size: 36px;
+            font-weight: bold;
+            color: goldenrod;
+            margin-top: 20px;
+          "
+        >
+          Royal Camping Gas Spray
+        </p>
+        <p></p>
+        <h2 style="margin-bottom: 10px; line-height: 2rem">
+          Complete Specifications of Royal Camping Gas Spray:
+        </h2>
+        <p></p>
+        <p style="font-size: larger; line-height: 1rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Gas Type:</strong
+          >
+          A mixture of propane and butane gas.
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Volume:</strong
+          >
+          450 ml.
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Suitable For:</strong
+          >
+          Camping stoves, small heaters, gas lamps, and other similar equipment.
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Temperature Resistance:</strong
+          >
+          Excellent performance in low temperatures, ideal for use in cold
+          conditions.
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Compact Structure:</strong
+          >
+          Easy to transport and space-saving for limited backpack storage.
+        </p>
+
+        <p style="font-size: larger; line-height: 1.7rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Quick Usage:</strong
+          >
+          With its special cap design, the gas spray is easily attachable to
+          various camping stoves and gas heaters.
+        </p>
+
+        <h2>Key Features of Royal Camping Gas Spray:</h2>
+
+        <p style="font-size: larger; line-height: 2rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Excellent Performance:</strong
+          >
+          This gas ensures stable and trouble-free operation even in cold
+          weather, thanks to its high-quality materials.
+        </p>
+
+        <p style="font-size: larger; line-height: 2rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Durable Packaging:</strong
+          >
+          The design of the gas spray is resistant to impacts and harsh camping
+          conditions, making it easy to carry.
+        </p>
+
+        <p style="font-size: larger; line-height: 2rem">
+          <strong style="color: rgb(188, 143, 27); font-weight: bold"
+            >Long Lifespan:</strong
+          >
+          Each gas canister doesn't require frequent replacement and can be used
+          for several days under various conditions.
+        </p>
+
+        <div class="details-container">
+          <h2>Applications of Royal Camping Gas Spray</h2>
+          <p style="font-size: larger; line-height: 2rem">
+            <strong style="color: rgb(188, 143, 27)">Outdoor Cooking:</strong>
+            Used for preparing meals during camping, hiking, and even simple
+            cooking on mountain trips.
+          </p>
+          <p style="font-size: larger; line-height: 2rem">
+            <strong style="color: rgb(188, 143, 27)">Heating:</strong> Some
+            camping stoves and heaters use this gas to provide warmth during
+            cold nights.
+          </p>
+          <p style="font-size: larger; line-height: 2rem">
+            <strong style="color: rgb(188, 143, 27)">Lighting:</strong> Used in
+            gas lamps that require camping gas for illumination.
+          </p>
+          <p style="font-size: larger; line-height: 2rem">
+            <strong style="color: rgb(188, 143, 27)">Safety:</strong> Ensures
+            safe combustion when using stoves and similar equipment.
+          </p>
+        </div>
+
+        <!-- Product Attributes -->
+
+        <div class="details-container">
+          <h2 style="margin-top: 50px; font-weight: bold">
+            Why Choose Royal Camping Gas Spray?
+          </h2>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Space and Weight Saving:</strong
+            >
+            The compact and lightweight packaging makes it easy to carry during
+            travels.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Affordable Price and High Quality:</strong
+            >
+            Royal Camping Gas offers high quality at a very reasonable price for
+            outdoor enthusiasts and campers.
+          </p>
+
+          <p style="font-size: larger; line-height: 1.7rem">
+            <strong style="color: rgb(188, 143, 27); font-weight: bold"
+              >Reliable:</strong
+            >
+            One of the most trusted brands in the camping products industry with
+            a long history of providing the best quality and performance.
+          </p>
+          <p style="font-size: x-large; line-height: 2rem">
+            If you are also interested in camping and outdoor trips, Royal
+            Camping Gas Spray can be the perfect companion for your outdoor and
+            camping adventures. To purchase this product at the best price with
+            a quality guarantee, visit the official
+            <strong style="color: #333">Royal</strong> website and take
+            advantage of exclusive discounts.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      const imageContainer = document.getElementById("product-image-container");
+      const image = document.getElementById("product-image");
+
+      // Adjust the transform origin dynamically based on the cursor position
+      imageContainer.addEventListener("mousemove", (e) => {
+        const rect = imageContainer.getBoundingClientRect();
+        const xPercent = ((e.clientX - rect.left) / rect.width) * 100;
+        const yPercent = ((e.clientY - rect.top) / rect.height) * 100;
+        image.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+        image.style.transform = "scale(1.5)";
+      });
+
+      // Reset zoom when the mouse leaves the container
+      imageContainer.addEventListener("mouseleave", () => {
+        image.style.transform = "scale(1)";
+        image.style.transformOrigin = "center center";
+      });
+    </script>
+    <script>
+      // Select all elements that might contain bold syntax (**...**)
+      const contentElements = document.querySelectorAll(
+        "#content, .product-details p"
+      );
+
+      contentElements.forEach((element) => {
+        element.innerHTML = element.innerHTML.replace(
+          /\*\*(.*?)\*\*/g, // Match text between double asterisks
+          '<strong style="color: #333;">$1</strong>' // Replace with styled <strong>
+        );
+      });
+    </script>
+    <div id="footer"></div>
+    <script>
+      fetch("/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

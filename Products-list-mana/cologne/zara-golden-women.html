@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Perfume</title>
+    <style>
+      @import url("/Nav.css");
+      @import url("/SlideShow.css");
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      /* Top Navigation Bar */
+
+      /* Product Page Layout */
+      .product-page {
+        display: flex;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 50px auto;
+        gap: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+      }
+
+      /* Product Image Container */
+      /* Product Image Container */
+      .product-image-container {
+        position: sticky;
+        top: 100px;
+        bottom: 50px;
+        transform: translateX(-100px);
+        transform: translateY(0px);
+        margin-left: 0px;
+        align-items: center;
+        flex: 1.2; /* Take up equal space on the left */
+        max-width: 40%;
+        width: 500px; /* Set fixed width */
+        height: 650px; /* Set fixed height */
+        overflow: hidden;
+        border-radius: 5%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .product-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.1s ease;
+      }
+
+      .product-name {
+        flex: 1;
+        padding: 20px;
+      }
+      .product-name p {
+        font-size: large;
+        color: goldenrod;
+        font-weight: bold;
+      }
+
+      /* Product Details */
+      .product-details {
+        flex: 1; /* Take up equal space on the right */
+        padding: 20px;
+      }
+
+      .product-details h1 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h2 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h3 {
+        font-weight: bold;
+        display: inline;
+      }
+      .product-details p {
+        font-size: 2rem;
+      }
+      .product-details strong {
+        color: #6a0dad;
+      }
+      .product-details li {
+        margin-bottom: 10px;
+        transform: translateX(-20px);
+      }
+      .product-details p {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      .product-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(218, 168, 41);
+        margin-bottom: 20px;
+        margin-left: 10px;
+      }
+
+      /* Product Attributes */
+      .product-attributes {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+
+      .product-attributes li {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .product-attributes span {
+        font-weight: bold;
+        color: #6a0dad;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <img
+          src="https://manashamim.ir/wp-content/uploads/2023/11/Mana-Shamim-Golsa-Logo-smal.png"
+          alt="Manashamim Logo"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="/Mana2.html">Home</a></li>
+        <li><a href="/products.html">Products</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Product Page Content -->
+    <div class="product-page">
+      <!-- Image with Dynamic Zoom Feature -->
+      <div class="product-image-container" id="product-image-container">
+        <img
+          src="https://via.placeholder.com/900x600"
+          alt="Special Perfume Image"
+          id="product-image"
+        />
+      </div>
+      <div class="product-details">
+        <p
+          style="
+            font-size: 36px;
+            font-weight: bold;
+            color: goldenrod;
+            margin-top: 20px;
+          "
+        >
+          Chanel Chance Royal Eau de Parfum For Women
+        </p>
+        <ul class="product-attributes">
+          <li style="margin-bottom: 15px"><span>Volume:</span> 100 ml</li>
+          <li style="margin-bottom: 15px"><span>Nature:</span> Warm</li>
+          <li style="margin-bottom: 15px"><span>Scent:</span> Sweet</li>
+          <li style="margin-bottom: 15px"><span>Longevity:</span> Excellent</li>
+          <li style="margin-bottom: 15px"><span>Diffusion:</span> Excellent</li>
+          <li style="margin-bottom: 10px">
+            <span>Suitable for:</span>Autumn and Winter
+          </li>
+        </ul>
+        <p>
+          <strong style="color: #333">Zara Golden Decade Woman Royal</strong> is
+          one of the beautiful and captivating perfumes by Zara, recognized as
+          an <strong style="color: #333">oriental floral</strong> fragrance.
+          With its unique combinations, it offers an elegant and sophisticated
+          aroma that exudes <strong style="color: #333">luxury</strong> and
+          <strong style="color: #333">prestige</strong>. Golden Decade Woman,
+          with its floral, sweet, yet gentle scent, has quickly become a popular
+          choice among women seeking a
+          <strong style="color: #333">warm</strong> and
+          <strong style="color: #333">long-lasting</strong> fragrance.
+        </p>
+        <p>
+          As one of the standout products of the brand,
+          <strong style="color: #333">Zara Golden Decade Woman</strong> has
+          gained significant popularity among women in recent years. Inspired by
+          past eras and <strong style="color: #333">golden memories</strong>,
+          this perfume brings a sense of grandeur and charm. With a blend of
+          <strong style="color: #333">floral</strong>,
+          <strong style="color: #333">fruity</strong>, and
+          <strong style="color: #333">woody</strong> notes, it delivers a
+          distinctive and lasting fragrance for women.
+        </p>
+
+        <div class="details-container">
+          <h2>Fragrance Notes</h2>
+          <p>
+            The fragrance of
+            <strong style="color: #333">Zara Golden Decade Woman Royal</strong>
+            is a blend of <strong style="color: #333">floral</strong>,
+            <strong style="color: #333">sweet</strong>, and
+            <strong style="color: #333">woody</strong> notes, making it a
+            delightful and appealing choice. This perfume starts with gentle and
+            sweet notes and gradually transitions to more
+            <strong style="color: #333">complex</strong> and
+            <strong style="color: #333">deeper</strong> layers.
+          </p>
+
+          <ul style="line-height: 1.6rem">
+            <li>
+              <strong style="font-weight: bold">Top Notes:</strong> Initially,
+              scents of <strong style="color: #333">black currant</strong>,
+              <strong style="color: #333">mandarin orange</strong>, and
+              <strong style="color: #333">neroli leaves</strong> emerge,
+              creating a sense of freshness and vitality. These top notes are
+              refreshing and gentle, blending beautifully with the other layers.
+            </li>
+            <li>
+              <strong style="font-weight: bold">Middle Notes:</strong> Over
+              time, floral notes of
+              <strong style="color: #333">lavender</strong>,
+              <strong style="color: #333">jasmine</strong>, and
+              <strong style="color: #333">orange blossom</strong> appear. These
+              floral notes add a unique softness and beauty to the fragrance,
+              enhancing its feminine feel. At this stage, the perfume gradually
+              develops more sweetness, conveying a sense of comfort and delight.
+            </li>
+            <li>
+              <strong style="font-weight: bold">Base Notes:</strong> Finally,
+              notes of <strong style="color: #333">vanilla</strong>,
+              <strong style="color: #333">amber</strong>,
+              <strong style="color: #333">musk</strong>, and
+              <strong style="color: #333">cedarwood</strong> emerge in the base.
+              These woody and sweet notes provide the fragrance with depth and
+              longevity, delivering a warm and luxurious feeling.
+            </li>
+          </ul>
+          <p>
+            This combination of floral, fruity, and woody notes makes
+            <strong style="color: #333"> Zara Golden Decade</strong> a perfectly
+            balanced and captivating fragrance that simultaneously conveys a
+            sense of freshness, elegance, and strength.
+          </p>
+        </div>
+
+        <div class="product-details">
+          <strong style="font-size: xx-large">Best times of consumption</strong>
+          <p>
+            The warm and sweet scent of **Zara Red Temptation for Women** makes
+            it particularly suitable for **cold seasons**, especially **autumn**
+            and **winter**. The blend of woody, musk, and vanilla notes makes it
+            an excellent choice for the colder days of the year. Additionally,
+            due to its sweet and alluring accords, this perfume is ideal for
+            **evenings** and **special occasions**.
+          </p>
+          <ul>
+            <li style="font-size: larger; line-height: 1.7rem">
+              <strong style="font-size: larger">Autumn and Winter:</strong>
+              During these seasons, the warm and sweet aromas of this perfume
+              create a unique sense of softness and warmth in the atmosphere.
+              The combination of sandalwood and musk alongside floral notes
+              makes this perfume an excellent choice for evening parties, formal
+              events, and special meetings in colder months.
+            </li>
+            <li style="font-size: larger; line-height: 1.7rem">
+              <strong style="font-size: larger">Spring and Summer:</strong> In
+              spring and summer, this perfume can also be a good choice,
+              especially on cool spring evenings. However, on very hot summer
+              days, it might feel slightly heavy. Therefore, the best time to
+              use this perfume during these seasons is on mild nights or cooler
+              days.
+            </li>
+          </ul>
+        </div>
+        <div class="product-details">
+          <strong style="font-size: xx-large">Reasons to buy</strong>
+          <h2 style="color: rgb(188, 143, 27)">
+            A Complex and Long-Lasting Fragrance:
+          </h2>
+          <p style="font-size: larger; line-height: 1.7rem">
+            The floral, sweet, and woody combinations in this perfume ensure its
+            long-lasting scent, lingering in the air even hours after
+            application. This feature makes it perfect for extended use.
+          </p>
+
+          <h2 style="color: rgb(188, 143, 27)">
+            Perfect for Special Occasions:
+          </h2>
+          <p style="font-size: larger; line-height: 1.7rem">
+            With its luxurious and elegant fragrance,
+            <strong style="color: #333">Zara Golden Decade Woman</strong> is
+            ideal for evening parties, formal events, and other special
+            occasions. This perfume effortlessly makes you the center of
+            attention in any setting.
+          </p>
+
+          <h2 style="color: rgb(188, 143, 27)">Affordable Price:</h2>
+          <p style="font-size: larger; line-height: 1.7rem">
+            Unlike many luxurious perfumes with similar scents,
+            <strong style="color: #333">Zara Golden Decade Woman</strong> offers
+            exceptional quality at an affordable price. This feature makes it a
+            budget-friendly choice for those seeking high-quality fragrances.
+          </p>
+
+          <h2 style="color: rgb(188, 143, 27)">
+            Ideal for Women with Distinct Tastes:
+          </h2>
+          <p style="font-size: larger; line-height: 1.7rem">
+            If you're looking for a perfume that combines elegance, strength,
+            and allure in a harmonious blend,
+            <strong style="color: #333">Zara Golden Decade Woman</strong> is the
+            perfect choice.
+          </p>
+        </div>
+        <div class="product-details">
+          <h1>Packaging</h1>
+          <p>
+            The packaging of this women's perfume, with its rectangular design,
+            combines modernity with a special appeal of simplicity and elegance.
+            Its precise geometric shape gives it a minimalist yet luxurious
+            appearance, making it suitable for women of different tastes and
+            ages. The simple and unadorned design, accompanied by golden
+            lettering, conveys a sense of grandeur and authenticity. The
+            combination of soft and balanced colors evokes a sense of
+            tranquility and beauty, and every detail of this packaging has been
+            carefully and elegantly selected to simultaneously create a feeling
+            of sophistication and allure. This packaging not only serves as a
+            delightful gift but also as a decorative element that draws
+            attention in any setting, making it an ideal choice for women who
+            seek beauty and simplicity alongside functionality.
+          </p>
+
+          <h1 id="content">Purchase Method</h1>
+          <p>
+            If you are looking for a fragrance with a unique, complex, and
+            long-lasting scent,
+            <strong style="color: #333">Zara Golden Decade Woman</strong> will
+            be an excellent choice for you. This perfume, with its high quality
+            and affordable price, is an ideal option for anyone seeking a chic
+            and enduring fragrance. To purchase this original quality perfume,
+            you can easily visit the
+            <strong style="color: #333"> Royal website</strong>. The Royal
+            website offers authentic products and fast delivery, ensuring a
+            reliable and convenient shopping experience for you.
+          </p>
+
+          <p style="color: #333; font-weight: bold; font-size: 1.4rem">
+            We recommend trying this perfume and enjoying its unique and
+            impactful fragrance.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      const imageContainer = document.getElementById("product-image-container");
+      const image = document.getElementById("product-image");
+
+      // Adjust the transform origin dynamically based on the cursor position
+      imageContainer.addEventListener("mousemove", (e) => {
+        const rect = imageContainer.getBoundingClientRect();
+        const xPercent = ((e.clientX - rect.left) / rect.width) * 100;
+        const yPercent = ((e.clientY - rect.top) / rect.height) * 100;
+        image.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+        image.style.transform = "scale(1.5)";
+      });
+
+      // Reset zoom when the mouse leaves the container
+      imageContainer.addEventListener("mouseleave", () => {
+        image.style.transform = "scale(1)";
+        image.style.transformOrigin = "center center";
+      });
+    </script>
+    <script>
+      // Select all elements that might contain bold syntax (**...**)
+      const contentElements = document.querySelectorAll(
+        "#content, .product-details li, .product-details p"
+      );
+
+      contentElements.forEach((element) => {
+        element.innerHTML = element.innerHTML.replace(
+          /\*\*(.*?)\*\*/g, // Match text between double asterisks
+          '<strong style="color: #333;">$1</strong>' // Replace with styled <strong>
+        );
+      });
+    </script>
+    <div id="footer"></div>
+    <script>
+      fetch("/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

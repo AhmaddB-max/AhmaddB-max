@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Perfume</title>
+    <style>
+      @import url("/Nav.css");
+      @import url("/SlideShow.css");
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      /* Top Navigation Bar */
+
+      /* Product Page Layout */
+      .product-page {
+        display: flex;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 50px auto;
+        gap: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+      }
+
+      /* Product Image Container */
+      /* Product Image Container */
+      .product-image-container {
+        position: sticky;
+        top: 100px;
+        bottom: 50px;
+        transform: translateX(-100px);
+        transform: translateY(0px);
+        margin-left: 0px;
+        align-items: center;
+        flex: 1.2; /* Take up equal space on the left */
+        max-width: 40%;
+        width: 500px; /* Set fixed width */
+        height: 650px; /* Set fixed height */
+        overflow: hidden;
+        border-radius: 5%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .product-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.1s ease;
+      }
+
+      .product-name {
+        flex: 1;
+        padding: 20px;
+      }
+      .product-name p {
+        font-size: large;
+        color: goldenrod;
+        font-weight: bold;
+      }
+
+      /* Product Details */
+      .product-details {
+        flex: 1; /* Take up equal space on the right */
+        padding: 20px;
+      }
+
+      .product-details h1 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h2 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h3 {
+        font-weight: bold;
+        display: inline;
+      }
+      .product-details p {
+        font-size: 2rem;
+      }
+      .product-details strong {
+        color: #6a0dad;
+      }
+      .product-details li {
+        margin-bottom: 10px;
+        transform: translateX(-20px);
+      }
+      .product-details p {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      .product-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(218, 168, 41);
+        margin-bottom: 20px;
+        margin-left: 10px;
+      }
+
+      /* Product Attributes */
+      .product-attributes {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+
+      .product-attributes li {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .product-attributes span {
+        font-weight: bold;
+        color: #6a0dad;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <img
+          src="https://manashamim.ir/wp-content/uploads/2023/11/Mana-Shamim-Golsa-Logo-smal.png"
+          alt="Manashamim Logo"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="/Mana2.html">Home</a></li>
+        <li><a href="/products.html">Products</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Product Page Content -->
+    <div class="slideshow-container">
+      <img
+        class="slider-image active"
+        src="/Product-Photos/ریسایز معرفی عطر جدید-06.jpg"
+        alt="Business Image 1"
+      />
+    </div>
+    <div class="product-page">
+      <!-- Image with Dynamic Zoom Feature -->
+      <div class="product-image-container" id="product-image-container">
+        <img
+          src="/Product-Photos/ریسایز جدید عطر-05.jpg"
+          alt="Special Perfume Image"
+          id="product-image"
+        />
+      </div>
+      <div class="product-details">
+        <p
+          style="
+            font-size: 36px;
+            font-weight: bold;
+            color: goldenrod;
+            margin-top: 20px;
+          "
+        >
+          Creed AventusRoyal Eau de Parfum For men
+        </p>
+        <ul class="product-attributes">
+          <li style="margin-bottom: 15px"><span>Volume:</span> 8 ml</li>
+          <li style="margin-bottom: 15px"><span>Nature:</span> Cool</li>
+          <li style="margin-bottom: 15px"><span>Scent:</span> Bitter</li>
+          <li style="margin-bottom: 15px"><span>Longevity:</span> Excellent</li>
+          <li style="margin-bottom: 15px"><span>Diffusion:</span> Excellent</li>
+          <li style="margin-bottom: 10px">
+            <span>Suitable for:</span> Spring and Summer
+          </li>
+        </ul>
+        <p>
+          **Creed Aventus Royal for Men** is a special and luxurious version of
+          one of the most famous and bestselling fragrances from the **Creed**
+          brand, namely **Aventus**. This fragrance, with its complex,
+          penetrating, and stunning scent, is recognized as an outstanding
+          choice for men with powerful and stylish personalities. **Aventus
+          Royal** is a more luxurious and extravagant version of the original
+          **Aventus**, showcasing all the unique features of this prestigious
+          brand in a luxurious and classic bottle.
+        </p>
+        <h1>A breif History</h1>
+        <p>
+          **Creed** is one of the oldest and most reputable fragrance brands,
+          with a history dating back over 250 years. The brand **Creed** was
+          established in 1760 in London by **James Creed** and has since become
+          a pioneer in the luxury and exclusive fragrance industry. **Aventus**,
+          introduced in 2010, quickly became one of the most famous and
+          bestselling men's fragrances, recognized as a symbol of power,
+          confidence, and success.
+        </p>
+        <div class="details-container">
+          <p>
+            **Creed Aventus Royal for Men** is introduced as a more luxurious
+            and elegant version of this fragrance. This version brings a new
+            level of complexity and opulence to fragrance lovers, with changes
+            in its notes and design. **Aventus Royal** with its unique and royal
+            scent conveys a sense of distinction and exclusivity. This fragrance
+            is designed for those seeking a luxurious experience from masculine
+            scents with a distinguished personality.
+          </p>
+
+          <h2>Fragrance Notes</h2>
+          <p>
+            **Aventus Royal for Men** brings a complex and remarkable fragrance
+            experience with its blend of fruity, woody, and smoky notes. This
+            fragrance starts with fresh, fruity, and fragrant top notes, which
+            gradually transition into woody and smoky notes that enhance
+            feelings of power, self-esteem, and allure:
+          </p>
+          <ul>
+            <li><strong>Top Notes:</strong> Pineapple, Apple, Bergamot</li>
+            <li><strong>Middle Notes:</strong> Rose, Jasmine, Mulberry</li>
+            <li><strong>Base Notes:</strong> Oakwood, Amber, Musk, Vanilla</li>
+          </ul>
+        </div>
+
+        <!-- Product Attributes -->
+
+        <div class="product-details">
+          <p>
+            Initially, **Creed Aventus Royal for Men** opens with a fresh and
+            fruity fragrance of **pineapple**, **apple**, and **bergamot**,
+            which imparts a sense of freshness, energy, and vitality. This sweet
+            and delightful fruit combination, while uplifting, also strengthens
+            your sense of power and confidence. In the heart notes, fragrant
+            flowers such as **jasmine** and **rose** add a soft and pleasant
+            aroma, enhancing the charm of the fragrance. Finally, the base notes
+            of **oakwood**, **musk**, **vanilla**, and **amber** provide a
+            woody, warm, and smoky essence that makes the scent enduring.
+          </p>
+        </div>
+        <div class="product-details">
+          <strong style="font-size: xx-large">Season Suitability</strong>
+          <p>
+            **Creed Aventus Royal for Men**, with its blend of fruity, woody,
+            and smoky notes, is especially suitable for the **spring and
+            summer** seasons. During these times, the fresh and fruity scents of
+            the fragrance enhance your sense of vitality and energy. At the same
+            time, its woody and smoky notes make it perfect for cooler summer
+            nights. This fragrance is also an excellent choice for
+            <strong style="color: #333; font-weight: bold"
+              >formal occasions</strong
+            >
+            ,
+            <strong style="color: #333; font-weight: bold"
+              >special gatherings</strong
+            >
+            or
+            <strong style="color: #333; font-weight: bold"
+              >business meetings</strong
+            >.
+          </p>
+        </div>
+        <div class="product-details">
+          <p id="content">
+            For purchasing **Creed Aventus Royal for Men** at the best price
+            with fast delivery, visit the **Royal** online store and buy this
+            luxurious and royal fragrance right away. **Aventus Royal** can
+            accompany you at parties, business meetings, or special occasions,
+            making you stand out in every moment.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      const imageContainer = document.getElementById("product-image-container");
+      const image = document.getElementById("product-image");
+
+      // Adjust the transform origin dynamically based on the cursor position
+      imageContainer.addEventListener("mousemove", (e) => {
+        const rect = imageContainer.getBoundingClientRect();
+        const xPercent = ((e.clientX - rect.left) / rect.width) * 100;
+        const yPercent = ((e.clientY - rect.top) / rect.height) * 100;
+        image.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+        image.style.transform = "scale(1.5)";
+      });
+
+      // Reset zoom when the mouse leaves the container
+      imageContainer.addEventListener("mouseleave", () => {
+        image.style.transform = "scale(1)";
+        image.style.transformOrigin = "center center";
+      });
+    </script>
+    <script>
+      // Select all elements that might contain bold syntax (**...**)
+      const contentElements = document.querySelectorAll(
+        "#content, .product-details p"
+      );
+
+      contentElements.forEach((element) => {
+        element.innerHTML = element.innerHTML.replace(
+          /\*\*(.*?)\*\*/g, // Match text between double asterisks
+          '<strong style="color: #333;">$1</strong>' // Replace with styled <strong>
+        );
+      });
+    </script>
+    <div id="footer"></div>
+    <script>
+      fetch("/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

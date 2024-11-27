@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Perfume</title>
+    <style>
+      @import url("/Nav.css");
+      @import url("/SlideShow.css");
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      /* Top Navigation Bar */
+
+      /* Product Page Layout */
+      .product-page {
+        display: flex;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 50px auto;
+        gap: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+      }
+
+      /* Product Image Container */
+      /* Product Image Container */
+      .product-image-container {
+        position: sticky;
+        top: 100px;
+        bottom: 50px;
+        transform: translateX(-100px);
+        transform: translateY(0px);
+        margin-left: 0px;
+        align-items: center;
+        flex: 1.2; /* Take up equal space on the left */
+        max-width: 40%;
+        width: 500px; /* Set fixed width */
+        height: 650px; /* Set fixed height */
+        overflow: hidden;
+        border-radius: 5%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .product-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.1s ease;
+      }
+
+      .product-name {
+        flex: 1;
+        padding: 20px;
+      }
+      .product-name p {
+        font-size: large;
+        color: goldenrod;
+        font-weight: bold;
+      }
+
+      /* Product Details */
+      .product-details {
+        flex: 1; /* Take up equal space on the right */
+        padding: 20px;
+      }
+
+      .product-details h1 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h2 {
+        color: #6a0dad;
+        margin-bottom: 20px;
+      }
+      .product-details h3 {
+        font-weight: bold;
+        display: inline;
+      }
+      .product-details p {
+        font-size: 2rem;
+      }
+      .product-details strong {
+        color: #6a0dad;
+      }
+      .product-details li {
+        margin-bottom: 10px;
+        transform: translateX(-20px);
+      }
+      .product-details p {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      .product-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(218, 168, 41);
+        margin-bottom: 20px;
+        margin-left: 10px;
+      }
+
+      /* Product Attributes */
+      .product-attributes {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+
+      .product-attributes li {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .product-attributes span {
+        font-weight: bold;
+        color: #6a0dad;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <img
+          src="https://manashamim.ir/wp-content/uploads/2023/11/Mana-Shamim-Golsa-Logo-smal.png"
+          alt="Manashamim Logo"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="/Mana2.html">Home</a></li>
+        <li><a href="/products.html">Products</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Product Page Content -->
+    <div class="slideshow-container">
+      <img
+        class="slider-image active"
+        src="/Product-Photos/ریسایز معرفی عطر جدید2-20.jpg"
+        alt="Business Image 1"
+      />
+    </div>
+    <div class="product-page">
+      <!-- Image with Dynamic Zoom Feature -->
+      <div class="product-image-container" id="product-image-container">
+        <img
+          src="/Product-Photos/ریسایز جدید عطر-03.jpg"
+          alt="Special Perfume Image"
+          id="product-image"
+        />
+      </div>
+      <div class="product-details">
+        <p
+          style="
+            font-size: 36px;
+            font-weight: bold;
+            color: goldenrod;
+            margin-top: 20px;
+          "
+        >
+          Yves Saint Laurent Opium Black Royal Eau de Parfum For Women
+        </p>
+        <ul class="product-attributes">
+          <li style="margin-bottom: 15px"><span>Volume:</span> 8 ml</li>
+          <li style="margin-bottom: 15px"><span>Nature:</span> Warm</li>
+          <li style="margin-bottom: 15px">
+            <span>Scent:</span> Spicy and Sweet
+          </li>
+          <li style="margin-bottom: 15px"><span>Longevity:</span> Excellent</li>
+          <li style="margin-bottom: 15px"><span>Diffusion:</span> Excellent</li>
+          <li style="margin-bottom: 10px">
+            <span>Suitable for:</span> Winter and Autumn
+          </li>
+        </ul>
+        <p>
+          **Yves Saint Laurent Opium Black Royal Eau de Parfum For Women** is a
+          distinctive and captivating fragrance from the brand **Yves Saint
+          Laurent**. It is considered a more luxurious and complex version of
+          the classic **Opium** perfume. This fragrance, with its powerful,
+          intricate, and yet delicate scent, showcases feminine emotions in a
+          unique and impactful way. **Opium Black Royal for Women** is a perfect
+          choice for women who want to enjoy a strong and lasting fragrance,
+          making a special impression in any environment and occasion.
+        </p>
+        <h1>A breif History</h1>
+        <p>
+          The **Opium** perfume was first introduced to the fragrance world in
+          1977 by **Yves Saint Laurent** and quickly became one of the most
+          well-known and best-selling women’s fragrances. **Opium**, with its
+          rich, oriental scent, was designed for women seeking a distinctive and
+          unique fragrance. Later, **Opium Black Royal** was launched as a
+          special and luxurious version of this perfume. This new version, with
+          a focus on the complexity and richness of its notes, offered fragrance
+          enthusiasts a fresh experience of Opium.
+        </p>
+        <div class="details-container">
+          <h2>Fragrance Notes</h2>
+          <p>
+            **Opium Black Royal for Women** is an oriental and warm fragrance
+            that blends floral, sweet, and spicy notes. This perfume
+            encapsulates a sense of power and allure in an astonishing way. The
+            notes of this perfume combine as follows:
+          </p>
+          <ul>
+            <li>
+              <strong>Top Notes:</strong> Pink pepper, saffron, and orange
+            </li>
+            <li><strong>Middle Notes:</strong> Jasmine, rose, and peony</li>
+            <li>
+              <strong>Base Notes:</strong> Patchouli, sandalwood, amber, and
+              vanilla
+            </li>
+          </ul>
+        </div>
+
+        <!-- Product Attributes -->
+
+        <div class="product-details">
+          <p>
+            In the beginning, the combination of pink pepper, saffron, and
+            orange gives a sharp, warm, and sweet sensation that immediately
+            draws attention. In the middle notes, jasmine, rose, and peony add
+            softness and complexity to the fragrance, and finally, the base
+            notes of patchouli, sandalwood, amber, and vanilla create a pleasant
+            depth and warmth, ensuring long-lasting wear throughout the day or
+            night.
+          </p>
+        </div>
+        <div class="product-details">
+          <strong style="font-size: xx-large">Season Suitability</strong>
+          <p>
+            **Opium Black Royal for Women** is a fragrance perfect for the
+            colder seasons, especially autumn and winter. The warm, woody, and
+            sweet notes of this perfume shine through in the cold air, creating
+            a sense of warmth and confidence. The combination of amber, vanilla,
+            and sandalwood is particularly impactful and unparalleled on cold
+            nights and special occasions. This fragrance is an excellent choice
+            for romantic evenings, special meetings, and evening parties.
+          </p>
+        </div>
+        <div class="product-details">
+          <p id="content">
+            To purchase this luxurious and unique fragrance, visit the **Royal**
+            online store and buy **Opium Black Royal for Women** at the best
+            price with fast delivery. This perfume will accompany you to
+            parties, meetings, and special nights, making you stand out in any
+            situation.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      const imageContainer = document.getElementById("product-image-container");
+      const image = document.getElementById("product-image");
+
+      // Adjust the transform origin dynamically based on the cursor position
+      imageContainer.addEventListener("mousemove", (e) => {
+        const rect = imageContainer.getBoundingClientRect();
+        const xPercent = ((e.clientX - rect.left) / rect.width) * 100;
+        const yPercent = ((e.clientY - rect.top) / rect.height) * 100;
+        image.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+        image.style.transform = "scale(1.5)";
+      });
+
+      // Reset zoom when the mouse leaves the container
+      imageContainer.addEventListener("mouseleave", () => {
+        image.style.transform = "scale(1)";
+        image.style.transformOrigin = "center center";
+      });
+    </script>
+    <script>
+      // Select all elements that might contain bold syntax (**...**)
+      const contentElements = document.querySelectorAll(
+        "#content, .product-details p"
+      );
+
+      contentElements.forEach((element) => {
+        element.innerHTML = element.innerHTML.replace(
+          /\*\*(.*?)\*\*/g, // Match text between double asterisks
+          '<strong style="color: #333;">$1</strong>' // Replace with styled <strong>
+        );
+      });
+    </script>
+    <div id="footer"></div>
+    <script>
+      fetch("/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>
